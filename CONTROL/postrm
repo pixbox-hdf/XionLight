@@ -1,0 +1,6 @@
+#!/bin/sh
+rm -rf /usr/share/enigma2/XionLight
+rm -rf /usr/lib/enigma2/python/Plugins/Extensions/XionLight
+echo "                                                          "
+echo "              ...Skin successful removed.                 "
+echo "                                                          "

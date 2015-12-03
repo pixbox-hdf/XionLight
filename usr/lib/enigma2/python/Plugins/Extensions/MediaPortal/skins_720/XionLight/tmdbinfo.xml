@@ -1,0 +1,46 @@
+<screen position="0,0" size="1280,720" title="TMDb - The Movie Database" flags="wfNoBorder" backgroundColor="XionLightBackground" >
+	<epixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/XionLight/images/mp_bg_detail.png" alphatest="blend" />
+			<widget name="searchinfo" position="30,40" size="930,30" font="mediaportal;28" foregroundColor="#00fff000" transparent="1"/>
+			<widget name="subtitle" position="30,80" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" foregroundColor="#00fff000"/>
+			<widget name="fulldescription" position="30,110" size="620,520" font="mediaportal;24" transparent="1"/>
+			<widget name="coverArt" position="1020,110" size="215,285" alphatest="blend"/>
+			<epixmap position="725,110" size="100,75" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/images/star.png" transparent="1" alphatest="blend"/>
+			<widget name="rating" position="700,140" size="150,25" zPosition="2" transparent="1" font="mediaportal;22" foregroundColor="black" halign="center"/>
+			<widget name="fsk" position="800,220" size="150,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+		        <widget name="fsk_txt" position="670,220" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="#26181d20" foregroundColor="#00ffffff" />
+			<widget name="year_txt" position="670,250" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="year" position="800,250" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="country_txt" position="670,280" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="country" position="800,280" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="runtime_txt" position="670,310" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="runtime" position="800,310" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="votes_txt" position="670,340" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="votes" position="800,340" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="director_txt" position="670,370" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="director" position="800,370" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="author_txt" position="670,400" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="author" position="800,400" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="genre_txt" position="670,430" size="100,30" font="mediaportal; 22" transparent="1"/>
+			<widget name="genre" position="800,430" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="studio_txt" position="670,460" size="100,30" font="mediaportal; 22" transparent="1"/>
+			<widget name="studio" position="800,460" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+<!-- Buttons -->
+    <widget name="F1" position="75,670" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F2" position="222,670" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F3" position="375,670" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F4" position="530,670" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
+
+    <eLabel text=" CH+ " position="860,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" CH- " position="985,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" Exit " position="1110,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+	
+	<epixmap position="40,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_red.png" alphatest="on" />
+	<epixmap position="185,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_green.png" alphatest="on" />
+	<epixmap position="340,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_yellow.png" alphatest="on" />
+	<epixmap position="495,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_blue.png" alphatest="on"/>
+
+	<epixmap position="700,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_grey.png" alphatest="on" />
+	<epixmap position="825,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_grey.png" alphatest="on" />
+	<epixmap position="950,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_grey.png" alphatest="on" />
+	<epixmap position="1075,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_grey.png" alphatest="on" />
+	</screen>

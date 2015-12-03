@@ -1,0 +1,9 @@
+Package: enigma2-plugin-skins-xionlight
+Version: 1.0
+Section: misc
+Priority: optional
+Architecture: all
+Depends:
+Maintainer: Kraven and pixbox
+Description: ZeroSkin - mod@pixbox
+Source:
