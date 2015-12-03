@@ -26,9 +26,9 @@
     <color name="XionLightFont1" value="#00fffff3" />
     <color name="XionLightFont2" value="#00fffff4" />
     <color name="XionLightLine" value="#00fffff7" />
-    <color name="XionLightProgress" value="#00C3461B" />
+    <color name="XionLightProgress" value="#00c3461b" />
     <color name="XionLightSelFont" value="#00fffff5" />
-    <color name="XionLightSelection" value="#00C3461B" />
+    <color name="XionLightSelection" value="#00c3461b" />
   </colors>
   <fonts>
     <font filename="lcd.ttf" name="LCD" scale="100" />
@@ -453,4 +453,3 @@
   <ePixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
 </screen>
 <!-- SecondInfobar Original */-->  
-  

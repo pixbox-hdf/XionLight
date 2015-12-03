@@ -2850,4 +2850,3 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <!-- main-custom-openhdf */ -->
   <!-- Main */ -->
   
-  
