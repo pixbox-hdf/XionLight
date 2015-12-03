@@ -4,7 +4,7 @@
 	<!-- Background -->
 	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="XionLightBackground"/>
 		<eLabel position="75,85" size="1125,552" zPosition="-4" backgroundColor="XionLightBackground"/>
-	<epixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/XionLight/images/mp_bg_detail.png" alphatest="blend" />
+	<ePixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/XionLight/images/mp_bg_detail.png" alphatest="blend" />
 
 	<!-- Datum/Uhrzeit -->
 	
@@ -39,13 +39,13 @@
     <widget name="Menu" position="987,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <widget name="Exit" position="1112,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
 	
-	<epixmap position="40,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_red.png" alphatest="on" />
-	<epixmap position="185,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_green.png" alphatest="on" />
-	<epixmap position="340,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_yellow.png" alphatest="on" />
-	<epixmap position="495,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_blue.png" alphatest="on"/>
+	<ePixmap position="40,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_red.png" alphatest="on" />
+	<ePixmap position="185,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_green.png" alphatest="on" />
+	<ePixmap position="340,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_yellow.png" alphatest="on" />
+	<ePixmap position="495,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_blue.png" alphatest="on"/>
 
-	<epixmap position="700,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_grey.png" alphatest="on" />
-	<epixmap position="825,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_grey.png" alphatest="on" />
-	<epixmap position="950,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_grey.png" alphatest="on" />
-	<epixmap position="1075,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_grey.png" alphatest="on" />
+	<ePixmap position="700,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_grey.png" alphatest="on" />
+	<ePixmap position="825,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_grey.png" alphatest="on" />
+	<ePixmap position="950,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_grey.png" alphatest="on" />
+	<ePixmap position="1075,665" size="32,32" zPosition="4" pixmap="~/XionLight/images/nav_grey.png" alphatest="on" />
    </screen>

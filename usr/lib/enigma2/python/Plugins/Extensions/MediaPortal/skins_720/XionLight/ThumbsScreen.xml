@@ -5,7 +5,7 @@
 	<!-- Background -->
 	<eLabel position="0,0" size="1280,720" backgroundColor="XionLightBackground"/>
 		<eLabel position="75,85" size="1125,552" zPosition="-4" backgroundColor="XionLightBackground"/>
-	<epixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/XionLight/images/mp_bg_detail.png" alphatest="blend" />	
+	<ePixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/XionLight/images/mp_bg_detail.png" alphatest="blend" />	
 
 	<!-- Datum/Uhrzeit -->
 	<widget source="global.CurrentTime" render="Label" position="1040,52" size="100,30" backgroundColor="#00000000" zPosition="3" font="mediaportal; 24" valign="center" halign="left" transparent="1" foregroundColor="#00ffffff" >
@@ -20,26 +20,26 @@
 	<widget name="page" position="540,660" size="560,36" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" foregroundColor="#00ffffff" zPosition="1" />
 	<widget name="Thumb" position="1000,660" size="75,36" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" foregroundColor="#00ffffff" zPosition="1" />
 	<widget name="thumb" position="1090,660" size="70,36" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" foregroundColor="#00ffffff" zPosition="1" />
-	<epixmap pixmap="~/XionLight/images/buttonred.png" position="20,660" size="90,36" alphatest="blend" zPosition="0" />
-	<epixmap pixmap="~/XionLight/images/buttongreen.png" position="130,660" size="90,36" alphatest="blend" zPosition="0" />
-	<epixmap pixmap="~/XionLight/images/buttonyellow.png" position="240,660" size="90,36" alphatest="blend" zPosition="0" />
-	<epixmap pixmap="~/XionLight/images/buttonblue.png" position="350,660" size="90,36" alphatest="blend" zPosition="0" />
+	<ePixmap pixmap="~/XionLight/images/buttonred.png" position="20,660" size="90,36" alphatest="blend" zPosition="0" />
+	<ePixmap pixmap="~/XionLight/images/buttongreen.png" position="130,660" size="90,36" alphatest="blend" zPosition="0" />
+	<ePixmap pixmap="~/XionLight/images/buttonyellow.png" position="240,660" size="90,36" alphatest="blend" zPosition="0" />
+	<ePixmap pixmap="~/XionLight/images/buttonblue.png" position="350,660" size="90,36" alphatest="blend" zPosition="0" />
 	<widget name="F1" position="20,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
 	<widget name="F2" position="130,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
 	<widget name="F3" position="240,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
 	<widget name="F4" position="350,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
-	<epixmap pixmap="~/XionLight/images/buttonglas.png" position="20,660" size="90,36" alphatest="blend" zPosition="2" />
-	<epixmap pixmap="~/XionLight/images/buttonglas.png" position="130,660" size="90,36" alphatest="blend" zPosition="2" />
-	<epixmap pixmap="~/XionLight/images/buttonglas.png" position="240,660" size="90,36" alphatest="blend" zPosition="2" />
-	<epixmap pixmap="~/XionLight/images/buttonglas.png" position="350,660" size="90,36" alphatest="blend" zPosition="2" />
+	<ePixmap pixmap="~/XionLight/images/buttonglas.png" position="20,660" size="90,36" alphatest="blend" zPosition="2" />
+	<ePixmap pixmap="~/XionLight/images/buttonglas.png" position="130,660" size="90,36" alphatest="blend" zPosition="2" />
+	<ePixmap pixmap="~/XionLight/images/buttonglas.png" position="240,660" size="90,36" alphatest="blend" zPosition="2" />
+	<ePixmap pixmap="~/XionLight/images/buttonglas.png" position="350,660" size="90,36" alphatest="blend" zPosition="2" />
 	<eLabel text="INFO" position="1170,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
-	<epixmap pixmap="~/XionLight/images/buttonglas.png" position="1170,660" size="90,36" alphatest="blend" zPosition="2" />
+	<ePixmap pixmap="~/XionLight/images/buttonglas.png" position="1170,660" size="90,36" alphatest="blend" zPosition="2" />
 
 	<!--epixmap position="0,639" size="1280,84" zPosition="-3" pixmap="~/XionLight/images/buttons_bg.png" transparent="1" alphatest="blend" />
-	<epixmap position="1162,652" size="106,53" zPosition="-1" pixmap="~/XionLight/images/button_bg.png" transparent="1" alphatest="blend" /-->
-	<epixmap pixmap="~/XionLight/images/buttongrey.png" position="1170,660" size="90,36" alphatest="blend" zPosition="0" />
+	<ePixmap position="1162,652" size="106,53" zPosition="-1" pixmap="~/XionLight/images/button_bg.png" transparent="1" alphatest="blend" /-->
+	<ePixmap pixmap="~/XionLight/images/buttongrey.png" position="1170,660" size="90,36" alphatest="blend" zPosition="0" />
 	<!--epixmap position="232,652" size="106,53" zPosition="-1" pixmap="~/XionLight/images/button_bg.png" transparent="1" alphatest="blend" />
-	<epixmap position="12,652" size="106,53" zPosition="-1" pixmap="~/XionLight/images/button_bg.png" transparent="1" alphatest="blend" />
-	<epixmap position="122,652" size="106,53" zPosition="-1" pixmap="~/XionLight/images/button_bg.png" transparent="1" alphatest="blend" />
-	<epixmap position="342,652" size="106,53" zPosition="-1" pixmap="~/XionLight/images/button_bg.png" transparent="1" alphatest="blend" /-->
+	<ePixmap position="12,652" size="106,53" zPosition="-1" pixmap="~/XionLight/images/button_bg.png" transparent="1" alphatest="blend" />
+	<ePixmap position="122,652" size="106,53" zPosition="-1" pixmap="~/XionLight/images/button_bg.png" transparent="1" alphatest="blend" />
+	<ePixmap position="342,652" size="106,53" zPosition="-1" pixmap="~/XionLight/images/button_bg.png" transparent="1" alphatest="blend" /-->
 

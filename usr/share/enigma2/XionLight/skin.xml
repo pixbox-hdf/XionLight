@@ -1047,7 +1047,7 @@
   <!-- ********** Wizard and Help ********** -->
   <!-- CleanupWizard -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="CleanupWizard" position="0,0" size="1280,720" title="Welcome...">
-    <widget alphatest="blend" name="rc" Pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
+    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
@@ -1127,7 +1127,7 @@
   </screen>
   <!-- ImageWizard -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="ImageWizard" position="0,0" size="1280,720" title="Welcome...">
-    <widget alphatest="blend" name="rc" Pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
+    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
@@ -1149,7 +1149,7 @@
   </screen>
   <!-- LanguageWizard -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="LanguageWizard" position="0,0" size="1280,720" title="Welcome...">
-    <widget alphatest="blend" name="rc" Pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
+    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
@@ -1177,7 +1177,7 @@
   </screen>
   <!-- NetworkWizard -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="NetworkWizard" position="0,0" size="1280,720" title="Welcome...">
-    <widget alphatest="blend" name="rc" Pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
+    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
@@ -1200,7 +1200,7 @@
   </screen>
   <!-- StartWizard -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="StartWizard" position="0,0" size="1280,720" title="Welcome...">
-    <widget alphatest="blend" name="rc" Pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
+    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
@@ -1222,7 +1222,7 @@
   </screen>
   <!-- VideoWizard -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="VideoWizard" position="0,0" size="1280,720" title="Welcome...">
-    <widget alphatest="blend" name="rc" Pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
+    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
@@ -1245,7 +1245,7 @@
   </screen>
   <!-- HelpMenu -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="HelpMenu" position="0,0" size="1280,720" title="Menu">
-    <widget alphatest="blend" name="rc" Pixmaps="XionLight/rc.png,rcold.png" position="160,115" size="154,500" zPosition="10" />
+    <widget alphatest="blend" name="rc" pixmaps="XionLight/rc.png,rcold.png" position="160,115" size="154,500" zPosition="10" />
     <widget backgroundColor="XionLightBackground" font="Regular2;24" foregroundColor="yellow" halign="center" name="long_key" position="90,620" size="300,30" transparent="1" />
     <widget itemHeight="38" name="list" position="500,120" size="720,494" transparent="1" />
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
@@ -1295,7 +1295,7 @@
   <screen backgroundColor="transparent" flags="wfNoBorder" name="AdapterSetupConfiguration" position="0,0" size="1280,720" title="Network Configuration...">
     <widget backgroundColor="XionLightBackground" font="Regular2;24" foregroundColor="XionLightFont2" position="70,80" render="Label" size="495,28" source="IF" transparent="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;24" foregroundColor="XionLightFont2" position="576,80" render="Label" size="160,28" source="Statustext" transparent="1" />
-    <widget alphatest="blend" name="statuspic" Pixmaps="XionLight/buttons/green.png,XionLight/buttons/grey.png" position="742,82" size=" 24,24" transparent="1" />
+    <widget alphatest="blend" name="statuspic" pixmaps="XionLight/buttons/green.png,XionLight/buttons/grey.png" position="742,82" size=" 24,24" transparent="1" />
     <widget backgroundColor="XionLightBackground" enableWrapAround="1" itemHeight="35" name="menulist" position="70,130" size="708,280" transparent="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColor="XionLightFont2" halign="center" position="70,485" render="Label" size="708,100" source="description" transparent="1" valign="center" />
     <panel name="template_menu_full_button" />
@@ -1326,34 +1326,34 @@
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,#f23d21,#1cff1c" name="Adapter" position="70,150" size="400,25" transparent="1" zPosition="1" />
     <widget alphatest="blend" name="AdapterInfo_OK" pixmap="XionLight/buttons/green.png" position="535,136" size="24,24" zPosition="2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,grey,#ffffff" halign="center" name="AdapterInfo_Text" position="570,130" size="200,35" transparent="1" valign="center" zPosition="2" />
-    <widget alphatest="blend" name="AdapterInfo" Pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,130" size="200,35" zPosition="1" />
+    <widget alphatest="blend" name="AdapterInfo" pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,130" size="200,35" zPosition="1" />
     <eLabel backgroundColor="XionLightBorder" position="70,185" size="700,2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColor="XionLightFont2" name="Networktext" position="70,200" size="400,25" transparent="1" zPosition="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,#f23d21,#1cff1c" name="Network" position="70,230" size="400,25" transparent="1" zPosition="1" />
-    <widget alphatest="blend" name="NetworkInfo_Check" Pixmaps="XionLight/buttons/green.png,XionLight/buttons/red.png" position="535,216" size="24,24" zPosition="2" />
+    <widget alphatest="blend" name="NetworkInfo_Check" pixmaps="XionLight/buttons/green.png,XionLight/buttons/red.png" position="535,216" size="24,24" zPosition="2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,grey,#ffffff" halign="center" name="NetworkInfo_Text" position="570,210" size="200,35" transparent="1" valign="center" zPosition="2" />
-    <widget alphatest="blend" name="NetworkInfo" Pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,210" size="200,35" zPosition="1" />
+    <widget alphatest="blend" name="NetworkInfo" pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,210" size="200,35" zPosition="1" />
     <eLabel backgroundColor="XionLightBorder" position="70,265" size="700,2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColor="XionLightFont2" name="Dhcptext" position="70,280" size="400,25" transparent="1" zPosition="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,#f23d21,#1cff1c" name="Dhcp" position="70,310" size="400,25" transparent="1" zPosition="1" />
-    <widget alphatest="blend" name="DhcpInfo_Check" Pixmaps="XionLight/buttons/green.png,XionLight/buttons/red.png" position="535,296" size="24,24" zPosition="2" />
+    <widget alphatest="blend" name="DhcpInfo_Check" pixmaps="XionLight/buttons/green.png,XionLight/buttons/red.png" position="535,296" size="24,24" zPosition="2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,grey,#ffffff" halign="center" name="DhcpInfo_Text" position="570,290" size="200,35" transparent="1" valign="center" zPosition="2" />
-    <widget alphatest="blend" name="DhcpInfo" Pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,290" size="200,35" zPosition="1" />
+    <widget alphatest="blend" name="DhcpInfo" pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,290" size="200,35" zPosition="1" />
     <eLabel backgroundColor="XionLightBorder" position="70,345" size="700,2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColor="XionLightFont2" name="IPtext" position="70,360" size="400,25" transparent="1" zPosition="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,#f23d21,#1cff1c" name="IP" position="70,390" size="400,25" transparent="1" zPosition="1" />
-    <widget alphatest="blend" name="IPInfo_Check" Pixmaps="XionLight/buttons/green.png,XionLight/buttons/red.png" position="535,376" size=" 24,24" zPosition="2" />
+    <widget alphatest="blend" name="IPInfo_Check" pixmaps="XionLight/buttons/green.png,XionLight/buttons/red.png" position="535,376" size=" 24,24" zPosition="2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,grey,#ffffff" halign="center" name="IPInfo_Text" position="570,370" size="200,35" transparent="1" valign="center" zPosition="2" />
-    <widget alphatest="blend" name="IPInfo" Pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,370" size="200,35" zPosition="1" />
+    <widget alphatest="blend" name="IPInfo" pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,370" size="200,35" zPosition="1" />
     <eLabel backgroundColor="XionLightBorder" position="70,425" size="700,2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColor="XionLightFont2" name="DNStext" position="70,440" size="400,25" transparent="1" zPosition="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,#f23d21,#1cff1c" name="DNS" position="70,470" size="400,25" transparent="1" zPosition="1" />
-    <widget alphatest="blend" name="DNSInfo_Check" Pixmaps="XionLight/buttons/green.png,XionLight/buttons/red.png" position="535,456" size="24,24" zPosition="2" />
+    <widget alphatest="blend" name="DNSInfo_Check" pixmaps="XionLight/buttons/green.png,XionLight/buttons/red.png" position="535,456" size="24,24" zPosition="2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,grey,#ffffff" halign="center" name="DNSInfo_Text" position="570,450" size="200,35" transparent="1" valign="center" zPosition="2" />
-    <widget alphatest="blend" name="DNSInfo" Pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,450" size="200,35" zPosition="1" />
+    <widget alphatest="blend" name="DNSInfo" pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,450" size="200,35" zPosition="1" />
     <eLabel backgroundColor="XionLightBorder" position="70,505" size="700,2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="grey,grey,#ffffff" halign="center" name="EditSettings_Text" position="470,531" size="300,34" transparent="1" valign="center" zPosition="2" />
-    <widget alphatest="blend" name="EditSettingsButton" Pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel300.png" position="470,530" size="300,35" zPosition="2" />
+    <widget alphatest="blend" name="EditSettingsButton" pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel300.png" position="470,530" size="300,35" zPosition="2" />
     <widget font="Regular2;22" foregroundColor="XionLightFont2" halign="center" name="InfoText" position="70,80" size="700,570" valign="center" zPosition="25" />
     <panel name="template_menu_full_button" />
     <panel name="template_colorkey_text_source" />
@@ -1497,7 +1497,7 @@
     <widget backgroundColor="XionLightBackground" font="Regular;22" foregroundColor="XionLightFont1" position="470,305" render="Label" size="280,35" source="bitrate" transparent="1" valign="center" />
     <widget backgroundColor="XionLightBackground" font="Regular;22" foregroundColor="XionLightFont1" position="470,345" render="Label" size="280,35" source="enc" transparent="1" valign="center" />
     <widget font="Regular2;22" foregroundColor="XionLightFont2" position="70,400" render="Label" size="160,28" source="Statustext" transparent="1" />
-    <widget alphatest="blend" name="statuspic" Pixmaps="XionLight/buttons/green.png,XionLight/buttons/grey.png" position="238,402" size="24,24" transparent="1" />
+    <widget alphatest="blend" name="statuspic" pixmaps="XionLight/buttons/green.png,XionLight/buttons/grey.png" position="238,402" size="24,24" transparent="1" />
     <panel name="template_menu_full_button" />
     <panel name="template_colorkey_text_source" />
   </screen>
@@ -1590,7 +1590,7 @@
   <widget source="IFtext" render="Label" position="70,504" size="120,21" zPosition="10" font="Regular;20" foregroundColor="XionLightFont1" halign="left" transparent="1" />
   <widget source="IF" render="Label" position="181,504" size="375,21" zPosition="10" font="Regular;20" foregroundColor="XionLightFont1" halign="left" transparent="1" />
   <widget source="Statustext" render="Label" position="70,534" size="116,28" zPosition="10" font="Regular2;22" foregroundColor="XionLightFont2" halign="left" transparent="1" />
-  <widget name="statuspic" Pixmaps="skin_default/buttons/button_green.png,skin_default/buttons/button_green_off.png" position="194,540" zPosition="10" size="15,16" transparent="1" alphatest="on" />
+  <widget name="statuspic" pixmaps="skin_default/buttons/button_green.png,skin_default/buttons/button_green_off.png" position="194,540" zPosition="10" size="15,16" transparent="1" alphatest="on" />
   <panel name="template_menu_full" />
 </screen>
   <!-- NetworkMountsMenu -->
@@ -4067,7 +4067,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget backgroundColor="XionLightBackground" font="Regular2;22" name="genre" position="58,540" size="320,30" transparent="1" valign="top" />
     <widget backgroundColor="XionLightBackground" font="Regular2; 26" halign="left" name="title" position="58,328" size="325,40" transparent="1" />
     <widget backgroundColor="XionLightBackground" scrollbarMode="showNever" enableWrapAround="1" itemHeight="25" name="playlist" position="430,324" size="782,307" transparent="1" />
-    <widget alphatest="blend" name="repeat" Pixmaps="XionLight/repeat_off.png,XionLight/repeat_on.png" position="1037,671" size="70,30" transparent="1" />
+    <widget alphatest="blend" name="repeat" pixmaps="XionLight/repeat_off.png,XionLight/repeat_on.png" position="1037,671" size="70,30" transparent="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2; 22" halign="left" noWrap="1" position="58,425" render="Label" size="119,32" source="session.CurrentService" transparent="1" zPosition="2">
       <convert type="ServicePosition">Position,ShowHours</convert>
     </widget>
@@ -4130,8 +4130,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     </widget>
     <eLabel text="next" position="80,623" size="60,25" font="Regular2; 18" backgroundColor="XionLightBackground" foregroundColor="XionLightFont2" transparent="1" />
     <widget name="nextTitle" position="140,620" size="680,26" font="Regular2; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightFont2" transparent="1" />
-    <widget name="shuffle" position="630,120" size="50,25" Pixmaps="XionLight/mmp/placeholder1.png,XionLight/mmp/shuffle.png" alphatest="blend" />
-    <widget name="repeat" position="700,120" size="50,25" Pixmaps="XionLight/mmp/placeholder1.png,XionLight/mmp/repeat.png" alphatest="blend" />
+    <widget name="shuffle" position="630,120" size="50,25" pixmaps="XionLight/mmp/placeholder1.png,XionLight/mmp/shuffle.png" alphatest="blend" />
+    <widget name="repeat" position="700,120" size="50,25" pixmaps="XionLight/mmp/placeholder1.png,XionLight/mmp/repeat.png" alphatest="blend" />
     <widget name="PositionGauge" position="0,0" size="0,0" />
     <widget name="coverArt" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MerlinMusicPlayer/images/no_coverArt.png" position="789,140" size="470,470" transparent="1" alphatest="blend" />
     <eLabel backgroundColor="XionLightBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" />
