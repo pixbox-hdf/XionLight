@@ -26,9 +26,9 @@
     <color name="XionLightFont1" value="#00fffff3" />
     <color name="XionLightFont2" value="#00fffff4" />
     <color name="XionLightLine" value="#00fffff7" />
-    <color name="XionLightProgress" value="#00c3461b" />
+    <color name="XionLightProgress" value="#00C3461B" />
     <color name="XionLightSelFont" value="#00000000" />
-    <color name="XionLightSelection" value="#00c3461b" />
+    <color name="XionLightSelection" value="#00C3461B" />
   </colors>
   <fonts>
     <font filename="lcd.ttf" name="LCD" scale="100" />
@@ -59,14 +59,14 @@
     <color color="XionLightFont1" name="WindowTitleForeground" />
     <color color="XionLightBackground" name="WindowTitleBackground" />
     <borderset name="bsWindow">
-      <pixmap filename="XionLight/bs_tl.png" pos="bpTopLeft" />
-      <pixmap filename="XionLight/bs_t.png" pos="bpTop" />
-      <pixmap filename="XionLight/bs_tr.png" pos="bpTopRight" />
-      <pixmap filename="XionLight/bs_l.png" pos="bpLeft" />
-      <pixmap filename="XionLight/bs_r.png" pos="bpRight" />
-      <pixmap filename="XionLight/bs_bl.png" pos="bpBottomLeft" />
-      <pixmap filename="XionLight/bs_b.png" pos="bpBottom" />
-      <pixmap filename="XionLight/bs_br.png" pos="bpBottomRight" />
+      <Pixmap filename="XionLight/bs_tl.png" pos="bpTopLeft" />
+      <Pixmap filename="XionLight/bs_t.png" pos="bpTop" />
+      <Pixmap filename="XionLight/bs_tr.png" pos="bpTopRight" />
+      <Pixmap filename="XionLight/bs_l.png" pos="bpLeft" />
+      <Pixmap filename="XionLight/bs_r.png" pos="bpRight" />
+      <Pixmap filename="XionLight/bs_bl.png" pos="bpBottomLeft" />
+      <Pixmap filename="XionLight/bs_b.png" pos="bpBottom" />
+      <Pixmap filename="XionLight/bs_br.png" pos="bpBottomRight" />
     </borderset>
   </windowstyle>
   <windowstyle id="1" type="skinned">
@@ -112,15 +112,15 @@
   <screen name="template_menu_full_button">
     <widget backgroundColor="XionLightBackground" font="Regular2; 34" foregroundColor="XionLightFont2" position="70,12" render="Label" size="900,46" source="Title" transparent="1" halign="left" valign="center" noWrap="1" />
     <eLabel backgroundColor="XionLightBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" foregroundColor="XionLightFont2" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,64" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-	<epixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
-	<epixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_red1.png" position="22,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_green1.png" position="222,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_blue1.png" position="622,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/logo.png" position="913,210" size="300,300" backgroundColor="XionLightBackground" alphatest="blend" name="," />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,64" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+	<ePixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
+	<ePixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="22,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="222,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="622,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/logo.png" position="913,210" size="300,300" backgroundColor="XionLightBackground" alphatest="blend" name="," />
     <widget source="global.CurrentTime" render="Label" position="1154,16" size="100,28" font="Regular;26" halign="right" backgroundColor="XionLightBackground" transparent="1" valign="center" foregroundColor="XionLightFont1">
       <convert type="XionLightClockToText">Default</convert>
     </widget>
@@ -128,11 +128,11 @@
   <screen name="template_menu_full">
     <widget backgroundColor="XionLightBackground" font="Regular2; 34" foregroundColor="XionLightFont2" position="70,12" render="Label" size="900,46" source="Title" transparent="1" halign="left" valign="center" noWrap="1" />
     <eLabel backgroundColor="XionLightBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" foregroundColor="XionLightFont2" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,64" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-	<epixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
-	<epixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
-    <epixmap pixmap="XionLight/logo.png" position="913,210" size="300,300" backgroundColor="XionLightBackground" alphatest="blend" name="," />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,64" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+	<ePixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
+	<ePixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="XionLight/logo.png" position="913,210" size="300,300" backgroundColor="XionLightBackground" alphatest="blend" name="," />
     <widget source="global.CurrentTime" render="Label" position="1154,16" size="100,28" font="Regular;26" halign="right" backgroundColor="XionLightBackground" transparent="1" valign="center" foregroundColor="XionLightFont1">
       <convert type="XionLightClockToText">Default</convert>
     </widget>
@@ -140,10 +140,10 @@
   <screen name="template_menu_full_nologo">
     <widget backgroundColor="XionLightBackground" font="Regular2; 34" foregroundColor="XionLightFont2" position="70,12" render="Label" size="900,46" source="Title" transparent="1" halign="left" valign="center" noWrap="1" />
     <eLabel backgroundColor="XionLightBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" foregroundColor="XionLightFont2" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,64" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-	<epixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
-	<epixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,64" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+	<ePixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
+	<ePixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
     <widget source="global.CurrentTime" render="Label" position="1154,16" size="100,28" font="Regular;26" halign="right" backgroundColor="XionLightBackground" transparent="1" valign="center" foregroundColor="XionLightFont1">
       <convert type="XionLightClockToText">Default</convert>
     </widget>
@@ -151,28 +151,28 @@
   <screen name="template_menu_full_button_nologo">
     <widget backgroundColor="XionLightBackground" font="Regular2; 34" foregroundColor="XionLightFont2" position="70,12" render="Label" size="900,46" source="Title" transparent="1" halign="left" valign="center" noWrap="1" />
     <eLabel backgroundColor="XionLightBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" foregroundColor="XionLightFont2" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,64" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-	<epixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
-	<epixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_red1.png" position="22,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_green1.png" position="222,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_blue1.png" position="622,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,64" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+	<ePixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
+	<ePixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="22,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="222,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="622,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
     <widget source="global.CurrentTime" render="Label" position="1154,16" size="100,28" font="Regular;26" halign="right" backgroundColor="XionLightBackground" transparent="1" valign="center" foregroundColor="XionLightFont1">
       <convert type="XionLightClockToText">Default</convert>
     </widget>
   </screen>
   <screen name="template_emc">
     <eLabel backgroundColor="XionLightBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" foregroundColor="XionLightFont2" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,64" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-	<epixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
-	<epixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_red1.png" position="22,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_green1.png" position="222,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_blue1.png" position="622,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,64" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+	<ePixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
+	<ePixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="22,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="222,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="622,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
     <widget source="global.CurrentTime" render="Label" position="1154,16" size="100,28" font="Regular;26" halign="right" backgroundColor="XionLightBackground" transparent="1" valign="center" foregroundColor="XionLightFont1">
       <convert type="XionLightClockToText">Default</convert>
     </widget>
@@ -180,28 +180,28 @@
   <screen name="template_cs">
     <widget backgroundColor="XionLightBackground" font="Regular2; 34" foregroundColor="XionLightFont2" position="70,12" render="Label" size="900,46" source="Title" transparent="1" halign="left" valign="center" noWrap="1" />
     <eLabel backgroundColor="XionLightBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,64" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-	<epixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
-	<epixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_red1.png" position="22,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_green1.png" position="222,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_blue1.png" position="622,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,64" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+	<ePixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
+	<ePixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="22,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="222,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="622,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
     <widget source="global.CurrentTime" render="Label" position="1154,670" size="100,28" font="Regular;26" halign="right" backgroundColor="XionLightBackground" transparent="1" valign="center" foregroundColor="XionLightFont1">
       <convert type="XionLightClockToText">Default</convert>
     </widget>
   </screen>
   <screen name="template_ms">
     <eLabel backgroundColor="XionLightBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" foregroundColor="XionLightFont2" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,64" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-	<epixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
-	<epixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_red1.png" position="22,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_green1.png" position="222,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_blue1.png" position="622,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,64" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+	<ePixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
+	<ePixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="22,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="222,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="622,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
     <widget source="global.CurrentTime" render="Label" position="1154,16" size="100,28" font="Regular;26" halign="right" backgroundColor="XionLightBackground" transparent="1" valign="center" foregroundColor="XionLightFont1">
       <convert type="XionLightClockToText">Default</convert>
     </widget>
@@ -211,27 +211,27 @@
       <convert type="XionLightClockToText">Default</convert>
     </widget>
     <eLabel backgroundColor="XionLightBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,64" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-	<epixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
-	<epixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,64" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+	<ePixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
+	<ePixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
     <widget font="Regular; 20" halign="left" valign="center" name="key_red" position="92,662" size="148,48" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" zPosition="1" />
     <widget font="Regular; 20" halign="left" valign="center" name="key_green" position="342,662" size="148,48" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" zPosition="1" />
     <widget font="Regular; 20" halign="left" valign="center" name="key_yellow" position="592,662" size="148,48" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" zPosition="1" />
     <widget font="Regular; 20" halign="left" valign="center" name="key_blue" position="842,662" size="148,48" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" zPosition="2" />
-    <epixmap pixmap="XionLight/buttons/key_red1.png" position="50,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_green1.png" position="300,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_yellow1.png" position="550,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_blue1.png" position="800,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="50,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="300,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="550,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="800,670" size="32,37" backgroundColor="XionLightBackground" alphatest="blend" />
     <widget backgroundColor="XionLightBackground" font="Regular;24" foregroundColor="XionLightFont1" halign="left" position="390,22" render="Label" size="400,30" source="Title" transparent="1" valign="top" zPosition="3" />
   </screen>
   <screen name="template_player">
-    <epixmap pixmap="XionLight/infobar/infobar.png" position="0,546" size="1280,175" backgroundColor="XionLightBackground" alphatest="blend" zPosition="-10" />
+    <ePixmap pixmap="XionLight/infobar/infobar.png" position="0,546" size="1280,175" backgroundColor="XionLightBackground" alphatest="blend" zPosition="-10" />
   </screen>
   <!-- TEMPLATES */-->
 <!-- /* InfoBar Original -->
 <screen backgroundColor="transparent" flags="wfNoBorder" name="InfoBar" position="0,0" size="1280,720" title="InfoBar">
-  <epixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" />
+  <ePixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" />
   <eLabel backgroundColor="XionLightBackground" position="0,720" size="1280,0" transparent="0" zPosition="-5" />
   <widget alphatest="blend" position="22,598" render="XionLightXPicon" size="175,105" source="session.CurrentService" transparent="1" zPosition="4">
     <convert type="ServiceName">Reference</convert>
@@ -243,10 +243,10 @@
     <convert type="XionLightEventTime">Remaining</convert>
     <convert type="XionLightRemainingToText">InMinutes</convert>
   </widget>
-  <widget position="213,650" render="Progress" size="805,10" source="session.Event_Now" borderWidth="0" backgroundColor="XionLightBackground" foregroundColor="XionLightProgress" transparent="1" zPosition="7">
+  <widget position="213,652" render="Progress" size="805,6" source="session.Event_Now" borderWidth="0" backgroundColor="XionLightBackground" foregroundColor="XionLightProgress" transparent="1" zPosition="7">
     <convert type="XionLightEventTime">Progress</convert>
   </widget>
-  <eLabel backgroundColor="XionLightLine" position="213,650" size="805,10" zPosition="2" />
+  <eLabel backgroundColor="XionLightLine" position="213,652" size="805,6" zPosition="2" />
   <widget backgroundColor="XionLightBackground" font="Regular2; 22" halign="left" noWrap="1" position="213,605" render="Label" size="70,35" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
     <convert type="XionLightEventTime">StartTime</convert>
     <convert type="XionLightClockToText">Default</convert>
@@ -275,14 +275,14 @@
   <widget font="Regular; 40" foregroundColor="XionLightFont1" halign="left" noWrap="1" position="22,532" render="Label" size="1260,45" source="session.CurrentService" transparent="1" valign="top" zPosition="1" alphatest="on">
     <convert type="ServiceName">Name</convert>
   </widget>
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_rec_on.png" position="1241,518" render="pixmap" size="32,32" source="session.RecordState" zPosition="5">
+  <widget alphatest="blend" pixmap="XionLight/buttons/ico_rec_on.png" position="1241,518" render="Pixmap" size="32,32" source="session.RecordState" zPosition="5">
     <convert type="ConditionalShowHide">Blink</convert>
   </widget>
-  <epixmap pixmap="XionLight/buttons/ico_update_off.png" position="1256,697" size="20,20" zPosition="0" alphatest="blend" />
-  <widget source="global.OnlineStableUpdateState" render="pixmap" pixmap="XionLight/buttons/ico_stable.png" position="1256,697" size="20,20" zPosition="1" alphatest="blend">
+  <ePixmap pixmap="XionLight/buttons/ico_update_off.png" position="1256,697" size="20,20" zPosition="0" alphatest="blend" />
+  <widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="XionLight/buttons/ico_stable.png" position="1256,697" size="20,20" zPosition="1" alphatest="blend">
     <convert type="ConditionalShowHide">Blink</convert>
   </widget>
-  <widget source="global.OnlineUnstableUpdateState" render="pixmap" pixmap="XionLight/buttons/ico_unstable.png" position="1256,697" size="20,20" zPosition="1" alphatest="blend">
+  <widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="XionLight/buttons/ico_unstable.png" position="1256,697" size="20,20" zPosition="1" alphatest="blend">
     <convert type="ConditionalShowHide">Blink</convert>
   </widget>
   </screen>  
@@ -319,67 +319,67 @@
   <widget source="session.CurrentService" render="Label" zPosition="3" position="32,40" size="50,22" font="Regular; 19" halign="right" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1">
     <convert type="XionLightServiceInfo">VideoWidth</convert>
   </widget>
-  <widget source="session.TunerInfo" render="pixmap" pixmap="XionLight/buttons/c_on.png" position="985,35" zPosition="2" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" valign="center">
+  <widget source="session.TunerInfo" render="Pixmap" pixmap="XionLight/buttons/c_on.png" position="985,35" zPosition="2" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" valign="center">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">4</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" render="pixmap" pixmap="XionLight/buttons/b_on.png" position="945,35" zPosition="2" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" valign="center">
+  <widget source="session.TunerInfo" render="Pixmap" pixmap="XionLight/buttons/b_on.png" position="945,35" zPosition="2" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" valign="center">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">2</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" render="pixmap" pixmap="XionLight/buttons/a_on.png" position="905,35" zPosition="2" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" valign="center">
+  <widget source="session.TunerInfo" render="Pixmap" pixmap="XionLight/buttons/a_on.png" position="905,35" zPosition="2" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" valign="center">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">1</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget source="session.TunerInfo" render="pixmap" pixmap="XionLight/buttons/d_on.png" position="1025,35" zPosition="2" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" valign="center">
+  <widget source="session.TunerInfo" render="Pixmap" pixmap="XionLight/buttons/d_on.png" position="1025,35" zPosition="2" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" valign="center">
     <convert type="TunerInfo">TunerUseMask</convert>
     <convert type="ValueBitTest">8</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <epixmap pixmap="XionLight/buttons/a_off.png" position="905,35" size="32,32" zPosition="1" alphatest="blend" />
-  <epixmap pixmap="XionLight/buttons/b_off.png" position="945,35" size="32,32" zPosition="1" alphatest="blend" />
-  <epixmap pixmap="XionLight/buttons/c_off.png" position="985,34" size="32,32" zPosition="1" alphatest="blend" />
-  <epixmap pixmap="XionLight/buttons/d_off.png" position="1025,35" size="32,32" zPosition="1" alphatest="blend" />
-  <epixmap alphatest="blend" pixmap="XionLight/buttons/ico_subtitle_off.png" position="705,35" size="32,32" zPosition="1" />
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_subtitle_on.png" position="705,35" render="pixmap" size="32,32" source="session.CurrentService" zPosition="5">
+  <ePixmap pixmap="XionLight/buttons/a_off.png" position="905,35" size="32,32" zPosition="1" alphatest="blend" />
+  <ePixmap pixmap="XionLight/buttons/b_off.png" position="945,35" size="32,32" zPosition="1" alphatest="blend" />
+  <ePixmap pixmap="XionLight/buttons/c_off.png" position="985,34" size="32,32" zPosition="1" alphatest="blend" />
+  <ePixmap pixmap="XionLight/buttons/d_off.png" position="1025,35" size="32,32" zPosition="1" alphatest="blend" />
+  <ePixmap alphatest="blend" pixmap="XionLight/buttons/ico_subtitle_off.png" position="705,35" size="32,32" zPosition="1" />
+  <widget alphatest="blend" pixmap="XionLight/buttons/ico_subtitle_on.png" position="705,35" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="5">
     <convert type="XionLightServiceInfo">SubtitlesAvailable</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_format_on.png" position="211,35" render="pixmap" size="32,32" source="session.CurrentService" zPosition="2">
+  <widget alphatest="blend" pixmap="XionLight/buttons/ico_format_on.png" position="211,35" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="2">
     <convert type="XionLightServiceInfo">IsWidescreen</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <epixmap alphatest="blend" pixmap="XionLight/buttons/ico_format_off.png" position="210,35" size="32,32" zPosition="1" />
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_hd_on.png" position="170,35" render="pixmap" size="32,32" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="XionLight/buttons/ico_format_off.png" position="210,35" size="32,32" zPosition="1" />
+  <widget alphatest="blend" pixmap="XionLight/buttons/ico_hd_on.png" position="170,35" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="2">
     <convert type="XionLightServiceInfo">IsHD</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <epixmap alphatest="blend" pixmap="XionLight/buttons/ico_hd_off.png" position="170,35" size="32,32" zPosition="1" />
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_dolby_on.png" position="250,35" render="pixmap" size="32,32" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="XionLight/buttons/ico_hd_off.png" position="170,35" size="32,32" zPosition="1" />
+  <widget alphatest="blend" pixmap="XionLight/buttons/ico_dolby_on.png" position="250,35" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="2">
     <convert type="XionLightServiceInfo">IsMultichannel</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <epixmap alphatest="blend" pixmap="XionLight/buttons/ico_dolby_off.png" position="250,35" size="32,32" zPosition="1" />
-  <epixmap alphatest="blend" pixmap="XionLight/buttons/ico_sub_off.png" position="555,35" size="32,32" zPosition="1" />
-  <widget source="session.CurrentService" render="pixmap" pixmap="XionLight/buttons/ico_sub_on.png" position="555,35" size="32,32" zPosition="2" alphatest="blend">
+  <ePixmap alphatest="blend" pixmap="XionLight/buttons/ico_dolby_off.png" position="250,35" size="32,32" zPosition="1" />
+  <ePixmap alphatest="blend" pixmap="XionLight/buttons/ico_sub_off.png" position="555,35" size="32,32" zPosition="1" />
+  <widget source="session.CurrentService" render="Pixmap" pixmap="XionLight/buttons/ico_sub_on.png" position="555,35" size="32,32" zPosition="2" alphatest="blend">
     <convert type="XionLightServiceInfo">SubservicesAvailable</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <epixmap alphatest="blend" pixmap="XionLight/buttons/ico_txt_off.png" position="605,35" size="32,32" zPosition="1" />
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_txt_on.png" position="606,35" render="pixmap" size="32,32" source="session.CurrentService" zPosition="5">
+  <ePixmap alphatest="blend" pixmap="XionLight/buttons/ico_txt_off.png" position="605,35" size="32,32" zPosition="1" />
+  <widget alphatest="blend" pixmap="XionLight/buttons/ico_txt_on.png" position="606,35" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="5">
     <convert type="XionLightServiceInfo">HasTelext</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <epixmap alphatest="blend" pixmap="XionLight/buttons/ico_hbbtv_off.png" position="290,35" size="32,32" zPosition="1" />
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_hbbtv_on.png" position="290,35" render="pixmap" size="32,32" source="session.CurrentService" zPosition="5">
+  <ePixmap alphatest="blend" pixmap="XionLight/buttons/ico_hbbtv_off.png" position="290,35" size="32,32" zPosition="1" />
+  <widget alphatest="blend" pixmap="XionLight/buttons/ico_hbbtv_on.png" position="290,35" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="5">
     <convert type="XionLightServiceInfo">HasHBBTV</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <epixmap alphatest="blend" pixmap="XionLight/buttons/ico_crypt_off.png" position="655,35" size="32,32" zPosition="1" />
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_crypt_on.png" position="655,35" render="pixmap" size="32,32" source="session.CurrentService" zPosition="5">
+  <ePixmap alphatest="blend" pixmap="XionLight/buttons/ico_crypt_off.png" position="655,35" size="32,32" zPosition="1" />
+  <widget alphatest="blend" pixmap="XionLight/buttons/ico_crypt_on.png" position="655,35" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="5">
     <convert type="XionLightServiceInfo">IsCrypted</convert>
     <convert type="ConditionalShowHide" />
   </widget>
@@ -389,14 +389,14 @@
   <widget backgroundColor="XionLightBackground" font="Regular2; 26" foregroundColor="XionLightFont2" halign="center" position="38,410" render="Label" size="1200,35" source="session.Event_Now" zPosition="1" transparent="1">
     <convert type="XionLightEventName">Description</convert>
   </widget>
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_rec_on.png" position="1241,518" render="pixmap" size="32,32" source="session.RecordState" zPosition="5">
+  <widget alphatest="blend" pixmap="XionLight/buttons/ico_rec_on.png" position="1241,518" render="Pixmap" size="32,32" source="session.RecordState" zPosition="5">
     <convert type="ConditionalShowHide">Blink</convert>
   </widget>
-  <epixmap pixmap="XionLight/buttons/ico_update_off.png" position="1256,697" size="20,20" zPosition="0" alphatest="blend" />
-  <widget source="global.OnlineStableUpdateState" render="pixmap" pixmap="XionLight/buttons/ico_stable.png" position="1256,697" size="20,20" zPosition="1" alphatest="blend">
+  <ePixmap pixmap="XionLight/buttons/ico_update_off.png" position="1256,697" size="20,20" zPosition="0" alphatest="blend" />
+  <widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="XionLight/buttons/ico_stable.png" position="1256,697" size="20,20" zPosition="1" alphatest="blend">
     <convert type="ConditionalShowHide">Blink</convert>
   </widget>
-  <widget source="global.OnlineUnstableUpdateState" render="pixmap" pixmap="XionLight/buttons/ico_unstable.png" position="1256,697" size="20,20" zPosition="1" alphatest="blend">
+  <widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="XionLight/buttons/ico_unstable.png" position="1256,697" size="20,20" zPosition="1" alphatest="blend">
     <convert type="ConditionalShowHide">Blink</convert>
   </widget>
   <eLabel backgroundColor="XionLightBackground" position="0,720" size="1280,0" transparent="0" zPosition="-5" />
@@ -410,10 +410,10 @@
     <convert type="XionLightEventTime">Remaining</convert>
     <convert type="XionLightRemainingToText">InMinutes</convert>
   </widget>
-  <widget position="213,650" render="Progress" size="805,10" source="session.Event_Now" borderWidth="0" backgroundColor="XionLightBackground" foregroundColor="XionLightProgress" transparent="1" zPosition="7">
+  <widget position="213,652" render="Progress" size="805,6" source="session.Event_Now" borderWidth="0" backgroundColor="XionLightBackground" foregroundColor="XionLightProgress" transparent="1" zPosition="7">
     <convert type="XionLightEventTime">Progress</convert>
   </widget>
-  <eLabel backgroundColor="XionLightLine" position="213,650" size="805,10" zPosition="2" />
+  <eLabel backgroundColor="XionLightLine" position="213,652" size="805,6" zPosition="2" />
   <widget backgroundColor="XionLightBackground" font="Regular2; 22" halign="left" noWrap="1" position="213,605" render="Label" size="70,35" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
     <convert type="XionLightEventTime">StartTime</convert>
     <convert type="XionLightClockToText">Default</convert>
@@ -446,11 +446,11 @@
     <convert type="XionLightEventName">ExtendedDescription</convert>
   </widget>
   <eLabel backgroundColor="XionLightBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" foregroundColor="XionLightFont2" />
-  <epixmap pixmap="XionLight/line/line1280.png" position="0,75" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-  <epixmap pixmap="XionLight/line/line1280.png" position="0,455" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-  <epixmap pixmap="XionLight/line/line1280.png" position="0,502" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-  <epixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
-  <epixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
+  <ePixmap pixmap="XionLight/line/line1280.png" position="0,75" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+  <ePixmap pixmap="XionLight/line/line1280.png" position="0,455" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+  <ePixmap pixmap="XionLight/line/line1280.png" position="0,502" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+  <ePixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
+  <ePixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
 </screen>
 <!-- SecondInfobar Original */-->  
   
@@ -481,13 +481,13 @@
     <convert type="XionLightEventTime">Progress</convert>
   </widget>
   <eLabel position="870,110" size="356,3" backgroundColor="XionLightLine" />
-  <widget font="Regular; 22" foregroundColor="XionLightFont1" position="765,145" render="Label" size="462,374" source="ServiceEvent" valign="top" backgroundColor="XionLightBackground" zPosition="-8" transparent="1">
+  <widget font="Regular; 22" foregroundColor="XionLightFont1" position="765,145" render="Label" size="462,375" source="ServiceEvent" valign="top" backgroundColor="XionLightBackground" zPosition="-8" transparent="1">
     <convert type="XionLightEventName">BothDescriptionsFiltered</convert>
   </widget>
   <widget font="Regular2; 30" foregroundColor="XionLightFont2" position="536,20" halign="right" render="Label" size="696,35" source="ServiceEvent" backgroundColor="XionLightBackground" zPosition="-8" valign="left" transparent="1">
     <convert type="XionLightEventName">Name</convert>
   </widget>
-  <epixmap pixmap="XionLight/line/line462.png" position="765,525" size="462,2" backgroundColor="XionLightBackground" alphatest="blend" />
+  <ePixmap pixmap="XionLight/line/line462.png" position="765,525" size="462,2" backgroundColor="XionLightBackground" alphatest="blend" />
   <panel name="template_cs" />
   <panel name="template_colorkey_text" />
 </screen>
@@ -526,7 +526,7 @@
 						MultiContentEntryText(pos = (350, 5), size = (270, 22), font = 2, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 3, color = 0x00ffffff, color_sel = 0x00ffffff),
 						MultiContentEntryText(pos = (80, 25), size = (180, 17), font = 3, flags = RT_HALIGN_LEFT, text = 5, color = 0x00ffffff, color_sel = 0x00ffffff),
 						MultiContentEntryText(pos = (270, 25), size = (510, 17), font = 3, flags = RT_HALIGN_LEFT, text = 4, color = 0x00ffffff, color_sel = 0x00ffffff),
-						MultiContentEntrypixmapAlphaBlend(pos=(0, 6), size=(50, 30), png=6, flags = BT_SCALE)
+						MultiContentEntryPixmapAlphaBlend(pos=(0, 6), size=(50, 30), png=6, flags = BT_SCALE)
 					],
 				 "fonts": [gFont("Regular", 22), gFont("Regular", 20), gFont("Regular", 17), gFont("Regular", 16)],
 				 "itemHeight": 45
@@ -536,10 +536,10 @@
   <panel name="template_menu_full" />
 </screen>
   <screen name="ZapHistoryBrowser" position="670,440" size="560,210" title="ZapHistoryBrowser" flags="wfNoBorder" backgroundColor="XionLightBackground" >
-	<epixmap pixmap="XionLight/buttons/key_red.png" position="10,8" size="140,40" transparent="1" alphatest="on" />
-	<epixmap pixmap="XionLight/buttons/key_green.png" position="150,8" size="140,40" transparent="1" alphatest="on" />
-	<epixmap pixmap="XionLight/buttons/key_yellow.png" position="290,8" size="140,40" transparent="1" alphatest="on" />
-	<epixmap pixmap="XionLight/buttons/key_blue.png" position="430,8" size="140,40" transparent="1" alphatest="on" />
+	<ePixmap pixmap="XionLight/buttons/key_red.png" position="10,8" size="140,40" transparent="1" alphatest="on" />
+	<ePixmap pixmap="XionLight/buttons/key_green.png" position="150,8" size="140,40" transparent="1" alphatest="on" />
+	<ePixmap pixmap="XionLight/buttons/key_yellow.png" position="290,8" size="140,40" transparent="1" alphatest="on" />
+	<ePixmap pixmap="XionLight/buttons/key_blue.png" position="430,8" size="140,40" transparent="1" alphatest="on" />
 	<widget name="key_red" position="40,0" zPosition="1" size="140,40" font="Regular;20" valign="center" halign="left" backgroundColor="XionLightBackground" transparent="1" />
 	<widget name="key_green" position="180,0" zPosition="1" size="140,40" font="Regular;20" valign="center" halign="left" backgroundColor="XionLightBackground" transparent="1" />
 	<widget name="key_yellow" position="320,0" zPosition="1" size="140,40" font="Regular;20" valign="center" halign="left" backgroundColor="XionLightBackground" transparent="1" />
@@ -551,7 +551,7 @@
       <convert type="TemplatedMultiContent">
 				{"template": [
 				MultiContentEntryText(pos = (130, 17), size = (550, 60), flags = RT_HALIGN_LEFT, text = 1), # index 1 is the language name,
-				MultiContentEntrypixmap(pos = (20, 10), size = (60, 40), png = 2), # index 2 is the pixmap
+				MultiContentEntryPixmap(pos = (20, 10), size = (60, 40), png = 2), # index 2 is the Pixmap
 				],
 				"fonts": [gFont("Regular", 24)],
 				"itemHeight": 60
@@ -573,7 +573,7 @@
     <panel name="template_menu_full_button" />
   </screen>
   <screen backgroundColor="transparent" flags="wfNoBorder" name="Mute" position="49,40" size="70,70" title="Mute" zPosition="11">
-    <epixmap alphatest="blend" borderColor="transparent" borderWidth="0" pixmap="XionLight/buttons/mute.png" position="4,2" size="70,70" transparent="1" zPosition="-1" />
+    <ePixmap alphatest="blend" borderColor="transparent" borderWidth="0" pixmap="XionLight/buttons/mute.png" position="4,2" size="70,70" transparent="1" zPosition="-1" />
     <eLabel backgroundColor="XionLightBackground" position="0,0" size="70,70" zPosition="-10" />
   </screen>
   <screen backgroundColor="transparent" flags="wfNoBorder" name="RecordPathsSettings" position="0,0" size="1280,720" title="Recording paths...">
@@ -636,16 +636,16 @@
     <panel name="template_menu_full" />
   </screen>
   <screen backgroundColor="transparent" flags="wfNoBorder" name="UnhandledKey" position="49,40" size="70,70" title="UnhandledKey" zPosition="100">
-    <widget alphatest="blend" name="UnhandledKeypixmap" pixmap="XionLight/buttons/error.png" position="3,3" size="70,70" zPosition="2" />
+    <widget alphatest="blend" name="UnhandledKeyPixmap" pixmap="XionLight/buttons/error.png" position="3,3" size="70,70" zPosition="2" />
     <eLabel backgroundColor="XionLightBackground" position="0,0" size="70,70" zPosition="1" />
   </screen>
   <screen name="VirtualKeyBoard" position="center,center" backgroundColor="XionLightBackground" flags="wfNoBorder" size="715,350" zPosition="99">
-    <epixmap pixmap="vkey_text.png" position="10,35" zPosition="-4" size="542,52" alphatest="on" />
+    <ePixmap pixmap="vkey_text.png" position="10,35" zPosition="-4" size="542,52" alphatest="on" />
     <widget name="header" position="10,10" size="500,20" font="Regular;20" transparent="1" noWrap="1" foregroundColor="XionLightFont1" />
     <widget name="text" position="12,35" size="535,46" font="Regular;44" transparent="1" noWrap="1" halign="left" foregroundColor="XionLightFont1" />
     <widget name="list" position="10,100" size="695,225" selectionDisabled="1" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" transparent="1" />
-    <widget source="country" render="pixmap" position="643,45" size="60,40" alphatest="on" borderWidth="2" borderColor="XionLightBorder" zPosition="1">
-      <convert type="ValueTopixmap">LanguageCode</convert>
+    <widget source="country" render="Pixmap" position="643,45" size="60,40" alphatest="on" borderWidth="2" borderColor="XionLightBorder" zPosition="1">
+      <convert type="ValueToPixmap">LanguageCode</convert>
     </widget>
 
   </screen>
@@ -682,36 +682,36 @@
     </widget>
     <widget name="list" position="22,525" size="685,125" transparent="1" />
     <panel name="template_colorkey_text" />
-<epixmap pixmap="XionLight/line/line1280.png" position="0,655" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_red1.png" position="22,670" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_green1.png" position="222,670" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,670" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_blue1.png" position="622,670" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+<ePixmap pixmap="XionLight/line/line1280.png" position="0,655" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="22,670" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="222,670" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,670" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="622,670" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
     <eLabel backgroundColor="XionLightProgress" position="22,517" size="1233,1" zPosition="2" />
-<epixmap pixmap="XionLight/infobar/infobar.png" position="0,473" size="1280,250" backgroundColor="XionLightBackground" alphatest="blend" zPosition="-10" />
+<ePixmap pixmap="XionLight/infobar/infobar.png" position="0,473" size="1280,250" backgroundColor="XionLightBackground" alphatest="blend" zPosition="-10" />
   </screen>
   <!-- EventView -->
-<screen backgroundColor="transparent" flags="wfNoBorder" name="EventView" position="0,0" size="1280,720" title="Eventview">
-  <widget backgroundColor="XionLightBackground" scrollbarMode="showNever" font="Regular2; 26" name="epg_description" position="45,155" size="1190,443" transparent="1" />
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_dolby_on.png" position="63,615" render="pixmap" size="32,32" source="session.CurrentService" zPosition="2">
-    <convert type="XionLightServiceInfo">IsMultichannel</convert>
-    <convert type="ConditionalShowHide" />
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="EventView" position="0,0" size="1280,720" title="Eventview">
+	<widget backgroundColor="XionLightBackground" scrollbarMode="showNever" font="Regular2; 26" name="epg_description" position="45,155" size="1190,443" transparent="1" />
+	<widget alphatest="blend" pixmap="XionLight/buttons/ico_dolby_on.png" position="63,615" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="2">
+		<convert type="XionLightServiceInfo">IsMultichannel</convert>
+		<convert type="ConditionalShowHide" />
+	</widget>
+	<widget alphatest="blend" pixmap="XionLight/buttons/ico_format_on.png" position="113,615" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="2">
+		<convert type="XionLightServiceInfo">IsWidescreen</convert>
+		<convert type="ConditionalShowHide" />
+	</widget>
+	<widget alphatest="blend" pixmap="XionLight/buttons/ico_hd_on.png" position="163,615" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="2">
+		<convert type="XionLightServiceInfo">VideoWidth</convert>
+		<convert type="XionLightValueRange">721,1980</convert>
+		<convert type="ConditionalShowHide" />
   </widget>
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_format_on.png" position="113,615" render="pixmap" size="32,32" source="session.CurrentService" zPosition="2">
-    <convert type="XionLightServiceInfo">IsWidescreen</convert>
-    <convert type="ConditionalShowHide" />
-  </widget>
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_hd_on.png" position="163,615" render="pixmap" size="32,32" source="session.CurrentService" zPosition="2">
-    <convert type="XionLightServiceInfo">VideoWidth</convert>
-    <convert type="XionLightValueRange">721,1980</convert>
-    <convert type="ConditionalShowHide" />
-  </widget>
-  <widget backgroundColor="XionLightBackground" foregroundColor="XionLightFont2" font="Regular2; 35" halign="left" name="channel" position="45,85" size="854,60" transparent="1" />
-  <widget backgroundColor="XionLightBackground" foregroundColor="XionLightFont2" font="Regular2; 30" halign="right" name="datetime" position="928,85" size="307,60" transparent="1" valign="center" />
-  <widget backgroundColor="XionLightBackground" font="Regular2; 24" halign="center" name="duration" position="965,603" size="270,40" transparent="1" foregroundColor="XionLightFont2" />
-  <panel name="template_menu_full_button_nologo" />
-  <panel name="template_colorkey_text" />
-</screen>
+	<widget backgroundColor="XionLightBackground" foregroundColor="XionLightFont2" font="Regular2; 35" halign="left" name="channel" position="45,85" size="854,60" transparent="1" />
+	<widget backgroundColor="XionLightBackground" foregroundColor="XionLightFont2" font="Regular2; 30" halign="right" name="datetime" position="928,85" size="307,60" transparent="1" valign="center" />
+	<widget backgroundColor="XionLightBackground" font="Regular2; 24" halign="center" name="duration" position="965,603" size="270,40" transparent="1" foregroundColor="XionLightFont2" />
+	<panel name="template_menu_full_button_nologo" />
+	<panel name="template_colorkey_text" />
+  </screen>
   <!-- EventViewMenu -->
   <screen name="EventViewContextMenu" position="0,0" size="1280,720" title="Eventview Menu" flags="wfNoBorder" backgroundColor="transparent">
     <widget name="menu" font="Regular;20" itemHeight="30" position="70,121" size="708,420" transparent="1" backgroundColor="XionLightBackground" />
@@ -720,15 +720,15 @@
   <!-- EventViewSimple -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="EventViewSimple" position="0,0" size="1280,720" title="Eventview">
     <widget backgroundColor="XionLightBackground" scrollbarMode="showNever" font="Regular2; 26" name="epg_description" position="45,155" size="1190,443" transparent="1" />
-    <widget alphatest="blend" pixmap="XionLight/buttons/ico_dolby_on.png" position="63,615" render="pixmap" size="32,32" source="session.CurrentService" zPosition="2">
+    <widget alphatest="blend" pixmap="XionLight/buttons/ico_dolby_on.png" position="63,615" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="2">
       <convert type="XionLightServiceInfo">IsMultichannel</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget alphatest="blend" pixmap="XionLight/buttons/ico_format_on.png" position="113,615" render="pixmap" size="32,32" source="session.CurrentService" zPosition="2">
+    <widget alphatest="blend" pixmap="XionLight/buttons/ico_format_on.png" position="113,615" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="2">
       <convert type="XionLightServiceInfo">IsWidescreen</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget alphatest="blend" pixmap="XionLight/buttons/ico_hd_on.png" position="163,615" render="pixmap" size="32,32" source="session.CurrentService" zPosition="2">
+    <widget alphatest="blend" pixmap="XionLight/buttons/ico_hd_on.png" position="163,615" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="2">
       <convert type="XionLightServiceInfo">VideoWidth</convert>
       <convert type="XionLightValueRange">721,1980</convert>
       <convert type="ConditionalShowHide" />
@@ -851,7 +851,7 @@
     <widget source="Service" render="Picon" position="6,18" size="70,42" transparent="0" zPosition="2" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
-    <widget source="session.RecordState" render="pixmap" pixmap="XionLight/buttons/ico_rec_on.png" position="848,235" size="32,32" zPosition="2" alphatest="blend">
+    <widget source="session.RecordState" render="Pixmap" pixmap="XionLight/buttons/ico_rec_on.png" position="848,235" size="32,32" zPosition="2" alphatest="blend">
       <convert type="ConditionalShowHide">Blink</convert>
     </widget>
     <widget name="lab1" position="9,75" size="1256,145" font="Regular;24" halign="center" valign="center" zPosition="20" backgroundColor="XionLightBackground" transparent="1" />
@@ -859,16 +859,16 @@
     <widget name="bouquetlist" position="10,420" size="1260,120" itemHeight="40" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" foregroundColorSelected="white" backgroundColorSelected="XionLightBackground" scrollbarMode="showNever" zPosition="6" transparent="1" />
     <widget name="list" position="10,100" size="1260,120" backgroundColor="XionLightBackground" scrollbarMode="showNever" zPosition="1" EntryFontWrap="no" transparent="1" />
     <widget name="timeline_now" position="10,100" zPosition="2" size="16,120" pixmap="XionLight/epg/timeline-now_s.png" alphatest="blend" />
-<epixmap pixmap="XionLight/line/line1280.png" position="0,220" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_red1.png" position="22,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_green1.png" position="222,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_blue1.png" position="622,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+<ePixmap pixmap="XionLight/line/line1280.png" position="0,220" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="22,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="222,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="622,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
     <widget name="key_red" position="64,227" zPosition="1" size="148,48" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" valign="center" />
     <widget name="key_green" position="264,227" zPosition="1" size="148,48" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" valign="center" />
     <widget name="key_yellow" position="464,227" zPosition="1" size="148,48" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" valign="center" />
     <widget name="key_blue" position="664,227" zPosition="1" size="148,48" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" valign="center" />
-  <epixmap pixmap="XionLight/infobar/infobar.png" position="0,35" size="1280,250" backgroundColor="XionLightBackground" alphatest="blend" zPosition="-10" />
+  <ePixmap pixmap="XionLight/infobar/infobar.png" position="0,35" size="1280,250" backgroundColor="XionLightBackground" alphatest="blend" zPosition="-10" />
 </screen>
   <!-- QuickEPG -->
   <screen name="QuickEPG" flags="wfNoBorder" position="0,435" size="1280,285" title="InfoBar" backgroundColor="transparent">
@@ -885,23 +885,23 @@
     <widget source="global.CurrentTime" render="Label" position="1135,232" size="126,40" backgroundColor="XionLightBackground" zPosition="1" XionLightBackground="1" font="Regular; 38" valign="center" halign="center">
       <convert type="XionLightClockToText">Default</convert>
     </widget>
-    <widget source="session.RecordState" render="pixmap" pixmap="XionLight/buttons/ico_rec_on.png" zPosition="2" position="840,235" size="32,32" alphatest="blend">
+    <widget source="session.RecordState" render="Pixmap" pixmap="XionLight/buttons/ico_rec_on.png" zPosition="2" position="840,235" size="32,32" alphatest="blend">
       <convert type="ConditionalShowHide">Blink</convert>
     </widget>
     <widget name="list" position="17,95" size="715,120" font="Regular; 24" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" />
     <widget source="Service" render="Picon" position="17,29" size="70,42" transparent="0" zPosition="2" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,220" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_red1.png" position="22,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_green1.png" position="222,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_blue1.png" position="622,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,220" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="22,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="222,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="622,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
     <widget name="key_red" position="64,227" zPosition="1" size="148,48" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" valign="center" />
     <widget name="key_green" position="264,227" zPosition="1" size="148,48" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" valign="center" />
     <widget name="key_yellow" position="464,227" zPosition="1" size="148,48" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" valign="center" />
     <widget name="key_blue" position="664,227" zPosition="1" size="148,48" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" valign="center" />
-  <epixmap pixmap="XionLight/infobar/infobar.png" position="0,35" size="1280,250" backgroundColor="XionLightBackground" alphatest="blend" zPosition="-10" />
+  <ePixmap pixmap="XionLight/infobar/infobar.png" position="0,35" size="1280,250" backgroundColor="XionLightBackground" alphatest="blend" zPosition="-10" />
 </screen>
   <!-- ********** Menu ********** -->
   <!-- Menu -->
@@ -1047,13 +1047,13 @@
   <!-- ********** Wizard and Help ********** -->
   <!-- CleanupWizard -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="CleanupWizard" position="0,0" size="1280,720" title="Welcome...">
-    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
+    <widget alphatest="blend" name="rc" Pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowup2" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="wizard" pixmap="skin_default/wizard.png" position="500,120" size="110,174" transparent="1" zPosition="10" />
-    <epixmap alphatest="blend" pixmap="XionLight/buttons/key_red.png" position="500,305" size="30,40" />
+    <ePixmap alphatest="blend" pixmap="XionLight/buttons/key_red.png" position="500,305" size="30,40" />
     <widget backgroundColor="XionLightBackground" font="Regular2;21" name="languagetext" position="535,310" size="150,23" transparent="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" name="text" position="670,120" size="540,300" transparent="1" />
     <widget position="510,430" render="Listbox" size="700,160" source="list" transparent="1" zPosition="13">
@@ -1077,7 +1077,7 @@
   <!-- DefaultSatLists -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="DefaultSatLists" position="0,0" size="1280,720" title="Welcome...">
     <widget alphatest="blend" name="wizard" pixmap="skin_default/wizard.png" position="500,120" size="110,174" transparent="1" zPosition="10" />
-    <epixmap alphatest="blend" pixmap="XionLight/buttons/key_red.png" position="500,305" size="30,40" />
+    <ePixmap alphatest="blend" pixmap="XionLight/buttons/key_red.png" position="500,305" size="30,40" />
     <widget backgroundColor="XionLightBackground" font="Regular2;21" name="languagetext" position="535,310" size="150,23" transparent="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" name="text" position="670,120" size="540,300" transparent="1" />
     <widget position="510,430" render="Listbox" size="700,160" source="list" transparent="1" zPosition="13">
@@ -1094,7 +1094,7 @@
   <!-- DefaultWizard -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="DefaultWizard" position="0,0" size="1280,720" title="Welcome...">
     <widget alphatest="blend" name="wizard" pixmap="skin_default/wizard.png" position="500,120" size="110,174" transparent="1" zPosition="10" />
-    <epixmap alphatest="blend" pixmap="XionLight/buttons/key_red.png" position="500,305" size="30,40" />
+    <ePixmap alphatest="blend" pixmap="XionLight/buttons/key_red.png" position="500,305" size="30,40" />
     <widget backgroundColor="XionLightBackground" font="Regular2;21" name="languagetext" position="535,310" size="150,23" transparent="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" name="text" position="670,120" size="540,300" transparent="1" />
     <widget position="510,430" render="Listbox" size="700,160" source="list" transparent="1" zPosition="13">
@@ -1111,7 +1111,7 @@
   <!-- DreamPackageWizard -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="DreamPackageWizard" position="0,0" size="1280,720" title="Welcome...">
     <widget alphatest="blend" name="wizard" pixmap="skin_default/wizard.png" position="500,120" size="110,174" transparent="1" zPosition="10" />
-    <epixmap alphatest="blend" pixmap="XionLight/buttons/key_red.png" position="500,305" size="30,40" />
+    <ePixmap alphatest="blend" pixmap="XionLight/buttons/key_red.png" position="500,305" size="30,40" />
     <widget backgroundColor="XionLightBackground" font="Regular2;21" name="languagetext" position="535,310" size="150,23" transparent="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" name="text" position="671,120" size="540,300" transparent="1" />
     <widget position="510,430" render="Listbox" size="700,160" source="list" transparent="1" zPosition="13">
@@ -1127,13 +1127,13 @@
   </screen>
   <!-- ImageWizard -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="ImageWizard" position="0,0" size="1280,720" title="Welcome...">
-    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
+    <widget alphatest="blend" name="rc" Pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowup2" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="wizard" pixmap="skin_default/wizard.png" position="500,120" size="110,174" transparent="1" zPosition="10" />
-    <epixmap alphatest="blend" pixmap="XionLight/buttons/key_red.png" position="500,305" size="30,40" />
+    <ePixmap alphatest="blend" pixmap="XionLight/buttons/key_red.png" position="500,305" size="30,40" />
     <widget backgroundColor="XionLightBackground" font="Regular2;21" name="languagetext" position="535,310" size="150,23" transparent="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" name="text" position="670,120" size="540,300" transparent="1" />
     <widget position="510,430" render="Listbox" size="700,160" source="list" transparent="1" zPosition="13">
@@ -1149,7 +1149,7 @@
   </screen>
   <!-- LanguageWizard -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="LanguageWizard" position="0,0" size="1280,720" title="Welcome...">
-    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
+    <widget alphatest="blend" name="rc" Pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
@@ -1160,7 +1160,7 @@
       <convert type="TemplatedMultiContent">
 				{"template": [
 				MultiContentEntryText(pos = (130, 17), size = (530, 60), flags = RT_HALIGN_LEFT, text = 1), # index 1 is the language name,
-				MultiContentEntrypixmap(pos = (20, 10), size = (60, 40), png = 2), # index 2 is the pixmap
+				MultiContentEntryPixmap(pos = (20, 10), size = (60, 40), png = 2), # index 2 is the Pixmap
 				],
 				"fonts": [gFont("Regular", 24)],
 				"itemHeight": 60
@@ -1177,13 +1177,13 @@
   </screen>
   <!-- NetworkWizard -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="NetworkWizard" position="0,0" size="1280,720" title="Welcome...">
-    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
+    <widget alphatest="blend" name="rc" Pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowup2" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="wizard" pixmap="skin_default/wizard.png" position="500,120" size="110,174" transparent="1" zPosition="10" />
-    <epixmap alphatest="blend" pixmap="XionLight/buttons/key_red1.png" position="500,305" size="32,40" />
+    <ePixmap alphatest="blend" pixmap="XionLight/buttons/key_red1.png" position="500,305" size="32,40" />
     <widget backgroundColor="XionLightBackground" font="Regular2;21" name="languagetext" position="535,310" size="150,23" transparent="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" name="text" position="670,120" size="540,300" transparent="1" />
     <widget position="510,430" render="Listbox" size="700,160" source="list" transparent="1" zPosition="13">
@@ -1200,13 +1200,13 @@
   </screen>
   <!-- StartWizard -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="StartWizard" position="0,0" size="1280,720" title="Welcome...">
-    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
+    <widget alphatest="blend" name="rc" Pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowup2" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="wizard" pixmap="skin_default/wizard.png" position="500,120" size="110,174" transparent="1" zPosition="10" />
-    <epixmap alphatest="blend" pixmap="XionLight/buttons/key_red1.png" position="500,305" size="32,40" />
+    <ePixmap alphatest="blend" pixmap="XionLight/buttons/key_red1.png" position="500,305" size="32,40" />
     <widget backgroundColor="XionLightBackground" font="Regular2;21" name="languagetext" position="535,310" size="150,23" transparent="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" name="text" position="671,120" size="540,300" transparent="1" />
     <widget position="510,430" render="Listbox" size="700,160" source="list" transparent="1" zPosition="13">
@@ -1222,13 +1222,13 @@
   </screen>
   <!-- VideoWizard -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="VideoWizard" position="0,0" size="1280,720" title="Welcome...">
-    <widget alphatest="blend" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
+    <widget alphatest="blend" name="rc" Pixmaps="skin_default/rc.png,skin_default/rcold.png" position="175,115" size="154,500" zPosition="10" />
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="arrowup2" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="blend" name="wizard" pixmap="skin_default/wizard.png" position="500,120" size="110,174" transparent="1" zPosition="10" />
-    <epixmap alphatest="blend" pixmap="XionLight/buttons/key_red1.png" position="500,305" size="32,32" />
+    <ePixmap alphatest="blend" pixmap="XionLight/buttons/key_red1.png" position="500,305" size="32,32" />
     <widget backgroundColor="XionLightBackground" font="Regular2;21" name="languagetext" position="535,310" size="150,23" transparent="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" name="text" position="670,120" size="540,300" transparent="1" />
     <widget alphatest="blend" name="portpic" position="510,435" size="128,128" transparent="1" zPosition="10" />
@@ -1245,7 +1245,7 @@
   </screen>
   <!-- HelpMenu -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="HelpMenu" position="0,0" size="1280,720" title="Menu">
-    <widget alphatest="blend" name="rc" pixmaps="XionLight/rc.png,rcold.png" position="160,115" size="154,500" zPosition="10" />
+    <widget alphatest="blend" name="rc" Pixmaps="XionLight/rc.png,rcold.png" position="160,115" size="154,500" zPosition="10" />
     <widget backgroundColor="XionLightBackground" font="Regular2;24" foregroundColor="yellow" halign="center" name="long_key" position="90,620" size="300,30" transparent="1" />
     <widget itemHeight="38" name="list" position="500,120" size="720,494" transparent="1" />
     <widget alphatest="blend" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
@@ -1260,8 +1260,8 @@
     <widget itemHeight="30" name="config" position="10,10" size="580,90" />
     <widget font="Regular2;22" halign="center" position="10,123" render="Label" size="580,26" source="introduction" transparent="1" valign="center" />
     <eLabel backgroundColor="XionLightBackground" position="  0,160" size="600,40" zPosition="1" />
-    <epixmap alphatest="blend" pixmap="XionLight/buttons/key_red.png" position="25,165" size="25,25" zPosition="2" />
-    <epixmap alphatest="blend" pixmap="XionLight/buttons/key_green.png" position="244,165" size="25,25" zPosition="2" />
+    <ePixmap alphatest="blend" pixmap="XionLight/buttons/key_red.png" position="25,165" size="25,25" zPosition="2" />
+    <ePixmap alphatest="blend" pixmap="XionLight/buttons/key_green.png" position="244,165" size="25,25" zPosition="2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;20" position="55,165" render="Label" size="160,24" source="key_red" transparent="1" zPosition="2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;20" position="278,165" render="Label" size="160,24" source="key_green" transparent="1" zPosition="2" />
   </screen>
@@ -1278,6 +1278,16 @@
     <widget backgroundColor="XionLightBackground" font="Regular2;24" foregroundColor="XionLightFont2" position="70,80" render="Label" size="495,30" source="Adapter" transparent="1" />
     <widget backgroundColor="XionLightBackground" enableWrapAround="1" itemHeight="30" name="config" position="70,130" size="708,240" transparent="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;24" foregroundColor="XionLightFont2" halign="center" position="70,585" render="Label" size="708,30" source="introduction2" transparent="1" />
+	<widget source="IPtext" render="Label" position="200,400" size="210,24" font="Regular;20" halign="right" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" transparent="1" />
+	<widget source="Netmasktext" render="Label" position="200,430" size="210,24" font="Regular;20" halign="right" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" transparent="1" />
+	<widget source="Gatewaytext" render="Label" position="200,460" size="210,24" font="Regular;20" halign="right" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" transparent="1" />
+	<widget source="DNS1text" render="Label" position="200,490" size="210,24" font="Regular;20" halign="right" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" transparent="1" />
+	<widget source="DNS2text" render="Label" position="200,520" size="210,24" font="Regular;20" halign="right" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" transparent="1" />
+	<widget source="IP" render="Label" position="420,400" size="210,24" font="Regular;20" halign="left" backgroundColor="XionLightBackground" transparent="1" />
+	<widget source="Mask" render="Label" position="420,430" size="210,24" font="Regular;20" halign="left" backgroundColor="XionLightBackground" transparent="1" />
+	<widget source="Gateway" render="Label" position="420,460" size="210,24" font="Regular;20" halign="left" backgroundColor="XionLightBackground" transparent="1" />
+	<widget source="DNS1" render="Label" position="420,490" size="210,24" font="Regular;20" halign="left" backgroundColor="XionLightBackground" transparent="1" />
+	<widget source="DNS2" render="Label" position="420,520" size="210,24" font="Regular;20" halign="left" backgroundColor="XionLightBackground" transparent="1" />
     <panel name="template_menu_full_button" />
     <panel name="template_colorkey_text_source" />
   </screen>
@@ -1285,7 +1295,7 @@
   <screen backgroundColor="transparent" flags="wfNoBorder" name="AdapterSetupConfiguration" position="0,0" size="1280,720" title="Network Configuration...">
     <widget backgroundColor="XionLightBackground" font="Regular2;24" foregroundColor="XionLightFont2" position="70,80" render="Label" size="495,28" source="IF" transparent="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;24" foregroundColor="XionLightFont2" position="576,80" render="Label" size="160,28" source="Statustext" transparent="1" />
-    <widget alphatest="blend" name="statuspic" pixmaps="XionLight/buttons/green.png,XionLight/buttons/grey.png" position="742,82" size=" 24,24" transparent="1" />
+    <widget alphatest="blend" name="statuspic" Pixmaps="XionLight/buttons/green.png,XionLight/buttons/grey.png" position="742,82" size=" 24,24" transparent="1" />
     <widget backgroundColor="XionLightBackground" enableWrapAround="1" itemHeight="35" name="menulist" position="70,130" size="708,280" transparent="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColor="XionLightFont2" halign="center" position="70,485" render="Label" size="708,100" source="description" transparent="1" valign="center" />
     <panel name="template_menu_full_button" />
@@ -1296,8 +1306,8 @@
     <widget backgroundColor="XionLightBackground" enableWrapAround="1" position="70,80" render="Listbox" size="708,450" source="list" transparent="1">
       <convert type="TemplatedMultiContent">
 				{"template": [
-					MultiContentEntrypixmapAlphaTest(pos = (10, 10), size = (54, 54), png = 3), # index 3 is the interface pixmap
-					MultiContentEntrypixmapAlphaTest(pos = (71, 46), size = (15, 16), png = 4), # index 4 is the default pixmap
+					MultiContentEntryPixmapAlphaTest(pos = (10, 10), size = (54, 54), png = 3), # index 3 is the interface Pixmap
+					MultiContentEntryPixmapAlphaTest(pos = (71, 46), size = (15, 16), png = 4), # index 4 is the default Pixmap
 					MultiContentEntryText(pos = (100, 2), size = (520, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1), # index 1 is the interfacename
 					MultiContentEntryText(pos = (100, 42), size = (520, 25), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_BOTTOM, text = 2), # index 2 is the description
 				],
@@ -1316,34 +1326,34 @@
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,#f23d21,#1cff1c" name="Adapter" position="70,150" size="400,25" transparent="1" zPosition="1" />
     <widget alphatest="blend" name="AdapterInfo_OK" pixmap="XionLight/buttons/green.png" position="535,136" size="24,24" zPosition="2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,grey,#ffffff" halign="center" name="AdapterInfo_Text" position="570,130" size="200,35" transparent="1" valign="center" zPosition="2" />
-    <widget alphatest="blend" name="AdapterInfo" pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,130" size="200,35" zPosition="1" />
+    <widget alphatest="blend" name="AdapterInfo" Pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,130" size="200,35" zPosition="1" />
     <eLabel backgroundColor="XionLightBorder" position="70,185" size="700,2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColor="XionLightFont2" name="Networktext" position="70,200" size="400,25" transparent="1" zPosition="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,#f23d21,#1cff1c" name="Network" position="70,230" size="400,25" transparent="1" zPosition="1" />
-    <widget alphatest="blend" name="NetworkInfo_Check" pixmaps="XionLight/buttons/green.png,XionLight/buttons/red.png" position="535,216" size="24,24" zPosition="2" />
+    <widget alphatest="blend" name="NetworkInfo_Check" Pixmaps="XionLight/buttons/green.png,XionLight/buttons/red.png" position="535,216" size="24,24" zPosition="2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,grey,#ffffff" halign="center" name="NetworkInfo_Text" position="570,210" size="200,35" transparent="1" valign="center" zPosition="2" />
-    <widget alphatest="blend" name="NetworkInfo" pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,210" size="200,35" zPosition="1" />
+    <widget alphatest="blend" name="NetworkInfo" Pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,210" size="200,35" zPosition="1" />
     <eLabel backgroundColor="XionLightBorder" position="70,265" size="700,2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColor="XionLightFont2" name="Dhcptext" position="70,280" size="400,25" transparent="1" zPosition="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,#f23d21,#1cff1c" name="Dhcp" position="70,310" size="400,25" transparent="1" zPosition="1" />
-    <widget alphatest="blend" name="DhcpInfo_Check" pixmaps="XionLight/buttons/green.png,XionLight/buttons/red.png" position="535,296" size="24,24" zPosition="2" />
+    <widget alphatest="blend" name="DhcpInfo_Check" Pixmaps="XionLight/buttons/green.png,XionLight/buttons/red.png" position="535,296" size="24,24" zPosition="2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,grey,#ffffff" halign="center" name="DhcpInfo_Text" position="570,290" size="200,35" transparent="1" valign="center" zPosition="2" />
-    <widget alphatest="blend" name="DhcpInfo" pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,290" size="200,35" zPosition="1" />
+    <widget alphatest="blend" name="DhcpInfo" Pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,290" size="200,35" zPosition="1" />
     <eLabel backgroundColor="XionLightBorder" position="70,345" size="700,2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColor="XionLightFont2" name="IPtext" position="70,360" size="400,25" transparent="1" zPosition="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,#f23d21,#1cff1c" name="IP" position="70,390" size="400,25" transparent="1" zPosition="1" />
-    <widget alphatest="blend" name="IPInfo_Check" pixmaps="XionLight/buttons/green.png,XionLight/buttons/red.png" position="535,376" size=" 24,24" zPosition="2" />
+    <widget alphatest="blend" name="IPInfo_Check" Pixmaps="XionLight/buttons/green.png,XionLight/buttons/red.png" position="535,376" size=" 24,24" zPosition="2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,grey,#ffffff" halign="center" name="IPInfo_Text" position="570,370" size="200,35" transparent="1" valign="center" zPosition="2" />
-    <widget alphatest="blend" name="IPInfo" pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,370" size="200,35" zPosition="1" />
+    <widget alphatest="blend" name="IPInfo" Pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,370" size="200,35" zPosition="1" />
     <eLabel backgroundColor="XionLightBorder" position="70,425" size="700,2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColor="XionLightFont2" name="DNStext" position="70,440" size="400,25" transparent="1" zPosition="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,#f23d21,#1cff1c" name="DNS" position="70,470" size="400,25" transparent="1" zPosition="1" />
-    <widget alphatest="blend" name="DNSInfo_Check" pixmaps="XionLight/buttons/green.png,XionLight/buttons/red.png" position="535,456" size="24,24" zPosition="2" />
+    <widget alphatest="blend" name="DNSInfo_Check" Pixmaps="XionLight/buttons/green.png,XionLight/buttons/red.png" position="535,456" size="24,24" zPosition="2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="#8c8c93,grey,#ffffff" halign="center" name="DNSInfo_Text" position="570,450" size="200,35" transparent="1" valign="center" zPosition="2" />
-    <widget alphatest="blend" name="DNSInfo" pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,450" size="200,35" zPosition="1" />
+    <widget alphatest="blend" name="DNSInfo" Pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel.png" position="570,450" size="200,35" zPosition="1" />
     <eLabel backgroundColor="XionLightBorder" position="70,505" size="700,2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColors="grey,grey,#ffffff" halign="center" name="EditSettings_Text" position="470,531" size="300,34" transparent="1" valign="center" zPosition="2" />
-    <widget alphatest="blend" name="EditSettingsButton" pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel300.png" position="470,530" size="300,35" zPosition="2" />
+    <widget alphatest="blend" name="EditSettingsButton" Pixmaps="XionLight/menu/lan-seloff.png,XionLight/menu/lan-sel300.png" position="470,530" size="300,35" zPosition="2" />
     <widget font="Regular2;22" foregroundColor="XionLightFont2" halign="center" name="InfoText" position="70,80" size="700,570" valign="center" zPosition="25" />
     <panel name="template_menu_full_button" />
     <panel name="template_colorkey_text_source" />
@@ -1353,12 +1363,12 @@
     <widget position="70,80" render="Listbox" size="708,480" source="list" transparent="1" zPosition="3">
       <convert type="TemplatedMultiContent">
 				{"template": [
-						MultiContentEntrypixmapAlphaTest(pos = (10, 6), size = (48, 48), png = 1), # index 1 is the expandable/expanded/verticalline icon
+						MultiContentEntryPixmapAlphaTest(pos = (10, 6), size = (48, 48), png = 1), # index 1 is the expandable/expanded/verticalline icon
 						MultiContentEntryText(pos = (70, 4), size = (600, 26), font=2, flags = RT_HALIGN_LEFT, text = 2), # index 2 is the Hostname
 						MultiContentEntryText(pos = (160, 5), size = (510, 25), font=0, flags = RT_HALIGN_LEFT, text = 3), # index 3 is the sharename
 						MultiContentEntryText(pos = (160, 32), size = (510, 17), font=1, flags = RT_HALIGN_LEFT, text = 4), # index 4 is the sharedescription
-						MultiContentEntrypixmapAlphaTest(pos = (65, 6), size = (48, 48), png = 5), # index 5 is the nfs/cifs icon
-						MultiContentEntrypixmapAlphaTest(pos = (110, 6), size = (48, 48), png = 6), # index 6 is the isMounted icon
+						MultiContentEntryPixmapAlphaTest(pos = (65, 6), size = (48, 48), png = 5), # index 5 is the nfs/cifs icon
+						MultiContentEntryPixmapAlphaTest(pos = (110, 6), size = (48, 48), png = 6), # index 6 is the isMounted icon
 					],
 				"fonts": [gFont("Regular", 22),gFont("Regular2", 17),gFont("Regular2", 24)],
 				"itemHeight": 60
@@ -1391,7 +1401,7 @@
 				{"template": [
 						MultiContentEntryText(pos = (60, 5), size = (620, 28), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
 						MultiContentEntryText(pos = (70, 35), size = (610, 20), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 3 is the Description
-						MultiContentEntrypixmapAlphaTest(pos = (10, 6), size = (48, 48), png = 3), # index 4 is the pixmap
+						MultiContentEntryPixmapAlphaTest(pos = (10, 6), size = (48, 48), png = 3), # index 4 is the Pixmap
 					],
 				"fonts": [gFont("Regular", 22),gFont("Regular", 16)],
 				"itemHeight": 60
@@ -1410,12 +1420,12 @@
     <widget position="70,220" render="Listbox" size="708,320" source="config" transparent="1">
       <convert type="TemplatedMultiContent">
 				{"template": [
-						MultiContentEntrypixmapAlphaTest(pos = (40, 6), size = (48, 48), png = 0), # index 0 is the isMounted pixmap
+						MultiContentEntryPixmapAlphaTest(pos = (40, 6), size = (48, 48), png = 0), # index 0 is the isMounted Pixmap
 						MultiContentEntryText(pos = (210, 5), size = (200, 28), font=0, flags = RT_HALIGN_LEFT, text = 1), # index 1 is the sharename
 						MultiContentEntryText(pos = (390, 8), size = (250, 20), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 2 is the IPdescription
 						MultiContentEntryText(pos = (210, 35), size = (350, 20), font=1, flags = RT_HALIGN_LEFT, text = 3), # index 3 is the DIRdescription
-						MultiContentEntrypixmapAlphaTest(pos = (600, 15), size = (48, 48), png = 4), # index 4 is the activepng pixmap
-						MultiContentEntrypixmapAlphaTest(pos = (630, 6), size = (48, 48), png = 5), # index 4 is the mounttype pixmap
+						MultiContentEntryPixmapAlphaTest(pos = (600, 15), size = (48, 48), png = 4), # index 4 is the activepng Pixmap
+						MultiContentEntryPixmapAlphaTest(pos = (630, 6), size = (48, 48), png = 5), # index 4 is the mounttype Pixmap
 					],
 				"fonts": [gFont("Regular", 22),gFont("Regular2", 17)],
 				"itemHeight": 60
@@ -1440,7 +1450,7 @@
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos = (80, 4), size = (590, 50), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
-						MultiContentEntrypixmapAlphaTest(pos = (10, 6), size = (48, 48), png = 3), # index 4 is the status pixmap
+						MultiContentEntryPixmapAlphaTest(pos = (10, 6), size = (48, 48), png = 3), # index 4 is the status Pixmap
 					],
 				"fonts": [gFont("Regular", 40)],
 				"itemHeight": 60
@@ -1487,7 +1497,7 @@
     <widget backgroundColor="XionLightBackground" font="Regular;22" foregroundColor="XionLightFont1" position="470,305" render="Label" size="280,35" source="bitrate" transparent="1" valign="center" />
     <widget backgroundColor="XionLightBackground" font="Regular;22" foregroundColor="XionLightFont1" position="470,345" render="Label" size="280,35" source="enc" transparent="1" valign="center" />
     <widget font="Regular2;22" foregroundColor="XionLightFont2" position="70,400" render="Label" size="160,28" source="Statustext" transparent="1" />
-    <widget alphatest="blend" name="statuspic" pixmaps="XionLight/buttons/green.png,XionLight/buttons/grey.png" position="238,402" size="24,24" transparent="1" />
+    <widget alphatest="blend" name="statuspic" Pixmaps="XionLight/buttons/green.png,XionLight/buttons/grey.png" position="238,402" size="24,24" transparent="1" />
     <panel name="template_menu_full_button" />
     <panel name="template_colorkey_text_source" />
   </screen>
@@ -1580,7 +1590,7 @@
   <widget source="IFtext" render="Label" position="70,504" size="120,21" zPosition="10" font="Regular;20" foregroundColor="XionLightFont1" halign="left" transparent="1" />
   <widget source="IF" render="Label" position="181,504" size="375,21" zPosition="10" font="Regular;20" foregroundColor="XionLightFont1" halign="left" transparent="1" />
   <widget source="Statustext" render="Label" position="70,534" size="116,28" zPosition="10" font="Regular2;22" foregroundColor="XionLightFont2" halign="left" transparent="1" />
-  <widget name="statuspic" pixmaps="skin_default/buttons/button_green.png,skin_default/buttons/button_green_off.png" position="194,540" zPosition="10" size="15,16" transparent="1" alphatest="on" />
+  <widget name="statuspic" Pixmaps="skin_default/buttons/button_green.png,skin_default/buttons/button_green_off.png" position="194,540" zPosition="10" size="15,16" transparent="1" alphatest="on" />
   <panel name="template_menu_full" />
 </screen>
   <!-- NetworkMountsMenu -->
@@ -1814,10 +1824,10 @@
     <widget itemHeight="30" name="list" position="70,80" size="210,90" transparent="1" />
     <widget name="timer1" position="45,190" scrollbarMode="showNever" size="766,100" transparent="1" foregroundColor="XionLightFont1" />
     <widget name="timer2" position="45,380" scrollbarMode="showNever" size="766,100" transparent="1" foregroundColor="XionLightFont1" />
-    <epixmap pixmap="XionLight/buttons/key_red1.png" position="70,308" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_green1.png" position="370,308" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_yellow1.png" position="70,498" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_blue1.png" position="370,498" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="70,308" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="370,308" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="70,498" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="370,498" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
     <eLabel font="Regular;20" halign="left" valign="center" text="Bearbeiten" position="112,300" size="148,48" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" zPosition="1" />
     <widget font="Regular;20" halign="left" valign="center" name="key_green" position="412,300" size="148,48" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" zPosition="1" />
     <widget font="Regular;20" halign="left" valign="center" name="key_yellow" position="112,490" size="148,48" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" zPosition="1" />
@@ -1925,9 +1935,9 @@
   <!-- MessageBoxTemplate -->
   <screen name="MessageBoxTemplate">
     <widget name="text" position="65,8" size="520,0" font="Regular2;22" foregroundColor="XionLightFont2" />
-    <widget name="Errorpixmap" pixmap="icons/input_error.png" position="0,0" size="53,53" alphatest="on" />
-    <widget name="Questionpixmap" pixmap="icons/input_question.png" position="0,0" size="53,53" alphatest="on" />
-    <widget name="Infopixmap" pixmap="icons/input_info.png" position="0,0" size="53,53" alphatest="on" />
+    <widget name="ErrorPixmap" pixmap="icons/input_error.png" position="0,0" size="53,53" alphatest="on" />
+    <widget name="QuestionPixmap" pixmap="icons/input_question.png" position="0,0" size="53,53" alphatest="on" />
+    <widget name="InfoPixmap" pixmap="icons/input_info.png" position="0,0" size="53,53" alphatest="on" />
     <widget name="list" position="100,100" size="520,0" />
     <applet type="onLayoutFinish">
 self.autoResize()
@@ -1936,7 +1946,7 @@ self.autoResize()
   <!-- SystemMessage -->
   <screen name="SystemMessage" position="150,200" backgroundColor="XionLightBackground" size="450,200">
     <widget source="text" position="0,0" size="450,200" font="Regular;20" foregroundColor="XionLightFont1" halign="center" valign="center" render="Label" />
-    <epixmap pixmap="icons/input_error.png" position="5,5" size="53,53" alphatest="on" />
+    <ePixmap pixmap="icons/input_error.png" position="5,5" size="53,53" alphatest="on" />
   </screen>
   <!-- AutoVideoModeLabel -->
   <screen name="AutoVideoModeLabel" position="370,40" backgroundColor="XionLightBackground" size="330,55" flags="wfNoBorder">
@@ -1953,9 +1963,9 @@ self.autoResize()
   <screen name="MessageBoxSimple" flags="wfNoBorder" position="240,177" size="800,10" zPosition="1" title="Message" backgroundColor="XionLightBackground">
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColor="XionLightFont2" halign="left" position="7,4" render="Label" size="514,28" source="Title" transparent="1" zPosition="1" />
     <widget name="text" foregroundColor="XionLightFont1" position="94,49" size="680,0" font="Regular;22" backgroundColor="XionLightBackground" />
-    <widget name="Errorpixmap" pixmap="XionLight/buttons/message/attention-53.png" position="20,50" size="53,53" alphatest="blend" />
-    <widget name="Questionpixmap" pixmap="XionLight/buttons/message/question-53.png" position="20,50" size="53,53" alphatest="blend" />
-    <widget name="Infopixmap" pixmap="XionLight/buttons/message/info-53.png" position="20,50" size="53,53" alphatest="blend" />
+    <widget name="ErrorPixmap" pixmap="XionLight/buttons/message/attention-53.png" position="20,50" size="53,53" alphatest="blend" />
+    <widget name="QuestionPixmap" pixmap="XionLight/buttons/message/question-53.png" position="20,50" size="53,53" alphatest="blend" />
+    <widget name="InfoPixmap" pixmap="XionLight/buttons/message/info-53.png" position="20,50" size="53,53" alphatest="blend" />
     <widget name="list" font="Regular;22" foregroundColor="XionLightFont1" position="21,136" size="760,320" itemHeight="32" transparent="1" />
     <applet type="onLayoutFinish">
 # this should be factored out into some helper code,but currently demonstrates applets.
@@ -1994,9 +2004,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <screen backgroundColor="XionLightBackground" name="MessageBoxGenuine" flags="wfNoBorder" position="350,120" size="500,450" title="Message">
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColor="XionLightFont2" halign="left" position="10,7" render="Label" size="514,28" source="Title" transparent="1" zPosition="1" />
     <widget font="Regular;22" foregroundColor="XionLightFont1" name="text" position="94,49" size="420,28" />
-    <widget alphatest="blend" name="Errorpixmap" pixmap="skin_default/icons/input_error.png" position="20,50" size="53,53" />
-    <widget alphatest="blend" name="Questionpixmap" pixmap="skin_default/icons/input_question.png" position="20,50" size="53,53" />
-    <widget alphatest="blend" name="Infopixmap" pixmap="skin_default/icons/input_info.png" position="20,50" size="53,53" />
+    <widget alphatest="blend" name="ErrorPixmap" pixmap="skin_default/icons/input_error.png" position="20,50" size="53,53" />
+    <widget alphatest="blend" name="QuestionPixmap" pixmap="skin_default/icons/input_question.png" position="20,50" size="53,53" />
+    <widget alphatest="blend" name="InfoPixmap" pixmap="skin_default/icons/input_info.png" position="20,50" size="53,53" />
     <widget name="list" font="Regular;22" foregroundColor="XionLightFont1" position="21,136" size="760,320" transparent="1" />
     <applet type="onLayoutFinish">
 # this should be factored out into some helper code, but currently demonstrates applets.
@@ -2038,9 +2048,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <screen name="MessageBox" flags="wfNoBorder" position="240,177" size="800,10" zPosition="1" title="Message" backgroundColor="XionLightBackground">
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColor="XionLightFont2" halign="left" position="7,4" render="Label" size="514,28" source="Title" transparent="1" zPosition="1" />
     <widget name="text" position="94,49" size="680,0" font="Regular;22" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" />
-    <widget name="Errorpixmap" pixmap="XionLight/buttons/message/attention-53.png" position="20,50" size="53,53" alphatest="blend" />
-    <widget name="Questionpixmap" pixmap="XionLight/buttons/message/question-53.png" position="20,50" size="53,53" alphatest="blend" />
-    <widget name="Infopixmap" pixmap="XionLight/buttons/message/info-53.png" position="20,50" size="53,53" alphatest="blend" />
+    <widget name="ErrorPixmap" pixmap="XionLight/buttons/message/attention-53.png" position="20,50" size="53,53" alphatest="blend" />
+    <widget name="QuestionPixmap" pixmap="XionLight/buttons/message/question-53.png" position="20,50" size="53,53" alphatest="blend" />
+    <widget name="InfoPixmap" pixmap="XionLight/buttons/message/info-53.png" position="20,50" size="53,53" alphatest="blend" />
     <widget name="list" position="21,136" size="760,320" itemHeight="32" transparent="1" />
     <applet type="onLayoutFinish">
 # this should be factored out into some helper code,but currently demonstrates applets.
@@ -2106,7 +2116,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget font="Regular2; 30" foregroundColor="XionLightFont2" position="891,78" halign="center" render="Label" size="362,40" source="ServiceEvent" backgroundColor="XionLightBackground" zPosition="-8" valign="center">
       <convert type="XionLightEventName">Name</convert>
     </widget>
- <epixmap pixmap="XionLight/line/line362.png" position="891,535" size="362,2" backgroundColor="XionLightBackground" alphatest="blend" />   
+ <ePixmap pixmap="XionLight/line/line362.png" position="891,535" size="362,2" backgroundColor="XionLightBackground" alphatest="blend" />   
 <panel name="template_menu_full_button_nologo" />
 <panel name="template_colorkey_text" />
   </screen>
@@ -2128,11 +2138,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget backgroundColor="XionLightBackground" font="Regular2;23" position="70,96" render="Label" size="1110,28" source="Title" transparent="1" />
     <widget colorEventProgressbarBorder="XionLightFont1" colorEventProgressbarBorderSelected="XionLightFont1" colorServiceDescription="XionLightFont1" colorServiceDescriptionSelected="yellow" foregroundColorServiceNotAvail="#777777" name="list" position="70,132" serviceInfoFont="Regular;21" serviceItemHeight="30" serviceNameFont="Regular;25" serviceNumberFont="Regular2;23" size="1110,315" transparent="1" />
     <eLabel backgroundColor="XionLightBackground" position="0,5" size="1280,515" transparent="0" zPosition="-9" foregroundColor="XionLightFont2" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,452" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_red1.png" position="22,465" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_green1.png" position="222,465" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,465" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_blue1.png" position="622,465" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,452" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="22,465" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="222,465" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,465" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="622,465" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
     <panel name="template_colorkey_text" />
   </screen>
   <!-- mySmallChannelSelection -->
@@ -2199,7 +2209,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget alphatest="blend" position="14,448" render="XionLightXPicon" size="100,60" source="session.CurrentService" transparent="1" zPosition="4">
       <convert type="ServiceName">Reference</convert>
     </widget>
-    <widget alphatest="blend" pixmap="XionLight/buttons/ico_rec_on.png" position="19,537" render="pixmap" size="32,32" source="session.RecordState" zPosition="5">
+    <widget alphatest="blend" pixmap="XionLight/buttons/ico_rec_on.png" position="19,537" render="Pixmap" size="32,32" source="session.RecordState" zPosition="5">
       <convert type="ConditionalShowHide">Blink</convert>
     </widget>
   </screen>
@@ -2211,8 +2221,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   </screen>
   <!-- RadioInfoBar -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="RadioInfoBar" position="2,502" size="1280,220" title="Radio">
-    <epixmap alphatest="blend" foregroundColor="orange" position="450,160" size="448,16" zPosition="7" />
-    <epixmap alphatest="blend" foregroundColor="orange" position="470,161" size="400,14" zPosition="2" />
+    <ePixmap alphatest="blend" foregroundColor="orange" position="450,160" size="448,16" zPosition="7" />
+    <ePixmap alphatest="blend" foregroundColor="orange" position="470,161" size="400,14" zPosition="2" />
     <widget backgroundColor="XionLightBackground" font="Regular2;26" halign="right" position="1140,155" render="Label" size="80,28" source="global.CurrentTime" transparent="1">
       <convert type="XionLightClockToText">Default</convert>
     </widget>
@@ -2284,10 +2294,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   </screen>
   <!-- UIPositionSetup -->
   <screen backgroundColor="black" flags="wfNoBorder" name="UIPositionSetup" position="0,0" size="1280,720" title="Position Setup">
-    <epixmap alphatest="blend" pixmap="XionLight/test.png" position="0,0" size="1295,720" transparent="0" zPosition="-20" />
+    <ePixmap alphatest="blend" pixmap="XionLight/test.png" position="0,0" size="1295,720" transparent="0" zPosition="-20" />
     <widget backgroundColor="black" font="Arial; 40" position="307,177" render="Label" size="664,45" source="Title" transparent="0" halign="center" foregroundColor="XionLightFont1" />
-    <epixmap alphatest="blend" pixmap="XionLight/buttons/key_red1.png" position="373,506" size="32,32" />
-    <epixmap alphatest="blend" pixmap="XionLight/buttons/key_green1.png" position="703,506" size="32,32" />
+    <ePixmap alphatest="blend" pixmap="XionLight/buttons/key_red1.png" position="373,506" size="32,32" />
+    <ePixmap alphatest="blend" pixmap="XionLight/buttons/key_green1.png" position="703,506" size="32,32" />
     <widget font="Regular2;20" halign="left" position="411,510" render="Label" size="180,24" source="key_red" transparent="0" valign="center" zPosition="1" backgroundColor="black" />
     <widget font="Regular2;20" halign="left" position="742,510" render="Label" size="180,24" source="key_green" transparent="0" valign="center" zPosition="1" backgroundColor="black" />
     <widget name="config" position="308,285" size="664,208" transparent="0" zPosition="2" backgroundColor="black" foregroundColor="XionLightFont1" />
@@ -2314,16 +2324,16 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <screen name="AudioSelection" title="Audio" position="center,center" size="600,426" flags="wfNoBorder" backgroundColor="XionLightBackground">
     <widget source="Title" render="Label" position="25,5" size="550,40" backgroundColor="XionLightbackground" transparent="1" font="Regular2;34" foregroundColor="XionLightFont2" valign="center" halign="left" noWrap="1" />
     <widget name="config" position="74,64" font="Regular;22" foregroundColor="XionLightFont1" size="500,200" itemHeight="40" transparent="1" zPosition="3" />
-    <widget source="key_red" render="pixmap" pixmap="XionLight/buttons/key_red1.png" position="25,70" size="22,34" alphatest="blend">
+    <widget source="key_red" render="Pixmap" pixmap="XionLight/buttons/key_red1.png" position="25,70" size="22,34" alphatest="blend">
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="key_green" render="pixmap" pixmap="XionLight/buttons/key_green1.png" position="25,110" size="22,34" alphatest="blend">
+    <widget source="key_green" render="Pixmap" pixmap="XionLight/buttons/key_green1.png" position="25,110" size="22,34" alphatest="blend">
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="key_yellow" render="pixmap" pixmap="XionLight/buttons/key_yellow1.png" position="25,150" size="22,34" alphatest="blend">
+    <widget source="key_yellow" render="Pixmap" pixmap="XionLight/buttons/key_yellow1.png" position="25,150" size="22,34" alphatest="blend">
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="key_blue" render="pixmap" pixmap="XionLight/buttons/key_blue1.png" position="25,190" size="22,34" alphatest="blend">
+    <widget source="key_blue" render="Pixmap" pixmap="XionLight/buttons/key_blue1.png" position="25,190" size="22,34" alphatest="blend">
       <convert type="ConditionalShowHide" />
     </widget>
     <widget source="streams" render="Listbox" position="25,277" size="530,100" zPosition="3" transparent="1">
@@ -2349,9 +2359,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 				}
 			</convert>
     </widget>
-    <epixmap pixmap="XionLight/buttons/key_exit.png" position="339,387" size="32,32" zPosition="3" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_exit.png" position="339,387" size="32,32" zPosition="3" alphatest="blend" />
     <eLabel text="Cancel" backgroundColor="XionLightbackground" font="Regular;20" foregroundColor="XionLightButtonText" halign="left" position="378,393" size="220,30" transparent="1" zPosition="1" />
-    <epixmap pixmap="XionLight/buttons/key_ok.png" alphatest="blend" position="35,387" size="32,32" zPosition="3" />
+    <ePixmap pixmap="XionLight/buttons/key_ok.png" alphatest="blend" position="35,387" size="32,32" zPosition="3" />
     <eLabel text="Auswahl" backgroundColor="XionLightbackground" font="Regular;20" foregroundColor="XionLightButtonText" halign="left" position="75,393" size="220,30" transparent="1" zPosition="3" />
   </screen>
   <!-- Change_volume -->
@@ -2376,7 +2386,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <!-- ********** Subtitles and Subservices ********** -->
   <!-- SubservicesQuickzap -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="SubservicesQuickzap" position="380,600" size="560,100" title="Subservices">
-    <widget alphatest="blend" pixmap="skin_default/icons/record.png" position="450,0" render="pixmap" size="14,14" source="session.RecordState" zPosition="2">
+    <widget alphatest="blend" pixmap="skin_default/icons/record.png" position="450,0" render="Pixmap" size="14,14" source="session.RecordState" zPosition="2">
       <convert type="ConditionalShowHide">Blink</convert>
     </widget>
     <eLabel backgroundColor="XionLightBackground" font="Regular2;20" foregroundColor="XionLightFont2" halign="center" position="0,0" size="560,28" text="Subservices" valign="center" />
@@ -2456,7 +2466,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <!-- ********** Tuner Setup ********** -->
   <!-- Dish -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="Dish" position="900,90" size="170,170" title="Dish" zPosition="-1">
-    <widget alphatest="off" name="Dishpixmap" pixmap="XionLight/buttons/dish.png" position="4,6" size="171,170" />
+    <widget alphatest="off" name="DishPixmap" pixmap="XionLight/buttons/dish.png" position="4,6" size="171,170" />
   </screen>
   <!-- NimSelection -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="NimSelection" position="0,0" size="1280,720" title="Choose Tuner">
@@ -2526,11 +2536,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
       <convert type="FrontendInfo">BER</convert>
     </widget>
     <eLabel backgroundColor="XionLightBackground" font="Regular2;21" foregroundColor="XionLightFont2" halign="right" name="lock" position="120,185" size="80,25" text="Lock:" transparent="1" />
-    <widget alphatest="blend" pixmap="skin_default/icons/lock_on.png" position="210,183" render="pixmap" size="38,31" source="Frontend" zPosition="1">
+    <widget alphatest="blend" pixmap="skin_default/icons/lock_on.png" position="210,183" render="Pixmap" size="38,31" source="Frontend" zPosition="1">
       <convert type="FrontendInfo">LOCK</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget alphatest="blend" pixmap="skin_default/icons/lock_off.png" position="210,183" render="pixmap" size="8,31" source="Frontend" zPosition="1">
+    <widget alphatest="blend" pixmap="skin_default/icons/lock_off.png" position="210,183" render="Pixmap" size="8,31" source="Frontend" zPosition="1">
       <convert type="FrontendInfo">LOCK</convert>
       <convert type="ConditionalShowHide">Invert</convert>
     </widget>
@@ -2553,17 +2563,17 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   </screen>
   <!-- ServiceScan -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="ServiceScan" position="0,0" size="1280,720" title="Service Scan">
-    <widget alphatest="blend" pixmap="skin_default/icons/scan-s.png" position="707,120" render="pixmap" size="64,64" source="FrontendInfo" transparent="1">
+    <widget alphatest="blend" pixmap="skin_default/icons/scan-s.png" position="707,120" render="Pixmap" size="64,64" source="FrontendInfo" transparent="1">
       <convert type="FrontendInfo">TYPE</convert>
       <convert type="XionLightValueRange">0,0</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget alphatest="blend" pixmap="skin_default/icons/scan-c.png" position="707,120" render="pixmap" size="64,64" source="FrontendInfo" transparent="1">
+    <widget alphatest="blend" pixmap="skin_default/icons/scan-c.png" position="707,120" render="Pixmap" size="64,64" source="FrontendInfo" transparent="1">
       <convert type="FrontendInfo">TYPE</convert>
       <convert type="XionLightValueRange">1,1</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget alphatest="blend" pixmap="skin_default/icons/scan-t.png" position="707,120" render="pixmap" size="64,64" source="FrontendInfo" transparent="1">
+    <widget alphatest="blend" pixmap="skin_default/icons/scan-t.png" position="707,120" render="Pixmap" size="64,64" source="FrontendInfo" transparent="1">
       <convert type="FrontendInfo">TYPE</convert>
       <convert type="XionLightValueRange">2,2</convert>
       <convert type="ConditionalShowHide" />
@@ -2679,7 +2689,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
       <convert type="TemplatedMultiContent">
 			{"templates":
 				{"default": (105,[
-						MultiContentEntrypixmapAlphaTest(pos = (18, 14), size = (48, 48), png = 5), # index 5 is the status pixmap
+						MultiContentEntryPixmapAlphaTest(pos = (18, 14), size = (48, 48), png = 5), # index 5 is the status Pixmap
 						MultiContentEntryText(pos = (90, 5), size = (565, 36), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
 						MultiContentEntryText(pos = (100, 33), size = (555, 38), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 2 is the description
 					]),
@@ -2702,7 +2712,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget position="70,80" render="Listbox" size="708,450" source="list" transparent="1">
       <convert type="TemplatedMultiContent">
 				{"template": [
-						MultiContentEntrypixmapAlphaTest(pos = (18, 14), size = (48, 48), png = 2), # index 2 is the status pixmap
+						MultiContentEntryPixmapAlphaTest(pos = (18, 14), size = (48, 48), png = 2), # index 2 is the status Pixmap
 						MultiContentEntryText(pos = (90, 5), size = (565, 26), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
 						MultiContentEntryText(pos = (90, 33), size = (565, 38), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 1 is the state
 					],
@@ -2722,7 +2732,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 				{"template": [
 						MultiContentEntryText(pos = (90, 5), size = (565, 26), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
 						MultiContentEntryText(pos = (90, 33), size = (565, 38), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 1 is the state
-						MultiContentEntrypixmapAlphaTest(pos = (15, 5), size = (48, 48), png = 2), # index 2 is the status pixmap
+						MultiContentEntryPixmapAlphaTest(pos = (15, 5), size = (48, 48), png = 2), # index 2 is the status Pixmap
 					],
 				"fonts": [gFont("Regular", 22),gFont("Regular", 17)],
 				"itemHeight": 75
@@ -2773,10 +2783,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget position="70,80" render="Listbox" size="708,540" source="list" transparent="1">
       <convert type="TemplatedMultiContent">
 				{"template": [
-						MultiContentEntrypixmapAlphaTest(pos = (18, 5), size = (48, 48), png = 4), # index 4 is the status pixmap
+						MultiContentEntryPixmapAlphaTest(pos = (18, 5), size = (48, 48), png = 4), # index 4 is the status Pixmap
 						MultiContentEntryText(pos = (90, 5), size = (590, 28), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
 						MultiContentEntryText(pos = (100, 35), size = (590, 20), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 2 is the description
-						MultiContentEntrypixmapAlphaTest(pos = (5, 58), size = (0, 0), png = 5), # index 4 is the div pixmap
+						MultiContentEntryPixmapAlphaTest(pos = (5, 58), size = (0, 0), png = 5), # index 4 is the div Pixmap
 					],
 				"fonts": [gFont("Regular", 22),gFont("Regular", 16)],
 				"itemHeight": 60
@@ -2822,7 +2832,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget source="list" render="Listbox" position="68,80" size="708,490" zPosition="10" transparent="1">
       <convert type="TemplatedMultiContent">
 							{"template": [
-									MultiContentEntrypixmapAlphaTest(pos = (2, 8), size = (54, 54), png = 2), # index 3 is the interface pixmap
+									MultiContentEntryPixmapAlphaTest(pos = (2, 8), size = (54, 54), png = 2), # index 3 is the interface Pixmap
 									MultiContentEntryText(pos = (65, 6), size = (450, 54), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER|RT_WRAP, text = 1), # index 1 is the interfacename
 								],
 							"fonts": [gFont("Regular", 20),gFont("Regular", 20)],
@@ -2928,7 +2938,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <!--/* Volume -->
   <screen name="Volume" position="47,38" size="340,74" title="Volume" flags="wfNoBorder" backgroundColor="transparent" zPosition="99">
 	<widget name="Volume" position="72,34" size="170,5" zPosition="3" transparent="1" foregroundColor="XionLightProgress" />
-	<epixmap position="4,5" size="64,64" zPosition="1" pixmap="XionLight/buttons/volume.png" transparent="0" alphatest="blend" />
+	<ePixmap position="4,5" size="64,64" zPosition="1" pixmap="XionLight/buttons/volume.png" transparent="0" alphatest="blend" />
 	<widget font="Regular;40" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" halign="center" valign="center" render="XionLightVVolumeText" source="global.CurrentTime" position="246,4" size="85,60" zPosition="20" transparent="1" />
 	<eLabel position="72,35" size="170,3" backgroundColor="XionLightLine" />
 	<eLabel position="0,0" size="340,74" backgroundColor="XionLightBackground" zPosition="-2" transparent="0" />
@@ -3033,8 +3043,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <eLabel text="OPEN SOURCE" position="460,123" size="353,28" font="Regular2; 22" transparent="1" zPosition="1" foregroundColor="XionLightFont2" />
     <eLabel text="https://github.com/openhdf" position="460,163" size="352,28" font="Regular2; 19" transparent="1" zPosition="1" foregroundColor="XionLightFont2" />
     <eLabel text="https://github.com/oe-alliance" position="460,203" size="354,28" font="Regular2; 19" transparent="1" zPosition="1" foregroundColor="XionLightFont2" />
-	<eLabel text="Designed by Kraven" position="880,520" size="355,35" font="Regular2; 24" transparent="1" zPosition="1" halign="center" />
-    <eLabel text="modified by XionLightbox" position="880,565" size="355,35" font="Regular2; 24" transparent="1" zPosition="1" halign="center" />
+	<eLabel text="Designed by" position="880,520" size="355,35" font="Regular2; 24" transparent="1" zPosition="1" halign="center" />
+    <eLabel text="Team Kraven" position="880,565" size="355,35" font="Regular2; 24" transparent="1" zPosition="1" halign="center" />
 	<widget name="AboutScrollLabel" position="70,253" size="650,360" scrollbarMode="showOnDemand" font="Regular;20" transparent="1" zPosition="1" />
     <panel name="template_menu_full" />
   </screen>
@@ -3108,7 +3118,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <widget source="menu" render="Listbox" position="70,136" size="708,488" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
 				{"template": [
-					MultiContentEntrypixmapAlphaTest(pos = (5, 0), size = (48, 48), png = 0),
+					MultiContentEntryPixmapAlphaTest(pos = (5, 0), size = (48, 48), png = 0),
 					MultiContentEntryText(pos = (65, 10), size = (330, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
 					MultiContentEntryText(pos = (405, 10), size = (125, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
 					],
@@ -3125,7 +3135,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <widget name="menu" render="Listbox" position="70,80" size="708,540" scrollbarMode="showOnDemand" itemHeight="50" transparent="1">
     <convert type="TemplatedMultiContent">
 				{"template": [
-					MultiContentEntrypixmapAlphaTest(pos = (2, 0), size = (48, 48), png = 0),
+					MultiContentEntryPixmapAlphaTest(pos = (2, 0), size = (48, 48), png = 0),
 					MultiContentEntryText(pos = (65, 10), size = (330, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
 					MultiContentEntryText(pos = (475, 10), size = (125, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
 					],
@@ -3157,7 +3167,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <widget name="menu" render="Listbox" position="70,80" size="708,540" scrollbarMode="showOnDemand" itemHeight="50" transparent="1">
     <convert type="TemplatedMultiContent">
 				{"template": [
-					MultiContentEntrypixmapAlphaTest(pos = (2, 0), size = (48, 48), png = 0),
+					MultiContentEntryPixmapAlphaTest(pos = (2, 0), size = (48, 48), png = 0),
 					MultiContentEntryText(pos = (65, 10), size = (330, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
 					MultiContentEntryText(pos = (475, 10), size = (125, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
 					],
@@ -3215,7 +3225,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <!-- HFD Toolbox -->
   <screen name="Fantastic" position="0,0" size="1280,720" title="HDF Toolbox" backgroundColor="XionLightBackground">
   <widget name="menu" position="70,100" size="510,469" scrollbarMode="showOnDemand" transparent="1" />
-  <epixmap position="70,445" size="380,57" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/HDF-Toolbox/banner.png" zPosition="2" alphatest="on" />
+  <ePixmap position="70,445" size="380,57" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/HDF-Toolbox/banner.png" zPosition="2" alphatest="on" />
   <panel name="template_menu_full" />
 </screen>
   <!-- LogManager -->
@@ -3232,19 +3242,19 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <widget source="size2" render="Label" position="485,116" size="100,30" zPosition="10" font="Regular;21" halign="left" valign="top" backgroundColor="XionLightBackground" transparent="1" />
   <widget source="description" render="Label" position="485,210" size="330,150" zPosition="10" font="Regular;15" halign="left" valign="top" backgroundColor="XionLightBackground" transparent="1" />
   <widget source="description2" render="Label" position="485,168" size="150,30" zPosition="10" font="Regular;21" halign="left" valign="top" backgroundColor="XionLightBackground" transparent="1" />
-  <epixmap name="1" position="1058,385" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_1.png" transparent="1" alphatest="on" />
+  <ePixmap name="1" position="1058,385" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_1.png" transparent="1" alphatest="on" />
   <widget name="key_1" position="753,386" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
-  <epixmap name="2" position="1058,410" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_2.png" transparent="1" alphatest="on" />
+  <ePixmap name="2" position="1058,410" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_2.png" transparent="1" alphatest="on" />
   <widget name="key_2" position="753,411" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
-  <epixmap name="3" position="1058,435" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_3.png" transparent="1" alphatest="on" />
+  <ePixmap name="3" position="1058,435" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_3.png" transparent="1" alphatest="on" />
   <widget name="key_3" position="753,435" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
-  <epixmap name="4" position="1058,460" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_4.png" transparent="1" alphatest="on" />
+  <ePixmap name="4" position="1058,460" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_4.png" transparent="1" alphatest="on" />
   <widget name="key_4" position="753,461" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
-  <epixmap name="5" position="1058,485" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_5.png" transparent="1" alphatest="on" />
+  <ePixmap name="5" position="1058,485" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_5.png" transparent="1" alphatest="on" />
   <widget name="key_5" position="753,486" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
-  <epixmap name="6" position="1058,510" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_6.png" transparent="1" alphatest="on" />
+  <ePixmap name="6" position="1058,510" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_6.png" transparent="1" alphatest="on" />
   <widget name="key_6" position="753,511" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
-  <epixmap name="0" position="1058,535" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_0.png" transparent="1" alphatest="on" />
+  <ePixmap name="0" position="1058,535" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_0.png" transparent="1" alphatest="on" />
   <widget name="key_0" position="753,536" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
   <panel name="template_menu_full_button_nologo" />
   <panel name="template_colorkey_text_source" />
@@ -3257,7 +3267,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryText(pos = (50, 3), size = (650, 23), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 0),
-					MultiContentEntrypixmapAlphaTest(pos = (5, 1), size = (24, 24), png = 1),
+					MultiContentEntryPixmapAlphaTest(pos = (5, 1), size = (24, 24), png = 1),
 					],
 					"fonts": [gFont("Regular", 19), gFont("Regular", 16)],
 					"itemHeight": 30
@@ -3310,7 +3320,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget source="list" render="Listbox" position="70,80" size="708,540" backgroundColor="XionLightBackground" transparent="1">
       <convert type="TemplatedMultiContent">
 			{"template": [
-				MultiContentEntrypixmapAlphaTest(pos = (12, 4), size = (32, 32), png = 0),
+				MultiContentEntryPixmapAlphaTest(pos = (12, 4), size = (32, 32), png = 0),
 				MultiContentEntryText(pos = (58, 5), size = (440, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
 				],
 				"fonts": [gFont("Regular", 22)],
@@ -3360,7 +3370,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget source="list" render="Listbox" position="70,80" size="708,540" backgroundColor="XionLightBackground" transparent="1">
       <convert type="TemplatedMultiContent">
 					{"template": [
-						MultiContentEntrypixmapAlphaTest(pos = (10, 0), size = (32, 32), png = 0),
+						MultiContentEntryPixmapAlphaTest(pos = (10, 0), size = (32, 32), png = 0),
 						MultiContentEntryText(pos = (47, 0), size = (400, 30), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
 						MultiContentEntryText(pos = (450, 0), size = (120, 30), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
 						],
@@ -3377,7 +3387,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget source="list" render="Listbox" position="70,80" size="708,540" backgroundColor="XionLightBackground" transparent="1">
       <convert type="TemplatedMultiContent">
 					{"template": [
-						MultiContentEntrypixmapAlphaTest(pos = (10, 0), size = (32, 32), png = 0),
+						MultiContentEntryPixmapAlphaTest(pos = (10, 0), size = (32, 32), png = 0),
 						MultiContentEntryText(pos = (47, 0), size = (400, 30), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
 						MultiContentEntryText(pos = (450, 0), size = (120, 30), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
 						],
@@ -3523,7 +3533,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 				}
 			</convert>
     </widget>
-    <epixmap alphatest="blend" pixmap="XionLight/mp_buttons.png" position="880,592" size="260,32" />
+    <ePixmap alphatest="blend" pixmap="XionLight/mp_buttons.png" position="880,592" size="260,32" />
     <panel name="template_menu_full_nologo" />
   </screen>
   <!-- ********** DreamExplorerII ********** -->
@@ -3674,21 +3684,21 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <widget backgroundColor="XionLightBackground" font="Regular; 20" halign="right" position="926,629" render="Label" size="100,35" source="session.CurrentService" transparent="1" valign="center" zPosition="1">
     <convert type="ServicePosition">Remaining</convert>
   </widget>
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_rec_on.png" position="360,680" render="pixmap" size="32,32" source="session.RecordState" zPosition="5">
+  <widget alphatest="blend" pixmap="XionLight/buttons/ico_rec_on.png" position="360,680" render="Pixmap" size="32,32" source="session.RecordState" zPosition="5">
     <convert type="ConditionalShowHide">Blink</convert>
   </widget>
-  <epixmap alphatest="blend" pixmap="XionLight/buttons/ico_dolby_off.png" position="210,680" size="32,32" zPosition="1" />
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_dolby_on.png" position="210,680" render="pixmap" size="32,32" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="XionLight/buttons/ico_dolby_off.png" position="210,680" size="32,32" zPosition="1" />
+  <widget alphatest="blend" pixmap="XionLight/buttons/ico_dolby_on.png" position="210,680" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="2">
     <convert type="XionLightServiceInfo">IsMultichannel</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <epixmap alphatest="blend" pixmap="XionLight/buttons/ico_format_off.png" position="260,680" size="32,32" zPosition="1" />
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_format_on.png" position="260,680" render="pixmap" size="32,32" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="XionLight/buttons/ico_format_off.png" position="260,680" size="32,32" zPosition="1" />
+  <widget alphatest="blend" pixmap="XionLight/buttons/ico_format_on.png" position="260,680" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="2">
     <convert type="XionLightServiceInfo">IsWidescreen</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <epixmap alphatest="blend" pixmap="XionLight/buttons/ico_hd_off.png" position="310,680" size="32,32" zPosition="1" />
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_hd_on.png" position="310,680" render="pixmap" size="32,32" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="XionLight/buttons/ico_hd_off.png" position="310,680" size="32,32" zPosition="1" />
+  <widget alphatest="blend" pixmap="XionLight/buttons/ico_hd_on.png" position="310,680" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="2">
     <convert type="XionLightServiceInfo">IsHD</convert>
     <convert type="ConditionalShowHide" />
   </widget>
@@ -3739,9 +3749,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget name="exist" position="69,439" size="200,24" font="Regular; 20" halign="left" backgroundColor="XionLightBackground" transparent="1" />
     <widget name="no_poster" position="69,470" size="200,24" font="Regular; 20" halign="left" backgroundColor="XionLightBackground" transparent="1" />
     <widget name="download" position="69,408" size="200,24" font="Regular; 20" halign="left" backgroundColor="XionLightBackground" transparent="1" />
-    <epixmap pixmap="XionLight/buttons/key_menu.png" position="67,538" size="32,32" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_menu.png" position="67,538" size="32,32" alphatest="blend" />
     <eLabel text="Einfache Suche" position="121,507" size="240,24" zPosition="1" font="Regular; 20" halign="left" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" />
-    <epixmap pixmap="XionLight/buttons/key_ok.png" position="67,502" size="32,32" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_ok.png" position="67,502" size="32,32" alphatest="blend" />
     <eLabel text="Einstellungen" position="121,542" size="240,24" zPosition="1" font="Regular; 20" halign="left" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" />
     <eLabel text="Löschen" position="64,662" size="148,48" zPosition="1" font="Regular; 20" halign="left" valign="center" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" />
     <eLabel text="Suchen" position="264,662" size="148,48" zPosition="1" font="Regular; 20" halign="left" valign="center" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" />
@@ -3770,8 +3780,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   </screen>
   <!-- getCover -->
   <screen name="getCover" position="0,0" size="1280,720" title="EMC Cover Selecter" flags="wfNoBorder" backgroundColor="transparent">
-    <epixmap pixmap="XionLight/buttons/key_ok.png" position="998,435" size="32,32" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_menu.png" position="1122,435" size="32,32" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_ok.png" position="998,435" size="32,32" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_menu.png" position="1122,435" size="32,32" alphatest="blend" />
     <widget name="menulist" position="100,80" size="708,420" enableWrapAround="1" backgroundColor="XionLightBackground" transparent="1" />
     <widget name="info" position="70,544" size="708,27" font="Regular2; 23" halign="center" backgroundColor="XionLightBackground" transparent="1" foregroundColor="XionLightFont2" />
     <eLabel backgroundColor="XionLightBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" />
@@ -3780,14 +3790,14 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   </screen>
   <!-- DownloadMovieInfo -->
   <screen name="DownloadMovieInfo" position="0,0" size="1280,720" title="Download Movie Info" flags="wfNoBorder" backgroundColor="transparent">
-    <epixmap pixmap="XionLight/buttons/key_ok.png" position="22,670" size="32,32" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_menu.png" position="222,670" size="32,32" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_ok.png" position="22,670" size="32,32" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_menu.png" position="222,670" size="32,32" alphatest="blend" />
     <widget name="movielist" position="70,164" size="708,420" enableWrapAround="1" backgroundColor="XionLightBackground" transparent="1" />
     <widget name="movie_name" position="70,80" size="708,70" font="Regular; 30" backgroundColor="XionLightBackground" transparent="1" />
     <widget name="poster" position="998,167" size="156,260" zPosition="4" alphatest="on" />
     <widget name="resulttext" position="70,600" size="708,28" font="Regular2; 22" halign="center" backgroundColor="XionLightBackground" transparent="1" foregroundColor="XionLightFont2" />
-    <epixmap pixmap="XionLight/buttons/key_exit.png" position="622,670" size="32,32" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_epg.png" position="422,670" size="32,32" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_exit.png" position="622,670" size="32,32" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_epg.png" position="422,670" size="32,32" alphatest="blend" />
     <widget name="movieinfo" position="64,662" size="148,48" font="Regular; 17" backgroundColor="XionLightBackground" transparent="1" foregroundColor="XionLightFont1" halign="left" valign="center" />
     <widget name="safe" position="264,662" size="148,48" font="Regular; 17" backgroundColor="XionLightBackground" transparent="1" foregroundColor="XionLightFont1" halign="left" valign="center" />
     <widget name="setup" position="464,662" size="148,48" font="Regular; 17" backgroundColor="XionLightBackground" transparent="1" foregroundColor="XionLightFont1" halign="left" valign="center" />
@@ -3867,7 +3877,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
       <convert type="TemplatedMultiContent">
 				{"template": [
 					 MultiContentEntryText(pos = (5,5),size = (120,24),flags = RT_HALIGN_LEFT,text = 1),# index 0 is the MenuText,
-					 MultiContentEntrypixmapAlphaTest(pos = (130,5),size = (25,25),png = 2),# index 1 i direction pixmap
+					 MultiContentEntryPixmapAlphaTest(pos = (130,5),size = (25,25),png = 2),# index 1 i direction Pixmap
 					 MultiContentEntryText(pos = (160,5),size = (270,24),flags = RT_HALIGN_LEFT,text = 3),# index 2 is remote name/number
 					 MultiContentEntryText(pos = (440,5),size = (60,24),flags = RT_HALIGN_LEFT,text = 4),# index 3 is length of call
 					 MultiContentEntryText(pos = (510,5),size = (225,24),flags = RT_HALIGN_CENTER,text = 5),# index 4 is my number/name for number
@@ -4057,7 +4067,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget backgroundColor="XionLightBackground" font="Regular2;22" name="genre" position="58,540" size="320,30" transparent="1" valign="top" />
     <widget backgroundColor="XionLightBackground" font="Regular2; 26" halign="left" name="title" position="58,328" size="325,40" transparent="1" />
     <widget backgroundColor="XionLightBackground" scrollbarMode="showNever" enableWrapAround="1" itemHeight="25" name="playlist" position="430,324" size="782,307" transparent="1" />
-    <widget alphatest="blend" name="repeat" pixmaps="XionLight/repeat_off.png,XionLight/repeat_on.png" position="1037,671" size="70,30" transparent="1" />
+    <widget alphatest="blend" name="repeat" Pixmaps="XionLight/repeat_off.png,XionLight/repeat_on.png" position="1037,671" size="70,30" transparent="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2; 22" halign="left" noWrap="1" position="58,425" render="Label" size="119,32" source="session.CurrentService" transparent="1" zPosition="2">
       <convert type="ServicePosition">Position,ShowHours</convert>
     </widget>
@@ -4067,7 +4077,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget position="71,410" render="Progress" size="300,5" source="session.CurrentService" transparent="1" zPosition="1" foregroundColor="orange">
       <convert type="ServicePosition">Position</convert>
     </widget>
-    <epixmap alphatest="blend" pixmap="XionLight/buttons/key_menu.png" position="1129,670" size="32,32" zPosition="10" />
+    <ePixmap alphatest="blend" pixmap="XionLight/buttons/key_menu.png" position="1129,670" size="32,32" zPosition="10" />
     <eLabel backgroundColor="XionLightBackground" font="Regular2; 26" position="432,65" size="500,40" text="Media Player" transparent="1" />
     <eLabel backgroundColor="XionLightBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" />
     <panel name="template_menu_full_nologo" />
@@ -4120,8 +4130,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     </widget>
     <eLabel text="next" position="80,623" size="60,25" font="Regular2; 18" backgroundColor="XionLightBackground" foregroundColor="XionLightFont2" transparent="1" />
     <widget name="nextTitle" position="140,620" size="680,26" font="Regular2; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightFont2" transparent="1" />
-    <widget name="shuffle" position="630,120" size="50,25" pixmaps="XionLight/mmp/placeholder1.png,XionLight/mmp/shuffle.png" alphatest="blend" />
-    <widget name="repeat" position="700,120" size="50,25" pixmaps="XionLight/mmp/placeholder1.png,XionLight/mmp/repeat.png" alphatest="blend" />
+    <widget name="shuffle" position="630,120" size="50,25" Pixmaps="XionLight/mmp/placeholder1.png,XionLight/mmp/shuffle.png" alphatest="blend" />
+    <widget name="repeat" position="700,120" size="50,25" Pixmaps="XionLight/mmp/placeholder1.png,XionLight/mmp/repeat.png" alphatest="blend" />
     <widget name="PositionGauge" position="0,0" size="0,0" />
     <widget name="coverArt" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MerlinMusicPlayer/images/no_coverArt.png" position="789,140" size="470,470" transparent="1" alphatest="blend" />
     <eLabel backgroundColor="XionLightBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" />
@@ -4197,10 +4207,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <widget backgroundColor="XionLightBackground" font="Regular;19" foregroundColor="XionLightFont1" position="850,167" render="Label" size="377,483" source="Service" transparent="1" valign="top">
     <convert type="XionLightEventName">BothDescriptionsFiltered</convert>
   </widget>
-  <epixmap pixmap="XionLight/buttons/key_red1.png" position="22,670" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
-  <epixmap pixmap="XionLight/buttons/key_green1.png" position="222,670" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
-  <epixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,670" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
-  <epixmap pixmap="XionLight/buttons/key_blue1.png" position="622,670" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
+  <ePixmap pixmap="XionLight/buttons/key_red1.png" position="22,670" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
+  <ePixmap pixmap="XionLight/buttons/key_green1.png" position="222,670" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
+  <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,670" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
+  <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="622,670" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
   <panel name="template_colorkey_text" />
   <panel name="template_ms" />
 </screen>
@@ -4222,21 +4232,21 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <widget backgroundColor="XionLightBackground" font="Regular; 20" halign="right" position="926,629" render="Label" size="100,35" source="session.CurrentService" transparent="1" valign="center" zPosition="1">
     <convert type="ServicePosition">Remaining</convert>
   </widget>
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_rec_on.png" position="360,680" render="pixmap" size="32,32" source="session.RecordState" zPosition="5">
+  <widget alphatest="blend" pixmap="XionLight/buttons/ico_rec_on.png" position="360,680" render="Pixmap" size="32,32" source="session.RecordState" zPosition="5">
     <convert type="ConditionalShowHide">Blink</convert>
   </widget>
-  <epixmap alphatest="blend" pixmap="XionLight/buttons/ico_dolby_off.png" position="210,680" size="32,32" zPosition="1" />
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_dolby_on.png" position="210,680" render="pixmap" size="32,32" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="XionLight/buttons/ico_dolby_off.png" position="210,680" size="32,32" zPosition="1" />
+  <widget alphatest="blend" pixmap="XionLight/buttons/ico_dolby_on.png" position="210,680" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="2">
     <convert type="XionLightServiceInfo">IsMultichannel</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <epixmap alphatest="blend" pixmap="XionLight/buttons/ico_format_off.png" position="260,680" size="32,32" zPosition="1" />
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_format_on.png" position="260,680" render="pixmap" size="32,32" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="XionLight/buttons/ico_format_off.png" position="260,680" size="32,32" zPosition="1" />
+  <widget alphatest="blend" pixmap="XionLight/buttons/ico_format_on.png" position="260,680" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="2">
     <convert type="XionLightServiceInfo">IsWidescreen</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <epixmap alphatest="blend" pixmap="XionLight/buttons/ico_hd_off.png" position="310,680" size="32,32" zPosition="1" />
-  <widget alphatest="blend" pixmap="XionLight/buttons/ico_hd_on.png" position="310,680" render="pixmap" size="32,32" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="XionLight/buttons/ico_hd_off.png" position="310,680" size="32,32" zPosition="1" />
+  <widget alphatest="blend" pixmap="XionLight/buttons/ico_hd_on.png" position="310,680" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="2">
     <convert type="XionLightServiceInfo">IsHD</convert>
     <convert type="ConditionalShowHide" />
   </widget>
@@ -4505,7 +4515,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <!-- BrowserLauncher -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="BrowserLauncher" position="0,0" size="1280,720" title="Web Browser">
     <widget name="config" position="108,112" size="309,100" />
-    <epixmap alphatest="blend" pixmap="XionLight/menu/rc_wb_desc.png" position="87,224" size="358,324" />
+    <ePixmap alphatest="blend" pixmap="XionLight/menu/rc_wb_desc.png" position="87,224" size="358,324" />
     <widget font="Regular2;18" foregroundColor="red" halign="center" name="info" position="100,550" size="309,70" transparent="1" />
     <panel name="template_colorkey_text_source" />
     <panel name="template_menu_full_button" />
@@ -4550,7 +4560,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <!-- ********** WebRadioFS ********** -->
   <!-- WebradioFSScreen_12 -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="WebradioFSScreen_12" position="0,0" size="1280,720" title="">
-    <epixmap alphatest="blend" pixmap="XionLight/icons/ico_rec_off.png" position="1036,674" size="60,25" zPosition="2" />
+    <ePixmap alphatest="blend" pixmap="XionLight/icons/ico_rec_off.png" position="1036,674" size="60,25" zPosition="2" />
     <widget name="rec_pic" alphatest="blend" pixmap="XionLight/icons/ico_rec_on.png" position="1036,674" size="60,25" zPosition="2" />
     <widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="rec_txt" position="70,565" size="620,26" transparent="0" valign="center" zPosition="2" />
     <widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="rec_txt2" position="70,565" size="620,26" transparent="1" valign="center" zPosition="3" />
@@ -4945,10 +4955,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget backgroundColor="XionLightBackground" font="Regular;20" foregroundColor="XionLightFont1" halign="center" name="Coolwhite" position="10,435" size="620,26" transparent="1" />
     <widget backgroundColor="XionLightBackground" font="Regular;20" foregroundColor="XionLightFont1" halign="center" name="Coolwhite" position="10,467" size="620,26" transparent="1" />
     <widget backgroundColor="XionLightBackground" enableWrapAround="1" name="config" position="15,69" size="630,350" transparent="1" foregroundColor="XionLightFont1" />
-    <epixmap alphatest="blend" pixmap="XionLight/buttons/key_red1.png" position="16,480" size="32,32" />
-    <epixmap alphatest="blend" pixmap="XionLight/buttons/key_green1.png" position="176,480" size="32,32" />
-    <epixmap alphatest="blend" pixmap="XionLight/buttons/key_yellow1.png" position="336,480" size="32,32" />
-    <epixmap alphatest="blend" pixmap="XionLight/buttons/key_blue1.png" position="496,480" size="32,32" />
+    <ePixmap alphatest="blend" pixmap="XionLight/buttons/key_red1.png" position="16,480" size="32,32" />
+    <ePixmap alphatest="blend" pixmap="XionLight/buttons/key_green1.png" position="176,480" size="32,32" />
+    <ePixmap alphatest="blend" pixmap="XionLight/buttons/key_yellow1.png" position="336,480" size="32,32" />
+    <ePixmap alphatest="blend" pixmap="XionLight/buttons/key_blue1.png" position="496,480" size="32,32" />
   </screen>
   <!-- CoolTVGuide */-->
   <!--/* NumberZapExt -->
@@ -4979,13 +4989,13 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <eLabel backgroundColor="XionLightBackground" text="PictureViewer" font="Regular2;34" foregroundColor="XionLightFont2" position="70,12" size="708,46" halign="center" valign="center" zPosition="1" transparent="1" />
     <eLabel backgroundColor="XionLightBackground" text="Source:" font="Regular2;24" foregroundColor="XionLightFont2" position="60,80" size="320,30" halign="left" valign="center" zPosition="1" transparent="1" />
     <widget name="menu" font="Regular;22" foregroundColor="XionLightFont1" itemHeight="30" position="60,130" size="340,480" scrollbarMode="showOnDemand" transparent="1" />
-    <widget name="pixmap" position="448,160" size="352,270" backgroundColor="XionLightBackground" />
+    <widget name="Pixmap" position="448,160" size="352,270" backgroundColor="XionLightBackground" />
     <eLabel backgroundColor="XionLightBackground" text="Playlist:" font="Regular2;24" foregroundColor="XionLightFont2" position="932,80" size="288,30" halign="left" valign="center" zPosition="1" transparent="1" />
     <widget name="slist" font="Regular;22" foregroundColor="XionLightFont1" itemHeight="30" position="932,130" size="288,480" scrollbarMode="showOnDemand" transparent="1" />
-    <epixmap pixmap="XionLight/buttons/key_red1.png" position="22,670" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_green1.png" position="222,670" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,670" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/buttons/key_blue1.png" position="622,670" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="22,670" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="222,670" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,670" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="622,670" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
     <panel name="template_colorkey_text_button" />
     <panel name="template_menu_full_nologo" />
   </screen>
@@ -5043,7 +5053,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
       <convert type="TemplatedMultiContent">
             {"templates":
 					{"default": (100,[
-							MultiContentEntrypixmapAlphaTest(pos = (10, 12), size = (100, 75), png = 4), # index 4 is the thumbnail
+							MultiContentEntryPixmapAlphaTest(pos = (10, 12), size = (100, 75), png = 4), # index 4 is the thumbnail
 							MultiContentEntryText(pos = (120, 10), size = (1160, 25), font=0, flags = RT_HALIGN_LEFT | RT_VALIGN_TOP| RT_WRAP, text = 1), # index 1 is the Title
 							MultiContentEntryText(pos = (140, 40), size = (300, 20), font=1, flags = RT_HALIGN_LEFT | RT_VALIGN_TOP| RT_WRAP, text = 5), # index 5 is the Published Date
 							MultiContentEntryText(pos = (140, 70), size = (300, 20), font=1, flags = RT_HALIGN_LEFT | RT_VALIGN_TOP| RT_WRAP, text = 6), # index 6 is the Views Count
@@ -5073,10 +5083,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
       <convert type="TemplatedMultiContent">
 				{"templates":
 					{"default": (110,[
-							MultiContentEntrypixmapAlphaTest(pos = (0, 4), size = (130, 98), png = 0), # index 0 is the thumbnail
-							MultiContentEntrypixmapAlphaTest(pos = (130, 4), size = (130, 98), png = 1), # index 0 is the thumbnail
-							MultiContentEntrypixmapAlphaTest(pos = (260, 4), size = (130, 98), png = 2), # index 0 is the thumbnail
-							MultiContentEntrypixmapAlphaTest(pos = (390, 4), size = (130, 98), png = 3), # index 0 is the thumbnail
+							MultiContentEntryPixmapAlphaTest(pos = (0, 4), size = (130, 98), png = 0), # index 0 is the thumbnail
+							MultiContentEntryPixmapAlphaTest(pos = (130, 4), size = (130, 98), png = 1), # index 0 is the thumbnail
+							MultiContentEntryPixmapAlphaTest(pos = (260, 4), size = (130, 98), png = 2), # index 0 is the thumbnail
+							MultiContentEntryPixmapAlphaTest(pos = (390, 4), size = (130, 98), png = 3), # index 0 is the thumbnail
 						]),
 					"state": (110,[
 							MultiContentEntryText(pos = (10, 40), size = (550, 38), font=2, flags = RT_HALIGN_LEFT | RT_VALIGN_TOP| RT_WRAP, text = 0), # index 0 is the name
@@ -5133,7 +5143,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget source="session.CurrentService" render="Label" position="640,120" size="150,24" font="Regular;20" halign="center" valign="center" backgroundColor="XionLightBackground" transparent="1" foregroundColor="XionLightFont1">
       <convert type="ServicePosition">Length</convert>
     </widget>
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,75" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,75" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
     <eLabel backgroundColor="XionLightBackground" position="0,8" size="1280,156" transparent="0" zPosition="-9" />
   </screen>
   <!-- MyTubeHistoryScreen -->
@@ -5175,7 +5185,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <!-- ****** SerienRecorder ****** -->
 <!--SerienRecorder-->
   <screen name="SerienRecorder3.0" position="0,0" size="1280,720" title="Serien Recorder" flags="wfNoBorder" backgroundColor="XionLightBackground">
-	<epixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
+	<ePixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
     <widget name="title" position="20,50" size="880,55" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1" font="Regular;26" valign="center" halign="center" />
     <widget name="headline" position="20,50" size="860,55" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1" font="Regular;26" valign="center" halign="center" />
     <widget backgroundColor="XionLightBackground" name="headline" position="20,20" size="880,40" transparent="1" font="Regular;26" valign="center" halign="center" />
@@ -5240,9 +5250,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget name="bt_menu" pixmap="XionLight/buttons/key_menu.png" position="938,290" zPosition="1" size="32,32" alphatest="blend" />
     <widget name="text_4" position="978,295" size="200,26" zPosition="1" font="Regular;19" halign="left" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1" />
     <!--eLabel backgroundColor="XionLightBackground" foregroundColor="XionLightFont2" position="0,0" size="1280,720" transparent="1" zPosition="-10" /-->
-    <epixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,101" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-    <epixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap position="0,488" size="1280,234" zPosition="-9" pixmap="XionLight/infobar/infobar.png" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,101" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
   </screen> 
   <!-- ****** TMDb - The Movie Database ****** -->
 <!-- TMDb -->
@@ -5265,7 +5275,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 	<widget name="searchinfo" position="70,80" size="560,60" itemHeight="30" enableWrapAround="1" backgroundColor="XionLightBackground" transparent="1" font="Regular; 26" />
 	<widget name="fulldescription" position="70,130" size="560,490" font="Regular;24" backgroundColor="XionLightBackground" transparent="1" />
 	<widget name="cover" position="930,92" size="250,320" alphatest="blend" />
-	<epixmap position="705,140" size="100,75" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tmdb/pic/star.png" transparent="1" alphatest="blend" />
+	<ePixmap position="705,140" size="100,75" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tmdb/pic/star.png" transparent="1" alphatest="blend" />
 	<widget name="rating" position="680,170" size="150,25" zPosition="2" backgroundColor="XionLightBackground" transparent="1" font="Regular;22" foregroundColor="black" halign="center" />
 	<widget name="votes_brackets" position="680,235" size="150,25" zPosition="2" backgroundColor="XionLightBackground" transparent="1" font="Regular;22" halign="center" />
 	<widget name="fsk" position="681,275" size="150,25" zPosition="2" backgroundColor="XionLightBackground" transparent="1" font="Regular;22" halign="center" />
