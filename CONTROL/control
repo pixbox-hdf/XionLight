@@ -4,6 +4,6 @@ Section: misc
 Priority: optional
 Architecture: all
 Depends:
-Maintainer: Kraven and pixbox
-Description: ZeroSkin - mod@pixbox
+Maintainer: Team Kraven
+Description: Light Skin for HDF Images
 Source:
