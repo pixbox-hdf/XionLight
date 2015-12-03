@@ -760,7 +760,7 @@
     <widget backgroundColor="XionLightBackground" font="Regular2;22" name="genre" position="58,540" size="320,30" transparent="1" valign="top" />
     <widget backgroundColor="XionLightBackground" font="Regular2; 26" halign="left" name="title" position="58,328" size="325,40" transparent="1" />
     <widget backgroundColor="XionLightBackground" scrollbarMode="showNever" enableWrapAround="1" itemHeight="25" name="playlist" position="430,324" size="782,307" transparent="1" />
-    <widget alphatest="blend" name="repeat" Pixmaps="XionLight/repeat_off.png,XionLight/repeat_on.png" position="1037,671" size="70,30" transparent="1" />
+    <widget alphatest="blend" name="repeat" pixmaps="XionLight/repeat_off.png,XionLight/repeat_on.png" position="1037,671" size="70,30" transparent="1" />
     <widget backgroundColor="XionLightBackground" font="Regular2; 22" halign="left" noWrap="1" position="58,425" render="Label" size="119,32" source="session.CurrentService" transparent="1" zPosition="2">
       <convert type="ServicePosition">Position,ShowHours</convert>
     </widget>
@@ -823,8 +823,8 @@
     </widget>
     <eLabel text="next" position="80,623" size="60,25" font="Regular2; 18" backgroundColor="XionLightBackground" foregroundColor="XionLightFont2" transparent="1" />
     <widget name="nextTitle" position="140,620" size="680,26" font="Regular2; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightFont2" transparent="1" />
-    <widget name="shuffle" position="630,120" size="50,25" Pixmaps="XionLight/mmp/placeholder1.png,XionLight/mmp/shuffle.png" alphatest="blend" />
-    <widget name="repeat" position="700,120" size="50,25" Pixmaps="XionLight/mmp/placeholder1.png,XionLight/mmp/repeat.png" alphatest="blend" />
+    <widget name="shuffle" position="630,120" size="50,25" pixmaps="XionLight/mmp/placeholder1.png,XionLight/mmp/shuffle.png" alphatest="blend" />
+    <widget name="repeat" position="700,120" size="50,25" pixmaps="XionLight/mmp/placeholder1.png,XionLight/mmp/repeat.png" alphatest="blend" />
     <widget name="PositionGauge" position="0,0" size="0,0" />
     <widget name="coverArt" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MerlinMusicPlayer/images/no_coverArt.png" position="789,140" size="470,470" transparent="1" alphatest="blend" />
     <eLabel backgroundColor="XionLightBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" />
