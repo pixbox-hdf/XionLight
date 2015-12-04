@@ -18,7 +18,7 @@ class XionLightDiskSpace(Poll, Converter, object):
         elif type == "path":
             self.type = self.path
 
-        self.poll_interval = 2000
+        self.poll_interval = 1000
         self.poll_enabled = True
 
 
