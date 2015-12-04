@@ -26,9 +26,9 @@
     <color name="XionLightFont1" value="#00fffff3" />
     <color name="XionLightFont2" value="#00fffff4" />
     <color name="XionLightLine" value="#00fffff7" />
-    <color name="XionLightProgress" value="#00C3461B" />
+    <color name="XionLightProgress" value="#00c3461b" />
     <color name="XionLightSelFont" value="#00000000" />
-    <color name="XionLightSelection" value="#00C3461B" />
+    <color name="XionLightSelection" value="#00c3461b" />
   </colors>
   <fonts>
     <font filename="lcd.ttf" name="LCD" scale="100" />
@@ -453,7 +453,7 @@
   <ePixmap position="0,0" size="1280,334" zPosition="-9" pixmap="XionLight/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
 </screen>
 <!-- SecondInfobar Original */-->  
-  
+
 <!-- /* Main -->
  <!-- /* ChannelSelection -->
 <screen backgroundColor="transparent" flags="wfNoBorder" name="ChannelSelection" position="0,0" size="1280,720" title="Channel Selection">
@@ -2939,7 +2939,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <screen name="Volume" position="47,38" size="340,74" title="Volume" flags="wfNoBorder" backgroundColor="transparent" zPosition="99">
 	<widget name="Volume" position="72,34" size="170,5" zPosition="3" transparent="1" foregroundColor="XionLightProgress" />
 	<ePixmap position="4,5" size="64,64" zPosition="1" pixmap="XionLight/buttons/volume.png" transparent="0" alphatest="blend" />
-	<widget font="Regular;40" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" halign="center" valign="center" render="XionLightVVolumeText" source="global.CurrentTime" position="246,4" size="85,60" zPosition="20" transparent="1" />
+	<widget font="Regular;40" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" halign="center" valign="center" render="XionLightVolumeText" source="global.CurrentTime" position="246,4" size="85,60" zPosition="20" transparent="1" />
 	<eLabel position="72,35" size="170,3" backgroundColor="XionLightLine" />
 	<eLabel position="0,0" size="340,74" backgroundColor="XionLightBackground" zPosition="-2" transparent="0" />
   </screen>
@@ -3304,7 +3304,6 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 </screen>
   <!-- main-custom-openhdf */ -->
   <!-- Main */ -->
-  
   
 <!-- plugins -->
   <!-- ********** AutoBouquetsMaker ********** -->

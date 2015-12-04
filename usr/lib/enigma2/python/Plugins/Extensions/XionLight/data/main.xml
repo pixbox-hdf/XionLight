@@ -2484,7 +2484,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <screen name="Volume" position="47,38" size="340,74" title="Volume" flags="wfNoBorder" backgroundColor="transparent" zPosition="99">
 	<widget name="Volume" position="72,34" size="170,5" zPosition="3" transparent="1" foregroundColor="XionLightProgress" />
 	<ePixmap position="4,5" size="64,64" zPosition="1" pixmap="XionLight/buttons/volume.png" transparent="0" alphatest="blend" />
-	<widget font="Regular;40" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" halign="center" valign="center" render="XionLightVVolumeText" source="global.CurrentTime" position="246,4" size="85,60" zPosition="20" transparent="1" />
+	<widget font="Regular;40" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" halign="center" valign="center" render="XionLightVolumeText" source="global.CurrentTime" position="246,4" size="85,60" zPosition="20" transparent="1" />
 	<eLabel position="72,35" size="170,3" backgroundColor="XionLightLine" />
 	<eLabel position="0,0" size="340,74" backgroundColor="XionLightBackground" zPosition="-2" transparent="0" />
   </screen>
