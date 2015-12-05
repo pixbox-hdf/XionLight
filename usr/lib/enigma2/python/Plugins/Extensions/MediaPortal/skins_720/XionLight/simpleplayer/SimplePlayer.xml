@@ -1,6 +1,6 @@
 <screen name="SimplePlayer" position="0,0" size="1280,720" title="InfoBar" backgroundColor="transparent" flags="wfNoBorder">
-	<epixmap position="40,555" size="1200,138" zPosition="-2" pixmap="~/XionLight/simpleplayer/spbg.png" />
-	<epixmap position="40,555" size="1200,138" zPosition="2" pixmap="~/XionLight/simpleplayer/spiconframe.png" alphatest="blend" />
+	<ePixmap position="40,555" size="1200,138" zPosition="-2" pixmap="~/XionLight/simpleplayer/spbg.png" />
+	<ePixmap position="40,555" size="1200,138" zPosition="2" pixmap="~/XionLight/simpleplayer/spiconframe.png" alphatest="blend" />
 	<widget source="session.CurrentService" render="Label" position="273,566" size="700,54" font="mediaportal; 24" valign="center" halign="center" backgroundColor="#00000000" transparent="1">
 		<convert type="ServiceName">Name</convert>
 	</widget>
@@ -26,29 +26,29 @@
 	<widget name="Cover" position="1082,341" size="146,193" zPosition="2" alphatest="blend" />
 	<widget name="spcoverframe" position="1075,333" size="160,210" zPosition="1" pixmap="~/XionLight/simpleplayer/spcoverframe.png" />
 	<widget name="spcoverfg" position="1075,333" size="160,210" zPosition="3" pixmap="~/XionLight/simpleplayer/spcoverfg.png" alphatest="blend" />
-	<epixmap position="90,599" size="120,50" pixmap="~/XionLight/simpleplayer/mplogo.png" alphatest="blend" />
+	<ePixmap position="90,599" size="120,50" pixmap="~/XionLight/simpleplayer/mplogo.png" alphatest="blend" />
 	<eLabel position="251,569" size="2,110" backgroundColor="#00808888" />
 	<eLabel position="991,569" size="2,110" backgroundColor="#00808888" />
-	<epixmap pixmap="~/XionLight/simpleplayer/ico_format_off.png" position="1010,655" size="36,20" zPosition="1" alphatest="blend" />
-	<widget source="session.CurrentService" render="pixmap" pixmap="~/XionLight/simpleplayer/ico_format_on.png" position="1010,655" size="36,20" zPosition="2" alphatest="blend">
+	<ePixmap pixmap="~/XionLight/simpleplayer/ico_format_off.png" position="1010,655" size="36,20" zPosition="1" alphatest="blend" />
+	<widget source="session.CurrentService" render="Pixmap" pixmap="~/XionLight/simpleplayer/ico_format_on.png" position="1010,655" size="36,20" zPosition="2" alphatest="blend">
 		<convert type="ServiceInfo">IsWidescreen</convert>
 		<convert type="ConditionalShowHide" />
 	</widget>
-	<widget source="session.CurrentService" render="pixmap" pixmap="~/XionLight/simpleplayer/ico_hd_off.png" position="1055,655" size="29,20" zPosition="1" alphatest="blend">
+	<widget source="session.CurrentService" render="Pixmap" pixmap="~/XionLight/simpleplayer/ico_hd_off.png" position="1055,655" size="29,20" zPosition="1" alphatest="blend">
 		<convert type="ServiceInfo">VideoWidth</convert>
 		<convert type="ValueRange">0,1279</convert>
 		<convert type="ConditionalShowHide" />
 	</widget>
-	<widget source="session.CurrentService" render="pixmap" pixmap="~/XionLight/simpleplayer/ico_hd_on.png" position="1055,655" size="29,20" zPosition="2" alphatest="blend">
+	<widget source="session.CurrentService" render="Pixmap" pixmap="~/XionLight/simpleplayer/ico_hd_on.png" position="1055,655" size="29,20" zPosition="2" alphatest="blend">
 		<convert type="ServiceInfo">VideoWidth</convert>
 		<convert type="ValueRange">1280,1980</convert>
 		<convert type="ConditionalShowHide" />
 	</widget>
-	<epixmap pixmap="~/XionLight/simpleplayer/clock.png" position="1012,579" size="20,20" zPosition="1" alphatest="blend" />
+	<ePixmap pixmap="~/XionLight/simpleplayer/clock.png" position="1012,579" size="20,20" zPosition="1" alphatest="blend" />
 	<widget source="global.CurrentTime" render="Label" position="1035,575" size=" 70,24" font="mediaportal;24" transparent="1" backgroundColor="#00000000" halign="left">
 		<convert type="ClockToText">Default</convert>
 	</widget>
-	<epixmap pixmap="~/XionLight/simpleplayer/resicon.png" position="1010,616" size="30,20" zPosition="1" alphatest="blend" />
+	<ePixmap pixmap="~/XionLight/simpleplayer/resicon.png" position="1010,616" size="30,20" zPosition="1" alphatest="blend" />
 	<widget source="session.CurrentService" render="Label" position="1046,616" size="50,20" backgroundColor="#00000000" transparent="1" font="mediaportal; 20" halign="right">
 		<convert type="ServiceInfo">VideoWidth</convert>
 	</widget>
@@ -66,7 +66,7 @@
 	<widget name="premiumizemeon" pixmap="~/XionLight/simpleplayer/premiumize_on.png" position="1160,655" size="57,20" zPosition="2" alphatest="blend" />
 	<widget name="realdebridon" pixmap="~/XionLight/simpleplayer/realdebrid_on.png" position="1160,655" size="57,20" zPosition="2" alphatest="blend" />
 	<!-- Film Endzeit -->
-	<epixmap pixmap="~/XionLight/simpleplayer/clockend.png" position="1110,576" size="24,24" zPosition="1" alphatest="blend" />
+	<ePixmap pixmap="~/XionLight/simpleplayer/clockend.png" position="1110,576" size="24,24" zPosition="1" alphatest="blend" />
 	<widget source="session.CurrentService" render="Label" position="1131,575" size="70,24" font="mediaportal;24" halign="right" backgroundColor="#00000000" transparent="1">
 		<convert type="MPServicePosition">EndTime,ShowNoSeconds</convert>
 	</widget>
