@@ -197,8 +197,8 @@
   <!-- ********** EPG ********** -->
   <!-- EPGSelection -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="EPGSelection" position="0,0" size="1280,720" title="EPG Selection">
-    <widget backgroundColor="XionLightBackground" itemHeight="30" foregroundColor="XionLightFont1" font="Regular; 22" name="list" scrollbarMode="showNever" position="70,120" size="708,511" transparent="1" zPosition="3" />
-    <widget backgroundColor="XionLightBackground" font="Regular2; 22" foregroundColor="XionLightFont2" position="897,76" render="Label" size="366,572" source="Event" valign="top" zPosition="-8">
+    <widget backgroundColor="XionLightBackground" itemHeight="30" foregroundColor="XionLightFont1" font="Regular; 22" name="list" scrollbarMode="showNever" position="70,80" size="708,550" transparent="1" zPosition="3" />
+    <widget backgroundColor="XionLightBackground" font="Regular; 22" foregroundColor="XionLightFont2" position="820,80" render="Label" size="400,550" source="Event" valign="top" zPosition="-8">
       <convert type="XionLightEventName">BothDescriptionsFiltered</convert>
     </widget>
     <panel name="template_menu_full_button_nologo" />
@@ -237,7 +237,7 @@
   </screen>
   <!-- EventView -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="EventView" position="0,0" size="1280,720" title="Eventview">
-	<widget backgroundColor="XionLightBackground" scrollbarMode="showNever" font="Regular2; 26" name="epg_description" position="45,155" size="1190,443" transparent="1" />
+	<widget backgroundColor="XionLightBackground" scrollbarMode="showNever" font="Regular; 26" name="epg_description" position="45,155" size="1190,440" transparent="1" />
 	<widget alphatest="blend" pixmap="XionLight/buttons/ico_dolby_on.png" position="63,615" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="2">
 		<convert type="XionLightServiceInfo">IsMultichannel</convert>
 		<convert type="ConditionalShowHide" />
@@ -294,7 +294,7 @@
   <widget backgroundColor="XionLightBackground" font="Regular; 22" halign="center" name="more_text" position="370,87" size="150,30" text="MORE" transparent="1" zPosition="10" />
   <widget font="Regular; 22" halign="right" name="date" position="960,87" size="250,30" transparent="1" valign="center" />
   <widget backgroundColor="XionLightBackground" itemHeight="30" name="list" position="50,142" size="1180,338" transparent="1" />
-  <widget backgroundColor="XionLightBackground" font="Regular2; 22" foregroundColor="XionLightFont2" halign="left" position="50,492" render="Label" size="1180,153" source="Event" zPosition="-8">
+  <widget backgroundColor="XionLightBackground" font="Regular; 22" foregroundColor="XionLightFont2" halign="left" position="50,492" render="Label" size="1180,153" source="Event" zPosition="-8" transparent="1">
     <convert type="XionLightEventName">BothDescriptionsFiltered</convert>
   </widget>
   <panel name="template_menu_full_button_nologo" />
@@ -438,10 +438,10 @@
       <convert type="ServiceName">Reference</convert>
     </widget>
     <ePixmap pixmap="XionLight/line/line1280.png" position="0,220" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="22,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="222,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="622,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="22,235" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="222,235" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,235" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="622,235" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
     <widget name="key_red" position="64,227" zPosition="1" size="148,48" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" valign="center" />
     <widget name="key_green" position="264,227" zPosition="1" size="148,48" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" valign="center" />
     <widget name="key_yellow" position="464,227" zPosition="1" size="148,48" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" valign="center" />
