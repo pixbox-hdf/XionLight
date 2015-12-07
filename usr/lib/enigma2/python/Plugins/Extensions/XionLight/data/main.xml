@@ -63,7 +63,7 @@
   <panel name="template_menu_full_button" />
 </screen>
   <screen name="HistoryZapSelector" position="0,0" size="1280,720" title="History Zap" flags="wfNoBorder" backgroundColor="transparent">
-  <widget source="menu" render="Listbox" position="70,120" size="708,500" backgroundColor="XionLightBackground" transparent="1">
+  <widget source="menu" render="Listbox" position="70,120" size="708,498" scrollbarMode="showNever" backgroundColor="XionLightBackground" transparent="1">
     <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos = (60, 10), size = (10, 20), font = 2, flags = RT_HALIGN_CENTER | RT_VALIGN_CENTER, text = 1),
