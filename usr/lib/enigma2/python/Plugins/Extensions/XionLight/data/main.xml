@@ -364,15 +364,15 @@
   <widget source="Event" render="Label" position="25,70" size="700,33" font="Regular2; 28" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1">
     <convert type="XionLightEventName">Name</convert>
   </widget>
-  <widget source="Event" render="Label" position="734,77" size=" 65, 26" font="Regular2; 24" halign="center" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1">
+  <widget source="Event" render="Label" position="734,73" size=" 65, 26" font="Regular2; 24" halign="center" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1">
     <convert type="XionLightEventTime">StartTime</convert>
     <convert type="XionLightClockToText">Format:%H:%M </convert>
   </widget>
-  <widget source="Event" render="Label" position="1173,77" size=" 80, 26" font="Regular2; 24" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1" halign="center">
+  <widget source="Event" render="Label" position="1173,73" size=" 80, 26" font="Regular2; 24" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1" halign="center">
     <convert type="XionLightEventTime">EndTime</convert>
     <convert type="XionLightClockToText">Format:%H:%M</convert>
   </widget>
-  <widget source="Event" render="Progress" position="805,89" size="370,5" borderWidth="0" backgroundColor="XionLightBackground" foregroundColor="XionLightProgress" transparent="1" zPosition="1">
+  <widget source="Event" render="Progress" position="805,85" size="370,5" borderWidth="0" backgroundColor="XionLightBackground" foregroundColor="XionLightProgress" transparent="1" zPosition="1">
     <convert type="XionLightEventTime">Progress</convert>
   </widget>
   <widget source="Event" render="Label" position="25,111" size="1230,154" font="Regular; 22" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" valign="top" zPosition="-8">
@@ -381,7 +381,7 @@
   <widget name="timeline_text" position="25,273" size="1230,25" selectionDisabled="1" transparent="1" />
   <widget name="list" position="25,304" size="1230,345" EntryBorderColor="white" EntryBackgroundColor="black" EntryBackgroundColorSelected="grey" scrollbarMode="showNever" transparent="1" />
   <widget name="timeline_now" position="80,292" zPosition="2" size="13,355" pixmap="XionLight/epg/timeline-now.png" alphatest="blend" />
-  <eLabel position="805,89" size="370,5" backgroundColor="XionLightLine" />
+  <eLabel position="805,85" size="370,5" backgroundColor="XionLightLine" />
   <panel name="template_menu_full_button_nologo" />
   <panel name="template_colorkey_text" />
 </screen>
