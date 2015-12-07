@@ -380,7 +380,7 @@
   <widget name="timeline_text" position="25,273" size="1230,25" selectionDisabled="1" transparent="1" />
   <widget name="list" position="25,304" size="1230,345" EntryBorderColor="white" EntryBackgroundColor="black" EntryBackgroundColorSelected="grey" scrollbarMode="showNever" transparent="1" />
   <widget name="timeline_now" position="80,292" zPosition="2" size="13,355" pixmap="XionLight/epg/timeline-now.png" alphatest="blend" />
-  <widget source="session.VideoPicture" render="Pig" position="980,70" size="275,170" zPosition="3" backgroundColor="transparent" />
+  <widget source="session.VideoPicture" render="Pig" position="980,75" size="275,160" zPosition="3" backgroundColor="transparent" />
   <eLabel position="980,260" size="270,5" backgroundColor="XionLightLine" />
   <panel name="template_menu_full_button_nologo" />
   <panel name="template_colorkey_text" />

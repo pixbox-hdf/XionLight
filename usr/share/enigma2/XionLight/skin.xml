@@ -518,7 +518,7 @@
   <panel name="template_menu_full_button" />
 </screen>
   <screen name="HistoryZapSelector" position="0,0" size="1280,720" title="History Zap" flags="wfNoBorder" backgroundColor="transparent">
-  <widget source="menu" render="Listbox" position="70,120" size="708,500" backgroundColor="XionLightBackground" transparent="1">
+  <widget source="menu" render="Listbox" position="70,120" size="708,498" scrollbarMode="showNever" backgroundColor="XionLightBackground" transparent="1">
     <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos = (60, 10), size = (10, 20), font = 2, flags = RT_HALIGN_CENTER | RT_VALIGN_CENTER, text = 1),
@@ -652,8 +652,8 @@
   <!-- ********** EPG ********** -->
   <!-- EPGSelection -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="EPGSelection" position="0,0" size="1280,720" title="EPG Selection">
-    <widget backgroundColor="XionLightBackground" itemHeight="30" foregroundColor="XionLightFont1" font="Regular; 22" name="list" scrollbarMode="showNever" position="70,120" size="708,511" transparent="1" zPosition="3" />
-    <widget backgroundColor="XionLightBackground" font="Regular2; 22" foregroundColor="XionLightFont2" position="897,76" render="Label" size="366,572" source="Event" valign="top" zPosition="-8">
+    <widget backgroundColor="XionLightBackground" itemHeight="30" foregroundColor="XionLightFont1" font="Regular; 22" name="list" scrollbarMode="showNever" position="70,80" size="708,550" transparent="1" zPosition="3" />
+    <widget backgroundColor="XionLightBackground" font="Regular; 22" foregroundColor="XionLightFont2" position="820,80" render="Label" size="400,550" source="Event" valign="top" zPosition="-8">
       <convert type="XionLightEventName">BothDescriptionsFiltered</convert>
     </widget>
     <panel name="template_menu_full_button_nologo" />
@@ -692,7 +692,7 @@
   </screen>
   <!-- EventView -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="EventView" position="0,0" size="1280,720" title="Eventview">
-	<widget backgroundColor="XionLightBackground" scrollbarMode="showNever" font="Regular2; 26" name="epg_description" position="45,155" size="1190,443" transparent="1" />
+	<widget backgroundColor="XionLightBackground" scrollbarMode="showNever" font="Regular; 26" name="epg_description" position="45,155" size="1190,440" transparent="1" />
 	<widget alphatest="blend" pixmap="XionLight/buttons/ico_dolby_on.png" position="63,615" render="Pixmap" size="32,32" source="session.CurrentService" zPosition="2">
 		<convert type="XionLightServiceInfo">IsMultichannel</convert>
 		<convert type="ConditionalShowHide" />
@@ -749,7 +749,7 @@
   <widget backgroundColor="XionLightBackground" font="Regular; 22" halign="center" name="more_text" position="370,87" size="150,30" text="MORE" transparent="1" zPosition="10" />
   <widget font="Regular; 22" halign="right" name="date" position="960,87" size="250,30" transparent="1" valign="center" />
   <widget backgroundColor="XionLightBackground" itemHeight="30" name="list" position="50,142" size="1180,338" transparent="1" />
-  <widget backgroundColor="XionLightBackground" font="Regular2; 22" foregroundColor="XionLightFont2" halign="left" position="50,492" render="Label" size="1180,153" source="Event" zPosition="-8">
+  <widget backgroundColor="XionLightBackground" font="Regular; 22" foregroundColor="XionLightFont2" halign="left" position="50,492" render="Label" size="1180,153" source="Event" zPosition="-8" transparent="1">
     <convert type="XionLightEventName">BothDescriptionsFiltered</convert>
   </widget>
   <panel name="template_menu_full_button_nologo" />
@@ -788,46 +788,19 @@
     <panel name="template_colorkey_text" />
   </screen>
   <!-- GraphicalEPG -->
-  <screen backgroundColor="transparent" flags="wfNoBorder" name="GraphicalEPG" position="0,0" size="1280,720" title="Electronic Program Guide">
-    <widget backgroundColor="XionLightBackground" font="Regular2; 28" position="25,70" render="Label" size="700,39" source="Event" transparent="1">
-      <convert type="XionLightEventName">Name</convert>
-    </widget>
-    <widget backgroundColor="XionLightBackground" font="Regular2; 24" halign="right" position="25,104" render="Label" size=" 65, 26" source="Event" transparent="1">
-      <convert type="XionLightEventTime">StartTime</convert>
-      <convert type="XionLightClockToText">Format:%H:%M </convert>
-    </widget>
-    <widget backgroundColor="XionLightBackground" font="Regular2; 24" position="1100,104" render="Label" size=" 80, 26" source="Event" transparent="1">
-      <convert type="XionLightEventTime">EndTime</convert>
-      <convert type="XionLightClockToText">Format:%H:%M</convert>
-    </widget>
-    <widget source="Event" render="Progress" position="101,117" size="990,5" borderWidth="0" backgroundColor="XionLightBackground" foregroundColor="XionLightProgress" transparent="1" zPosition="1">
-      <convert type="XionLightEventTime">Progress</convert>
-    </widget>
-    <widget backgroundColor="XionLightBackground" font="Regular2; 21" position="25,139" render="Label" size="1230,126" source="Event" valign="top" zPosition="-8" foregroundColor="XionLightFont2">
-      <convert type="XionLightEventName">ExtendedDescription</convert>
-    </widget>
-    <eLabel backgroundColor="XionLightFont1" position="101,119" size="990,1" />
-    <widget name="timeline_text" position="25,273" selectionDisabled="1" size="1230,25" transparent="1" />
-    <widget EntryBackgroundColor="XionLightBackground" EntryBackgroundColorSelected="XionLightFont1" EntryBorderColor="XionLightFont1" itemHeight="60" name="list" position="25,300" size="1230,345" transparent="1" />
-    <widget name="timeline_now" position="80,292" zPosition="2" size="13,355" pixmap="XionLight/epg/timeline-now.png" alphatest="blend" />
-    <eLabel position="101,119" size="990,1" backgroundColor="XionLightFont1" />
-    <panel name="template_menu_full_button_nologo" />
-    <panel name="template_colorkey_text" />
-  </screen>
-  <!-- GraphicalEPGPIG -->
-<screen name="GraphicalEPGPIG" position="0,0" size="1280,720" title="Electronic Program Guide" flags="wfNoBorder" backgroundColor="XionLightBackground" transparent="0">
+<screen name="GraphicalEPG" position="0,0" size="1280,720" title="Electronic Program Guide" flags="wfNoBorder" backgroundColor="XionLightBackground" transparent="0">
   <widget source="Event" render="Label" position="25,70" size="700,33" font="Regular2; 28" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1">
     <convert type="XionLightEventName">Name</convert>
   </widget>
-  <widget source="Event" render="Label" position="734,77" size=" 65, 26" font="Regular2; 24" halign="center" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1">
+  <widget source="Event" render="Label" position="734,73" size=" 65, 26" font="Regular2; 24" halign="center" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1">
     <convert type="XionLightEventTime">StartTime</convert>
     <convert type="XionLightClockToText">Format:%H:%M </convert>
   </widget>
-  <widget source="Event" render="Label" position="1173,77" size=" 80, 26" font="Regular2; 24" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1" halign="center">
+  <widget source="Event" render="Label" position="1173,73" size=" 80, 26" font="Regular2; 24" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1" halign="center">
     <convert type="XionLightEventTime">EndTime</convert>
     <convert type="XionLightClockToText">Format:%H:%M</convert>
   </widget>
-  <widget source="Event" render="Progress" position="805,89" size="370,5" borderWidth="0" backgroundColor="XionLightBackground" foregroundColor="XionLightProgress" transparent="1" zPosition="1">
+  <widget source="Event" render="Progress" position="805,85" size="370,5" borderWidth="0" backgroundColor="XionLightBackground" foregroundColor="XionLightProgress" transparent="1" zPosition="1">
     <convert type="XionLightEventTime">Progress</convert>
   </widget>
   <widget source="Event" render="Label" position="25,111" size="1230,154" font="Regular; 22" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" valign="top" zPosition="-8">
@@ -836,7 +809,34 @@
   <widget name="timeline_text" position="25,273" size="1230,25" selectionDisabled="1" transparent="1" />
   <widget name="list" position="25,304" size="1230,345" EntryBorderColor="white" EntryBackgroundColor="black" EntryBackgroundColorSelected="grey" scrollbarMode="showNever" transparent="1" />
   <widget name="timeline_now" position="80,292" zPosition="2" size="13,355" pixmap="XionLight/epg/timeline-now.png" alphatest="blend" />
-  <eLabel position="805,89" size="370,5" backgroundColor="XionLightLine" />
+  <eLabel position="805,85" size="370,5" backgroundColor="XionLightLine" />
+  <panel name="template_menu_full_button_nologo" />
+  <panel name="template_colorkey_text" />
+</screen>
+  <!-- GraphicalEPGPIG -->
+<screen name="GraphicalEPGPIG" position="0,0" size="1280,720" title="Electronic Program Guide" flags="wfNoBorder" backgroundColor="XionLightBackground" transparent="0">
+  <widget source="Event" render="Label" position="25,70" size="950,33" font="Regular2; 28" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1">
+    <convert type="XionLightEventName">Name</convert>
+  </widget>
+  <widget source="Event" render="Label" position="980,239" size=" 65, 26" font="Regular; 20" halign="left" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1">
+    <convert type="XionLightEventTime">StartTime</convert>
+    <convert type="XionLightClockToText">Format:%H:%M </convert>
+  </widget>
+  <widget source="Event" render="Label" position="1185,239" size="65,26" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1" halign="right">
+    <convert type="XionLightEventTime">EndTime</convert>
+    <convert type="XionLightClockToText">Format:%H:%M</convert>
+  </widget>
+  <widget source="Event" render="Progress" position="980,260" size="270,5" borderWidth="0" backgroundColor="XionLightBackground" foregroundColor="XionLightProgress" transparent="1" zPosition="1">
+    <convert type="XionLightEventTime">Progress</convert>
+  </widget>
+  <widget source="Event" render="Label" position="25,110" size="950,154" font="Regular; 22" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" valign="top" zPosition="-8">
+    <convert type="XionLightEventName">ExtendedDescription</convert>
+  </widget>
+  <widget name="timeline_text" position="25,273" size="1230,25" selectionDisabled="1" transparent="1" />
+  <widget name="list" position="25,304" size="1230,345" EntryBorderColor="white" EntryBackgroundColor="black" EntryBackgroundColorSelected="grey" scrollbarMode="showNever" transparent="1" />
+  <widget name="timeline_now" position="80,292" zPosition="2" size="13,355" pixmap="XionLight/epg/timeline-now.png" alphatest="blend" />
+  <widget source="session.VideoPicture" render="Pig" position="980,75" size="275,160" zPosition="3" backgroundColor="transparent" />
+  <eLabel position="980,260" size="270,5" backgroundColor="XionLightLine" />
   <panel name="template_menu_full_button_nologo" />
   <panel name="template_colorkey_text" />
 </screen>
@@ -860,10 +860,10 @@
     <widget name="list" position="10,100" size="1260,120" backgroundColor="XionLightBackground" scrollbarMode="showNever" zPosition="1" EntryFontWrap="no" transparent="1" />
     <widget name="timeline_now" position="10,100" zPosition="2" size="16,120" pixmap="XionLight/epg/timeline-now_s.png" alphatest="blend" />
 <ePixmap pixmap="XionLight/line/line1280.png" position="0,220" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="22,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="222,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="622,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="22,235" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="222,235" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,235" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="622,235" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
     <widget name="key_red" position="64,227" zPosition="1" size="148,48" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" valign="center" />
     <widget name="key_green" position="264,227" zPosition="1" size="148,48" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" valign="center" />
     <widget name="key_yellow" position="464,227" zPosition="1" size="148,48" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" valign="center" />
@@ -893,10 +893,10 @@
       <convert type="ServiceName">Reference</convert>
     </widget>
     <ePixmap pixmap="XionLight/line/line1280.png" position="0,220" size="1280,2" backgroundColor="XionLightBackground" alphatest="blend" />
-    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="22,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="222,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
-    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="622,235" size="22,34" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_red1.png" position="22,235" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_green1.png" position="222,235" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_yellow1.png" position="422,235" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
+    <ePixmap pixmap="XionLight/buttons/key_blue1.png" position="622,235" size="32,32" backgroundColor="XionLightBackground" alphatest="blend" />
     <widget name="key_red" position="64,227" zPosition="1" size="148,48" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" valign="center" />
     <widget name="key_green" position="264,227" zPosition="1" size="148,48" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" valign="center" />
     <widget name="key_yellow" position="464,227" zPosition="1" size="148,48" font="Regular; 20" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" valign="center" />
@@ -3639,26 +3639,26 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <!-- EMCSelection -->
 <screen name="EMCSelection" position="0,0" size="1280,720" title="Enhanced Movie Center" flags="wfNoBorder" backgroundColor="transparent">
   <eLabel text="Enhanced Movie Center" position="70,12" size="708,46" font="Regular2;34" foregroundColor="XionLightFont2" halign="center" valign="center" backgroundColor="XionLightBackground" transparent="1" />
-  <widget name="list" position="50,110" size="755,350" itemHeight="32" CoolFont="Regular;20" CoolSelectFont="Regular;20" CoolDateFont="Regular;20" CoolProgressPos="50" CoolBarPos="35" CoolBarHPos="10" CoolBarSize="50,10" CoolBarSizeSa="50,10" CoolMoviePos="90" CoolMovieSize="500" CoolFolderSize="575" CoolDatePos="595" CoolDateWidth="105" CoolPiconPos="90" CoolPiconHPos="2" CoolPiconWidth="45" CoolPiconHeight="26" CoolMoviePiconPos="140" CoolMoviePiconSize="450" CoolTitleColor="1" CoolDateColor="1" CoolHighlightColor="0" DefaultColor="XionLightFont1" UnwatchedColor="XionLightFont1" WatchingColor="XionLightFont2" FinishedColor="green" RecordingColor="red" BackColor="XionLightBackground" BackColorSel="XionLightSelection" FrontColorSel="XionLightSelFont" backgroundColorSelected="XionLightSelection" foregroundColorSelected="XionLightSelFont" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" scrollbarMode="showNever" transparent="1" />
+  <widget name="list" position="50,105" size="755,320" itemHeight="32" CoolFont="Regular;22" CoolSelectFont="Regular;20" CoolDateFont="Regular;20" CoolProgressPos="50" CoolBarPos="35" CoolBarHPos="10" CoolBarSize="50,10" CoolBarSizeSa="50,10" CoolMoviePos="90" CoolMovieSize="500" CoolFolderSize="575" CoolDatePos="595" CoolDateWidth="105" CoolPiconPos="90" CoolPiconHPos="2" CoolPiconWidth="45" CoolPiconHeight="26" CoolMoviePiconPos="140" CoolMoviePiconSize="450" CoolTitleColor="1" CoolDateColor="1" CoolHighlightColor="0" DefaultColor="XionLightFont1" UnwatchedColor="XionLightFont1" WatchingColor="XionLightFont2" FinishedColor="green" RecordingColor="red" BackColor="XionLightBackground" BackColorSel="XionLightSelection" FrontColorSel="XionLightSelFont" backgroundColorSelected="XionLightSelection" foregroundColorSelected="XionLightSelFont" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" scrollbarMode="showNever" transparent="1" />
   <widget name="wait" position="43,375" size="1198,50" zPosition="1" font="Regular; 32" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" halign="center" valign="center" />
   <widget source="Service" render="Label" position="50,75" size="755,28" font="Regular2; 22" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" transparent="1" valign="center" halign="left">
     <convert type="XionLightDiskSpace">path</convert>
   </widget>
-  <widget source="Service" render="Label" position="888,138" size="379,40" font="Regular; 22" halign="center" backgroundColor="XionLightBackground" transparent="1">
+  <widget source="Service" render="Label" position="855,390" size="390,30" font="Regular2; 22" halign="left" backgroundColor="XionLightBackground" transparent="1">
     <convert type="EMCMovieInfo">RecordServiceName</convert>
   </widget>
-  <widget source="Service" render="Label" position="50,464" size="755,178" font="Regular; 22" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" zPosition="2" halign="left" valign="top" transparent="1">
+  <widget source="Service" render="Label" position="50,425" size="1195,225" font="Regular; 22" foregroundColor="XionLightFont1" backgroundColor="XionLightBackground" zPosition="2" halign="left" valign="top" transparent="1">
     <convert type="XionLightEventName">ExtendedDescription</convert>
   </widget>
-  <widget source="Service" render="Label" position="888,101" size="379,30" font="Regular2; 21" halign="center" backgroundColor="XionLightBackground" foregroundColor="XionLightFont2" transparent="1">
+  <widget source="Service" render="Label" position="855,75" size="390,30" font="Regular2; 22" halign="left" backgroundColor="XionLightBackground" foregroundColor="XionLightFont2" transparent="1">
     <convert type="EMCServiceTime">StartTime</convert>
     <convert type="EMCClockToText">Date</convert>
   </widget>
-  <widget source="Service" render="Label" position="1003,575" size="150,33" font="Regular2; 20" halign="center" backgroundColor="XionLightBackground" foregroundColor="XionLightFont2" transparent="1">
+  <widget source="Service" render="Label" position="1060,174" size="150,33" font="Regular2; 22" halign="center" backgroundColor="XionLightBackground" foregroundColor="XionLightFont2" transparent="1">
     <convert type="EMCMovieInfo">FileSize</convert>
   </widget>
-  <widget name="Cover" position="946,197" size="274,361" zPosition="4" backgroundColor="XionLightBackground" alphatest="on" transparent="0" />
-  <widget source="Service" render="Label" position="1003,613" size="150,33" font="Regular2; 20" halign="center" backgroundColor="XionLightBackground" foregroundColor="XionLightFont2" transparent="1">
+  <widget name="Cover" position="840,115" size="210,265" zPosition="4" backgroundColor="XionLightBackground" alphatest="on" transparent="0" />
+  <widget source="Service" render="Label" position="1060,287" size="150,33" font="Regular2; 22" halign="center" backgroundColor="XionLightBackground" foregroundColor="XionLightFont2" transparent="1">
     <convert type="EMCServiceTime">Duration</convert>
     <convert type="EMCClockToText">InMinutes</convert>
   </widget>
@@ -4966,16 +4966,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <widget font="Regular; 80" halign="center" name="chNum" position="67,72" size="200,100" transparent="0" zPosition="0" />
   <widget font="Regular; 20" halign="center" name="chName" noWrap="1" position="295,179" size="387,26" transparent="0" zPosition="0" />
   <eLabel halign="center" position="271,32" size="427,181" zPosition="-1" />
-  <eLabel backgroundColor="XionLightBorder" position="694,35" size="1,175" />
-  <eLabel backgroundColor="XionLightBorder" position="274,35" size="420,1" />
   <eLabel halign="center" position="46,46" size="225,154" zPosition="-1" />
-  <eLabel backgroundColor="XionLightBorder" position="49,49" size="1,147" />
-  <eLabel backgroundColor="XionLightBorder" position="49,49" size="235,1" />
-  <eLabel backgroundColor="XionLightBorder" position="284,49" size="1,147" />
-  <eLabel backgroundColor="XionLightBorder" position="49,195" size="235,1" />
-  <eLabel backgroundColor="XionLightBorder" position="274,209" size="420,1" />
-  <eLabel backgroundColor="XionLightBorder" position="274,196" size="1,14" />
-  <eLabel backgroundColor="XionLightBorder" position="274,35" size="1,14" />
 </screen>
   <!-- NumberZapExt */-->
   <!-- WebcamViewer -->
