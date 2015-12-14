@@ -67,7 +67,6 @@ def translateBlock(block):
 #############################################################
 
 config.plugins.XionLight = ConfigSubsection()
-config.plugins.XionLight.refreshInterval = ConfigNumber(default="60")
 
 config.plugins.XionLight.BackgroundColorTrans = ConfigSelection(default="22000000", choices = [
 				("00000000", _("Nothing")),
