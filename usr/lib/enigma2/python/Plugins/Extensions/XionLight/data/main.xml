@@ -1869,16 +1869,16 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <screen name="AudioSelection" title="Audio" position="center,center" size="600,426" flags="wfNoBorder" backgroundColor="XionLightBackground">
     <widget source="Title" render="Label" position="25,5" size="550,40" backgroundColor="XionLightbackground" transparent="1" font="Regular2;34" foregroundColor="XionLightFont2" valign="center" halign="left" noWrap="1" />
     <widget name="config" position="74,64" font="Regular;22" foregroundColor="XionLightFont1" size="500,200" itemHeight="40" transparent="1" zPosition="3" />
-    <widget source="key_red" render="Pixmap" pixmap="XionLight/buttons/key_red1.png" position="25,70" size="22,34" alphatest="blend">
+    <widget source="key_red" render="Pixmap" pixmap="XionLight/buttons/key_red1.png" position="25,70" size="32,32" alphatest="blend">
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="key_green" render="Pixmap" pixmap="XionLight/buttons/key_green1.png" position="25,110" size="22,34" alphatest="blend">
+    <widget source="key_green" render="Pixmap" pixmap="XionLight/buttons/key_green1.png" position="25,110" size="32,32" alphatest="blend">
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="key_yellow" render="Pixmap" pixmap="XionLight/buttons/key_yellow1.png" position="25,150" size="22,34" alphatest="blend">
+    <widget source="key_yellow" render="Pixmap" pixmap="XionLight/buttons/key_yellow1.png" position="25,150" size="32,32" alphatest="blend">
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="key_blue" render="Pixmap" pixmap="XionLight/buttons/key_blue1.png" position="25,190" size="22,34" alphatest="blend">
+    <widget source="key_blue" render="Pixmap" pixmap="XionLight/buttons/key_blue1.png" position="25,190" size="32,32" alphatest="blend">
       <convert type="ConditionalShowHide" />
     </widget>
     <widget source="streams" render="Listbox" position="25,277" size="530,100" zPosition="3" transparent="1">
