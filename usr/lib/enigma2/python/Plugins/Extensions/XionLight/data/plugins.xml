@@ -415,9 +415,9 @@
   </widget>
   <eLabel backgroundColor="XionLightBackground" font="Regular; 20" halign="center" position="903,677" size="60,35" text="Uhr" transparent="1" valign="center" zPosition="1" foregroundColor="XionLightFont1" />
   <eLabel backgroundColor="XionLightBackground" font="Regular; 20" halign="left" position="771,677" size="120,35" text="läuft bis " transparent="1" valign="center" zPosition="1" foregroundColor="XionLightFont1" />
-  <widget name="Cover" position="1140,566" size="100,151" zPosition="1" alphatest="on" />
-<widget name="Cover" position="44,566" size="100,151" zPosition="1" alphatest="on" />
- <panel name="template_player" />
+  <widget name="Cover" position="1090,517" size="150,200" zPosition="1" alphatest="on" />
+  <widget name="Cover" position="40,517" size="150,200" zPosition="1" alphatest="on" />
+  <panel name="template_player" />
 </screen>
   <!-- EnhancedMovieCenterMenu -->
   <screen name="EnhancedMovieCenterMenu" position="0,0" size="1280,720" title="EnhancedMovieCenterMenu" flags="wfNoBorder" backgroundColor="transparent">
