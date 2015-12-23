@@ -1253,16 +1253,16 @@
   <!-- ********** WebRadioFS ********** -->
   <!-- WebradioFSScreen_12 -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="WebradioFSScreen_12" position="0,0" size="1280,720" title="">
-    <ePixmap alphatest="blend" pixmap="XionLight/icons/ico_rec_off.png" position="1036,674" size="60,25" zPosition="2" />
-    <widget name="rec_pic" alphatest="blend" pixmap="XionLight/icons/ico_rec_on.png" position="1036,674" size="60,25" zPosition="2" />
-    <widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="rec_txt" position="70,565" size="620,26" transparent="0" valign="center" zPosition="2" />
+    <ePixmap alphatest="blend" pixmap="XionLight/icons/ico_rec_off.png" position="1036,674" size="60,25" zPosition="2" transparent="0" />
+    <widget name="rec_pic" alphatest="blend" pixmap="XionLight/icons/ico_rec_on.png" position="1036,674" size="60,25" zPosition="2" transparent="0" />
+    <widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="rec_txt" position="70,565" size="620,26" transparent="1" valign="center" zPosition="2" />
     <widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="rec_txt2" position="70,565" size="620,26" transparent="1" valign="center" zPosition="3" />
-    <widget backgroundColor="XionLightBackground" enableWrapAround="1" foregroundColor="XionLightFont1" name="streamlist" position="70,80" size="690,477" transparent="0" zPosition="2" />
+    <widget backgroundColor="XionLightBackground" enableWrapAround="1" foregroundColor="XionLightFont1" name="streamlist" position="70,80" size="690,477" transparent="1" zPosition="2" />
     <widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" name="help" position="70,80" size="690,510" transparent="1" zPosition="3" />
     <widget backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" name="info" position="70,80" scrollbarMode="showNever" size="690,510" transparent="1" zPosition="3" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColor="XionLightFont2" halign="center" name="playtext" position="70,608" size="708,30" transparent="1" valign="center" zPosition="2" />
     <panel name="template_colorkey_text" />
-    <panel name="template_menu_full_button" />
+    <panel name="template_menu_full_button_nologo" />
   </screen>
   <!-- menu_12 -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="menu_12" position="0,0" size="1280,720" title="webradioFS">
@@ -1271,27 +1271,27 @@
     <widget backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" name="info" position="70,80" scrollbarMode="showNever" size="690,510" transparent="1" zPosition="3" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColor="XionLightFont2" halign="center" name="playtext" position="70,608" size="708,30" transparent="1" valign="center" zPosition="2" />
     <panel name="template_colorkey_text" />
-    <panel name="template_menu_full_button" />
+    <panel name="template_menu_full_button_nologo" />
   </screen>
   <!-- wbrFS_r_site -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="wbrFS_r_site" position="878,6" size="397,709">
-    <widget alphatest="blend" backgroundColor="transparent" name="picture" position="48,70" size="300,270" />
-    <widget backgroundColor="transparent" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="zeile1" position="52,380" size="100,24" transparent="1" />
-    <widget backgroundColor="transparent" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="zeile1b" position="172,380" size="180,24" transparent="1" noWrap="1" />
-    <widget backgroundColor="transparent" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="zeile2" position="52,410" size="100,24" transparent="1" />
-    <widget backgroundColor="transparent" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="zeile2b" position="172,410" size="180,24" transparent="1" noWrap="1" />
-    <widget backgroundColor="transparent" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="zeile3" position="52,440" size="100,24" transparent="1" />
-    <widget backgroundColor="transparent" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="zeile3b" position="172,440" size="180,24" transparent="1" noWrap="1" />
-    <widget backgroundColor="transparent" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="zeile4" position="52,470" size="100,24" transparent="1" />
-    <widget backgroundColor="transparent" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="zeile4b" position="172,470" size="180,24" transparent="1" noWrap="1" />
-    <widget alphatest="blend" backgroundColor="transparent" name="streamlogo" position="78,530" size="240,132" />
-    <widget backgroundColor="transparent" font="Regular2;20" foregroundColor="XionLightFont2" halign="center" name="fav_name" position="78,530" size="240,132" transparent="1" />
+    <widget alphatest="blend" backgroundColor="XionLightBackground" name="picture" position="48,70" size="300,270" transparent="1" />
+    <widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="zeile1" position="52,380" size="100,24" transparent="1" />
+    <widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="zeile1b" position="172,380" size="180,24" transparent="1" noWrap="1" />
+    <widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="zeile2" position="52,410" size="100,24" transparent="1" />
+    <widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="zeile2b" position="172,410" size="180,24" transparent="1" noWrap="1" />
+    <widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="zeile3" position="52,440" size="100,24" transparent="1" />
+    <widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="zeile3b" position="172,440" size="180,24" transparent="1" noWrap="1" />
+    <widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="zeile4" position="52,470" size="100,24" transparent="1" />
+    <widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="left" name="zeile4b" position="172,470" size="180,24" transparent="1" noWrap="1" />
+    <widget alphatest="blend" backgroundColor="XionLightBackground" name="streamlogo" position="78,530" size="240,132" transparent="1" />
+    <widget backgroundColor="XionLightBackground" font="Regular2;20" foregroundColor="XionLightFont2" halign="center" name="fav_name" position="78,530" size="240,132" transparent="1" />
     <widget foregroundColor="white" name="playline2" pointer="skin_default/position_pointer.png:540,0" position="142,414" size="260,21" transparent="1">
       <convert type="ServicePosition">Gauge</convert>
     </widget>
-    <widget alphatest="blend" name="random" position="144,472" size="50,30" />
-    <widget alphatest="blend" name="subdirs" position="231,472" size="50,30" />
-    <widget alphatest="blend" name="auto" position="319,472" size="50,30" />
+    <widget alphatest="blend" name="random" position="144,472" size="50,30" transparent="1" />
+    <widget alphatest="blend" name="subdirs" position="231,472" size="50,30" transparent="1" />
+    <widget alphatest="blend" name="auto" position="319,472" size="50,30" transparent="1" />
     <widget source="global.CurrentTime" render="Label" position="276,10" size="100,28" font="Regular;26" halign="right" backgroundColor="XionLightBackground" transparent="1" valign="center" foregroundColor="XionLightFont1">
       <convert type="XionLightClockToText">Default</convert>
     </widget>
@@ -1317,14 +1317,14 @@
   </screen>
   <!-- WebradioFSSetup_12 -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="WebradioFSSetup_12" position="0,0" size="1280,720" title="webradioFS">
-    <widget backgroundColor="XionLightBackground" enableWrapAround="1" foregroundColor="XionLightFont1" name="config" position="70,80" size="690,503" scrollbarMode="showNever" scrollbarWidth="5" scrollbarSliderForegroundColor="XionLightFont1" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" transparent="0" zPosition="3" />
+    <widget backgroundColor="XionLightBackground" enableWrapAround="1" foregroundColor="XionLightFont1" name="config" position="70,80" size="690,503" scrollbarMode="showNever" scrollbarWidth="5" scrollbarSliderForegroundColor="XionLightFont1" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" transparent="1" zPosition="3" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColor="XionLightFont2" halign="left" name="playtext" position="70,608" size="708,30" transparent="1" valign="center" zPosition="2" />
     <panel name="template_colorkey_text" />
     <panel name="template_menu_full_button" />
   </screen>
   <!-- WebradioFS_FB_Setup_12 -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="WebradioFS_FB_Setup_12" position="0,0" size="1280,720" title="webradioFS">
-    <widget backgroundColor="XionLightBackground" enableWrapAround="1" foregroundColor="XionLightFont1" name="config" position="70,80" size="690,503" scrollbarMode="showNever" scrollbarWidth="5" scrollbarSliderForegroundColor="XionLightFont1" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" transparent="0" zPosition="3" />
+    <widget backgroundColor="XionLightBackground" enableWrapAround="1" foregroundColor="XionLightFont1" name="config" position="70,80" size="690,503" scrollbarMode="showNever" scrollbarWidth="5" scrollbarSliderForegroundColor="XionLightFont1" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" transparent="1" zPosition="3" />
     <widget backgroundColor="XionLightBackground" font="Regular2;22" foregroundColor="XionLightFont2" halign="center" name="playtext" position="70,608" size="708,30" transparent="1" valign="center" zPosition="2" />
     <panel name="template_colorkey_text" />
     <panel name="template_menu_full_button" />
@@ -1350,14 +1350,14 @@
     <panel name="template_colorkey_text" />
     <panel name="template_menu_full_button" />
   </screen>
-  <screen name="wbrScreenSaver_12" position="0,0" zPosition="5" size="1280,720" flags="wfNoBorder" backgroundColor="XionLightBackground" title="">
-	<widget name="background1" position="0,0" size="1280,720" zPosition="11" transparent="0" backgroundColor="XionLightBackground"></widget>
-	<widget name="display_station" position="255,382" zPosition="12" size="400,35" itemHeight="27" font="Regular;22" halign="left" transparent="1" foregroundColor="XionLightFont1" noWrap="1"></widget>
-	<widget name="display_time" position="255,282" zPosition="12" size="400,90" itemHeight="27" font="Regular;22" halign="left" transparent="1" foregroundColor="XionLightFont2"></widget>
-	<widget name="display_nplaying" position="255,452" zPosition="12" size="400,180" itemHeight="27" font="Regular;22" halign="left" transparent="1" foregroundColor="XionLightFont1"></widget>
-	<widget name="cover" zPosition="12" size="400,400" position="50,182" alphatest="blend"></widget>
-	<widget name="cover2" zPosition="12" size="800,800" position="0,182" alphatest="blend"></widget>
-  </screen>  
+  <!--screen name="wbrScreenSaver_12" position="0,0" zPosition="5" size="1280,720" flags="wfNoBorder" backgroundColor="XionLightBackground" title="">
+    <widget name="background1" position="0,0" size="1280,720" zPosition="11" transparent="1" backgroundColor="XionLightBackground" />
+    <widget name="display_station" position="255,382" zPosition="12" size="400,35" itemHeight="27" font="Regular;22" halign="left" transparent="1" foregroundColor="XionLightFont1" noWrap="1" />
+    <widget name="display_time" position="255,282" zPosition="12" size="400,90" itemHeight="27" font="Regular;22" halign="left" transparent="1" foregroundColor="XionLightFont2" />
+    <widget name="display_nplaying" position="255,452" zPosition="12" size="400,180" itemHeight="27" font="Regular;22" halign="left" transparent="1" foregroundColor="XionLightFont1" />
+    <widget name="cover" zPosition="12" size="400,400" position="50,182" alphatest="blend" />
+    <widget name="cover2" zPosition="12" size="800,800" position="0,182" alphatest="blend" />
+  </screen-->
   <!-- ********** WebInterface ********** -->
   <!-- WebIfConfigScreen -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="WebIfConfigScreen" position="0,0" size="1280,720" title="Main Setup">
