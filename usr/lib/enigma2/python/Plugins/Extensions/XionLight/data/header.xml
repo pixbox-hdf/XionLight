@@ -109,6 +109,10 @@
     <widget font="Regular; 20" halign="left" valign="center" source="yellow" position="464,662" size="148,48" render="Label" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" zPosition="1" />
     <widget font="Regular; 20" halign="left" valign="center" source="blue" position="664,662" size="148,48" render="Label" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" zPosition="1" />
   </screen>   
+  <screen name="template_colorkey_text_kp">
+    <eLabel font="Regular; 20" halign="left" valign="center" text="Cancel" position="64,662" size="148,48" render="Label" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" zPosition="1" />
+    <eLabel font="Regular; 20" halign="left" valign="center" text="Save" position="264,662" size="148,48" render="Label" backgroundColor="XionLightBackground" foregroundColor="XionLightButtonText" transparent="1" zPosition="1" />
+  </screen> 
   <screen name="template_menu_full_button">
     <widget backgroundColor="XionLightBackground" font="Regular2; 34" foregroundColor="XionLightFont2" position="70,12" render="Label" size="900,46" source="Title" transparent="1" halign="left" valign="center" noWrap="1" />
     <eLabel backgroundColor="XionLightBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" foregroundColor="XionLightFont2" />
