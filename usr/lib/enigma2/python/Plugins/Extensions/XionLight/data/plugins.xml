@@ -1112,8 +1112,8 @@
 		<!-- PiconsUpdaterView -->
 	<screen name="PiconsUpdaterView" position="0,0" size="1280,720" title="Picons Updater" flags="wfNoBorder" backgroundColor="transparent">
 		<widget name="config" position="70,80" size="708,510" scrollbarMode="showOnDemand" transparent="1" backgroundColor="XionLightBackground" />
-		<widget name="previewImage" position="902,154" size="350,233" zPosition="1" alphatest="blend" transparent="1" backgroundColor="XionLightBackground" />
-		<widget name="backgroundImage" position="902,397" size="350,156" zPosition="1" alphatest="blend" transparent="1" backgroundColor="XionLightBackground" />
+		<widget name="previewImage" position="850,115" size="400,240" zPosition="1" alphatest="blend" transparent="1" backgroundColor="XionLightBackground" />
+		<widget name="backgroundImage" position="850,390" size="400,240" zPosition="1" alphatest="blend" transparent="1" backgroundColor="XionLightBackground" />
 		<eLabel text="coded by svox, idea by arn354" position="70,585" size="708,24" zPosition="1" font="Regular2;22" foregroundColor="XionLightFont2" halign="center" backgroundColor="XionLightBackground" transparent="1" />
 		<eLabel backgroundColor="XionLightBackground" font="Regular;20" foregroundColor="XionLightButtonText" halign="left" valign="center" text="Cancel" position="64,662" size="148,48" transparent="1" zPosition="1" />
 		<eLabel backgroundColor="XionLightBackground" font="Regular;20" foregroundColor="XionLightButtonText" halign="left" valign="center" text="Save" position="264,662" size="148,48" transparent="1" zPosition="1" />
