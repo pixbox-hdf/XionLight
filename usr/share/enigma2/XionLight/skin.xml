@@ -3096,7 +3096,18 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 	</screen>
 		<!-- HddSetup -->
 	<screen backgroundColor="XionLightBackground" flags="wfNoBorder" name="HddSetup" position="0,0" size="1280,720" title="Hard Drive Setup">
-		<widget name="menu" position="70,80" size="708,540" scrollbarMode="showOnDemand" itemHeight="50" transparent="1" />
+		<widget source="menu" render="Listbox" position="70,80" size="708,540" scrollbarMode="showOnDemand" itemHeight="50" transparent="1" />
+			<convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryPixmapAlphaTest(pos = (5, 0), size = (48, 48), png = 0),
+					MultiContentEntryText(pos = (65, 10), size = (330, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
+					MultiContentEntryText(pos = (405, 10), size = (125, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
+					],
+					"fonts": [gFont("Regular", 22)],
+					"itemHeight": 50
+				}
+			</convert>
+		</widget>		
 		<panel name="template_menu_full_button" />
 		<panel name="template_colorkey_text_source" />
 	</screen>
@@ -4428,8 +4439,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<!-- PiconsUpdaterView -->
 	<screen name="PiconsUpdaterView" position="0,0" size="1280,720" title="Picons Updater" flags="wfNoBorder" backgroundColor="transparent">
 		<widget name="config" position="70,80" size="708,510" scrollbarMode="showOnDemand" transparent="1" backgroundColor="XionLightBackground" />
-		<widget name="previewImage" position="902,154" size="350,233" zPosition="1" alphatest="blend" transparent="1" backgroundColor="XionLightBackground" />
-		<widget name="backgroundImage" position="902,397" size="350,156" zPosition="1" alphatest="blend" transparent="1" backgroundColor="XionLightBackground" />
+		<widget name="previewImage" position="850,115" size="400,240" zPosition="1" alphatest="blend" transparent="1" backgroundColor="XionLightBackground" />
+		<widget name="backgroundImage" position="850,390" size="400,240" zPosition="1" alphatest="blend" transparent="1" backgroundColor="XionLightBackground" />
 		<eLabel text="coded by svox, idea by arn354" position="70,585" size="708,24" zPosition="1" font="Regular2;22" foregroundColor="XionLightFont2" halign="center" backgroundColor="XionLightBackground" transparent="1" />
 		<eLabel backgroundColor="XionLightBackground" font="Regular;20" foregroundColor="XionLightButtonText" halign="left" valign="center" text="Cancel" position="64,662" size="148,48" transparent="1" zPosition="1" />
 		<eLabel backgroundColor="XionLightBackground" font="Regular;20" foregroundColor="XionLightButtonText" halign="left" valign="center" text="Save" position="264,662" size="148,48" transparent="1" zPosition="1" />
