@@ -2670,6 +2670,22 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<panel name="template_menu_full_button" />
 		<panel name="template_colorkey_text_source" />
 	</screen>
+		<!-- ExtraMessageBox -->
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="ExtraMessageBox" position="0,0" size="1280,720" title=" ">
+		<widget name="message" backgroundColor="XionLightBackground" flags="wfNoBorder" position="70,80" size="708,30" foregroundColor="XionLightFont2" font="Regular;22" transparent="1" />
+		<widget backgroundColor="XionLightBackground" source="menu" render="Listbox" position="70,120" size="708,480" scrollbarMode="showOnDemand" transparent="1">
+			<convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryPixmapAlphaTest(pos = (5, 0), size = (48, 48), png = 0),
+					MultiContentEntryText(pos = (65, 10), size = (643, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
+					],
+					"fonts": [gFont("Regular", 22)],
+					"itemHeight": 48
+				}
+			</convert>
+		</widget>
+		<panel name="template_menu_full" />
+	</screen>	
 		<!-- HddMounts -->
 	<screen backgroundColor="XionLightBackground" flags="wfNoBorder" name="HddMount" position="0,0" size="1280,720" title="Hard Drive Mount">
 		<widget name="menu" render="Listbox" position="70,80" size="708,540" scrollbarMode="showOnDemand" itemHeight="50" transparent="1">
