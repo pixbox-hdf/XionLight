@@ -1430,6 +1430,8 @@
 		<widget alphatest="blend" name="random" position="105,470" size="50,30" />
 		<widget alphatest="blend" name="subdirs" position="185,470" size="50,30" />
 		<widget alphatest="blend" name="auto" position="265,470" size="50,30" />
+		<ePixmap position="0,415" size="408,170" zPosition="-9" pixmap="XionLight/infobar/infobar_wr.png" transparent="1" alphatest="blend" />
+		<ePixmap position="0,0" size="408,234" zPosition="-9" pixmap="XionLight/infobar/infobar_oben_wr.png" transparent="1" alphatest="blend" />		
 	</screen>
 		<!-- WebradioFSSetup_13 -->
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="WebradioFSSetup_13" position="0,0" size="1280,720" title="webradioFS">
