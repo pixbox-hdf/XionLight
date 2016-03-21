@@ -6,8 +6,9 @@
 	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="XionLightBackground"/>
 		<eLabel position="75,85" size="1125,552" zPosition="-4" backgroundColor="XionLightBackground"/>
 	<ePixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/XionLight/images/mp_bg_detail.png" alphatest="blend" />
+	<ePixmap pixmap="XionLight/line/line1280.png" position="0,64" size="1280,2" backgroundColor="XionLightBackground" alphatest="on" />
+	<ePixmap pixmap="XionLight/line/line1280.png" position="0,656" size="1280,2" backgroundColor="XionLightBackground" alphatest="on" />
 	
-
 	<!-- Datum/Uhrzeit -->
 	<widget source="global.CurrentTime" render="Label" position="1120,122" size="100,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#00ffffff" >
 		<convert type="ClockToText">Format:%H:%M:%S</convert>
