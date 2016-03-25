@@ -2419,20 +2419,20 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<!-- ********** Flash Online ********** -->
 		<!-- doFlashImage -->
 	<screen name="doFlashImage" position="0,0" size="1280,720" title="doFlashImage" flags="wfNoBorder" backgroundColor="transparent">
-		<widget name="imageList" position="70,80" size="708,540" font="Regular;21" foregroundColor="XionLightFont1" halign="left" valign="top" transparent="1" backgroundColor="XionLightBackground" />
+		<widget name="imageList" position="70,80" size="708,540" itemHeight="30" font="Regular;22" foregroundColor="XionLightFont1" halign="left" valign="top" transparent="1" backgroundColor="XionLightBackground" />
 		<panel name="template_menu_full_button" />
 		<panel name="template_colorkey_text" />
 	</screen>
 		<!-- FlashOnline -->
 	<screen name="FlashOnline" position="0,0" size="1280,720" title="FlashOnline" flags="wfNoBorder" backgroundColor="transparent">
-		<widget name="info-online" position="70,80" zPosition="1" size="708,242" font="Regular;22" foregroundColor="XionLightFont1" halign="left" valign="top" transparent="1" backgroundColor="XionLightBackground" />
-		<widget name="info-local" position="70,340" zPosition="1" size="708,242" font="Regular;22" foregroundColor="XionLightFont1" halign="left" valign="top" transparent="1" backgroundColor="XionLightBackground" />
+		<widget name="info-online" position="70,80" zPosition="1" size="708,242" itemHeight="30" font="Regular;22" foregroundColor="XionLightFont1" halign="left" valign="top" transparent="1" backgroundColor="XionLightBackground" />
+		<widget name="info-local" position="70,340" zPosition="1" size="708,242" itemHeight="30" font="Regular;22" foregroundColor="XionLightFont1" halign="left" valign="top" transparent="1" backgroundColor="XionLightBackground" />
 		<panel name="template_menu_full_button" />
 		<panel name="template_colorkey_text" />
 	</screen>
 		<!-- JobView -->
 	<screen name="JobView" position="0,0" size="1280,720" title="JobView" flags="wfNoBorder" backgroundColor="transparent">
-		<widget backgroundColor="XionLightBackground" source="job_name" render="Label" position="70,80" size="708,70" font="Regular;28" foregroundColor="XionLightFont1" />
+		<widget backgroundColor="XionLightBackground" source="job_name" render="Label" position="70,80" size="708,70" font="Regular;28" foregroundColor="XionLightFont1" transparent="1" />
 		<widget backgroundColor="XionLightBackground" source="job_progress" render="Label" position="285,238" size="280,32" font="Regular2;28" foregroundColor="XionLightFont2" zPosition="2" halign="center" transparent="1">
 			<convert type="ProgressToText" />
 		</widget>
@@ -2445,10 +2445,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<widget source="backgroundable" render="FixedLabel" text="Continue in background" position="664,662" size="148,48" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="XionLightButtonText" backgroundColor="XionLightBackground" transparent="1">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="job_progress" render="Progress" position="70,238" size="708,36" borderWidth="2" foregroundColor="blue" backgroundColor="XionLightBackground" />
-		<widget backgroundColor="XionLightBackground" source="job_task" render="Label" position="70,160" size="708,50" font="Regular2;22" foregroundColor="XionLightFont2" />
-		<widget backgroundColor="XionLightBackground" source="job_status" render="Label" position="70,291" size="480,28" font="Regular2;22" foregroundColor="XionLightFont2" />
-		<widget name="config" position="70,335" size="480,20" />
+		<widget source="job_progress" render="Progress" position="70,238" size="708,36" borderWidth="2" foregroundColor="blue" backgroundColor="XionLightBackground" transparent="1" />
+		<widget backgroundColor="XionLightBackground" source="job_task" render="Label" position="70,160" size="708,50" font="Regular2;22" foregroundColor="XionLightFont2" transparent="1" />
+		<widget backgroundColor="XionLightBackground" source="job_status" render="Label" position="70,291" size="480,28" font="Regular2;22" foregroundColor="XionLightFont2" transparent="1" />
+		<widget name="config" position="70,335" size="480,20" transparent="1" />
 		<panel name="template_menu_full_button" />
 	</screen>
 		<!-- ********** Tuner Setup ********** -->
@@ -3066,7 +3066,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<eLabel text="No Update! / nicht updaten!" position="202,509" size="396,25" zPosition="1" font="Regular; 20" halign="left" backgroundColor="red" transparent="0" />
 		<eLabel text="update at your own risk / auf eigene Gefahr!" position="202,546" size="396,25" zPosition="1" font="Regular; 18" halign="left" foregroundColor="black" backgroundColor="yellow" transparent="0" />
 		<panel name="template_colorkey_text" />
-		<panel name="template_menu_full_button" />
+		<panel name="template_menu_full" />
 	</screen>
 		<!-- Devices -->
 	<screen name="Devices" position="0,0" size="1280,720" title="SystemInfo" flags="wfNoBorder" backgroundColor="XionLightBackground">
@@ -3114,7 +3114,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<!-- HddPartitions -->
 	<screen backgroundColor="XionLightBackground" flags="wfNoBorder" name="HddPartitions" position="0,0" size="1280,720" title="Hard Drive Partitions">
 		<widget name="label_disk" position="70,80" font="Regular2; 26" size="708,30" halign="center" valign="center" backgroundColor="XionLightBackground" transparent="1" foregroundColor="XionLightFont2" />
-		<widget source="menu" render="Listbox" position="70,136" size="708,488" scrollbarMode="showOnDemand">
+		<widget source="menu" render="Listbox" position="70,136" size="708,488" scrollbarMode="showOnDemand" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryPixmapAlphaTest(pos = (5, 0), size = (48, 48), png = 0),
@@ -3316,6 +3316,29 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<panel name="template_menu_full_button_nologo" />
 		<panel name="template_colorkey_text_source" />
 	</screen>
+		<!-- UserInterfacePositioner -->
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="UserInterfacePositioner2" position="0,0" size="1280,720" title="UserInterfacePositioner2">
+		<widget backgroundColor="XionLightBackground" enableWrapAround="1" itemHeight="30" font="Regular;22" name="config" position="70,80" size="708,540" scrollbarMode="showOnDemand" transparent="1" />
+		<panel name="template_colorkey_text_source" />
+		<panel name="template_menu_full_button" />
+	</screen>
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="UserInterfacePositioner" position="0,0" size="1280,720" title="UserInterfacePositioner">
+		<widget backgroundColor="XionLightBackground" enableWrapAround="1" itemHeight="30" font="Regular;22" name="config" position="70,80" size="708,540" scrollbarMode="showOnDemand" transparent="1" />
+		<panel name="template_colorkey_text_source" />
+		<panel name="template_menu_full_button" />
+	</screen>
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="OSD3DSetupScreen" position="0,0" size="1280,720" title="OSD3DSetupScreen">
+		<widget backgroundColor="XionLightBackground" enableWrapAround="1" itemHeight="30" font="Regular;22" name="config" position="70,80" size="708,540" scrollbarMode="showOnDemand" transparent="1" />
+		<panel name="template_colorkey_text_source" />
+		<panel name="template_menu_full_button" />
+	</screen>
+		<!-- DeviceBrowser -->
+	<screen backgroundColor="XionLightBackground" flags="wfNoBorder" name="DeviceBrowser" position="0,0" size="1280,720" >
+		<widget source="message" render="Label" backgroundColor="XionLightBackground" position="70,50" size="510,150" font="Regular;20" transparent="1" />
+		<widget name="filelist" backgroundColor="XionLightBackground" enableWrapAround="1" position="70,80" itemHeight="30" font="Regular;22" size="708,540" scrollbarMode="showNever" transparent="1" />
+		<panel name="template_colorkey_text_source" />
+		<panel name="template_menu_full_button" />
+	</screen>	
 		<!-- StreamingClientsInfo -->
 	<screen backgroundColor="XionLightBackground" flags="wfNoBorder" name="StreamingClientsInfo" position="0,0" size="1280,720" >
 		<widget name="ScrollLabel" scrollbarMode="showOnDemand" position="70,180" size="708,450" font="Regular;20" backgroundColor="XionLightBackground" transparent="1" zPosition="1" foregroundColor="XionLightFont1" />
@@ -4066,7 +4089,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<panel name="template_colorkey_text" />
 	</screen>
 		<!-- ********** MediaInfo ********** -->
-		<!-- MediaInfo -->
+		<!-- MediaInfo 2.x -->
 	<screen backgroundColor="XionLightBackground" flags="wfNoBorder" name="mediaInfo" position="0,0" size="1280,720" title="MediaInfo">
 		<widget backgroundColor="XionLightBackground" font="Regular;24" halign="center" name="info" position="60,90" size="1160,45" transparent="1" valign="center" zPosition="5" />
 		<widget backgroundColor="XionLightBackground" font="Regular;26" foregroundColor="XionLightFont1" halign="center" name="head" position="60,143" size="1160,45" transparent="1" valign="center" zPosition="5" />
@@ -4087,6 +4110,27 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<panel name="template_menu_full_button_nologo" />
 		<panel name="template_colorkey_text" />
 	</screen>
+		<!-- MediaInfo 3.x -->
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="MediaInfo" position="0,0" size="1280,720" title="">
+		<widget backgroundColor="XionLightBackground"  font="Regular;30" foregroundColor="XionLightFont1" halign="center" name="head" position="60,90" size="1140,45" transparent="1" valign="center" zPosition="5" />
+		<widget backgroundColor="XionLightBackground"  name="downloadList" itemHeight="50" font="Regular;24" position="40,152" scrollbarMode="showNever" size="1200,490" scrollbarWidth="5" scrollbarSliderForegroundColor="XionLightFont1" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" transparent="1" zPosition="-1" />
+		<panel name="template_menu_full_button_nologo" />
+		<panel name="template_colorkey_text" />
+	</screen>
+		<!-- mediaInfoFolderScreen -->
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="MediaInfoFolderScreen" position="0,0" size="1280,720" title="">
+		<widget font="Regular; 26" name="media" position="30,100" size="940,40" backgroundColor="XionLightBackground"  transparent="1" valign="top" />
+		<widget name="folderlist" backgroundColor="XionLightBackground"  itemHeight="30" font="Regular;22" position="30,148" scrollbarMode="showNever" size="1220,440" scrollbarWidth="5" scrollbarSliderForegroundColor="XionLightFont1" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" transparent="1" />
+		<panel name="template_menu_full_button_nologo" />
+		<panel name="template_colorkey_text" />
+	</screen>
+		<!-- mediaInfoConfigScreen -->
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="MediaInfoConfigScreen" position="0,0" size="1280,720" title="">
+		<widget backgroundColor="XionLightBackground"  font="Regular;24" halign="center" name="head" position="60,90" size="1160,45" transparent="1" valign="center" zPosition="5" />
+		<widget backgroundColor="XionLightBackground"  name="config" itemHeight="30" font="Regular;22" position="30,100" scrollbarMode="showNever" size="1220,405" scrollbarWidth="5" scrollbarSliderForegroundColor="XionLightFont1" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" transparent="1" zPosition="-1" />
+		<panel name="template_menu_full_button_nologo" />
+		<panel name="template_colorkey_text" />
+	</screen>	
 		<!-- ********** MediaPlayer ********** -->
 		<!-- MediaPlayer -->
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="MediaPlayer" position="center,center" size="1280,720" title="MediaPlayer" transparent="0">
