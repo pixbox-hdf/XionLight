@@ -2767,6 +2767,12 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<panel name="template_menu_full_button" />
 		<panel name="template_colorkey_text_source" />
 	</screen>
+		<!-- LED_VFD_INISetup -->
+	<screen name="VFD_INISetup" position="0,0" size="1280,720" title="LED Setup" backgroundColor="XionLightBackground">
+		<widget name="config" position="70,80" size="708,540" scrollbarMode="showOnDemand" transparent="1" />
+		<panel name="template_menu_full_button" />
+		<panel name="template_colorkey_text_source" />
+	</screen>		
 		<!-- VFDSkinSelector -->
 	<screen name="VFDSkinSelector" position="0,0" size="1280,720" title="LCD Skin-Selector" backgroundColor="XionLightBackground">
 		<widget name="lab1" position="70,111" size="250,26" zPosition="1" font="Regular2; 22" halign="left" transparent="1" foregroundColor="XionLightFont2" />
