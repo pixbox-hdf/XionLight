@@ -202,8 +202,8 @@
 		<!-- ********** CutListEditor ********** -->
 		<!-- CutListEditor -->
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="CutListEditor" position="0,0" size="1280,720" title="Cutlist editor">
-		<eLabel backgroundColor="XionLightFont1" position="70,130" size="700,381" zPosition="1" />
-		<eLabel backgroundColor="white" position="72,132" size="696,377" zPosition="3" />
+		<eLabel backgroundColor="white" position="70,130" size="700,381" zPosition="1" />
+		<eLabel backgroundColor="transparent" position="72,132" size="696,377" zPosition="3" />
 		<widget name="Video" position="72,132" size="696,377" zPosition="-10" />
 		<widget backgroundColor="XionLightBackground" font="Regular2;24" halign="center" position="70,520" render="Label" size="700,30" source="session.CurrentService" transparent="1" valign="center" foregroundColor="XionLightFont2">
 			<convert type="ServiceName">Name</convert>
@@ -212,7 +212,7 @@
 			<convert type="ServicePosition">Position,Detailed</convert>
 		</widget>
 		<widget backgroundColor="XionLightBackground" foregroundColor="XionLightBackground" name="Timeline" pointer="skin_default/position_arrow.png:3,5" position="70,597" size="700,20" />
-		<eLabel backgroundColor="XionLightFont1" position="800,130" size="420,440" zPosition="1" />
+		<eLabel backgroundColor="white" position="800,130" size="420,440" zPosition="1" />
 		<eLabel backgroundColor="XionLightBackground" position="802,132" size="416,436" zPosition="2" />
 		<widget position="810,140" render="Listbox" size="400,420" source="cutlist" zPosition="3">
 			<convert type="TemplatedMultiContent">
