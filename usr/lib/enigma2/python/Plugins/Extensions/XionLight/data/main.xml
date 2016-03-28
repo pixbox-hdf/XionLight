@@ -2574,7 +2574,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<eLabel text="https://github.com/oe-alliance" position="460,203" size="354,28" font="Regular2; 19" transparent="1" zPosition="1" foregroundColor="XionLightFont2" />
 		<eLabel text="Designed by" position="880,520" size="355,35" font="Regular2; 24" transparent="1" zPosition="1" halign="center" />
 		<eLabel text="Team Kraven" position="880,565" size="355,35" font="Regular2; 24" transparent="1" zPosition="1" halign="center" />
-		<widget name="AboutScrollLabel" position="70,253" size="650,360" scrollbarMode="showOnDemand" font="Regular;20" transparent="1" zPosition="1" />
+		<widget name="AboutScrollLabel" position="70,243" size="650,390" scrollbarMode="showOnDemand" font="Regular;20" transparent="1" zPosition="1" />
 		<panel name="template_menu_full" />
 	</screen>
 		<!-- UpdatePluginMenu -->
