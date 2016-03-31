@@ -2491,10 +2491,10 @@
 		<!-- XMLTVImport Config -->
 	<screen backgroundColor="XionLightBackground" name="XMLTVImportConfig" position="0,0" size="1280,720" title="XMLTV Import Configuration">
 		<widget name="config" backgroundColor="XionLightBackground" position="70,117" size="708,484" font="Regular;24" itemHeight="34" scrollbarMode="showOnDemand" transparent="1" />
-		<widget name="statusbar" backgroundColor="XionLightBackground" position="70,80" size="708,30" font="Regular2;24" itemHeight="34" halign="left" valign="center" transparent="1" />
-		<widget name="status" backgroundColor="XionLightBackground" position="664,662" size="148,48" font="Regular;22" itemHeight="34" halign="left" valign="center" transparent="1" />
-		<ePixmap pixmap="XionLight/buttons/key_info.png" position="22,621" zPosition="1" size="32,37" alphatest="blend" />
-		<ePixmap pixmap="XionLight/buttons/key_menu.png" position="222,621" zPosition="1" size="32,37" alphatest="blend" />
+		<widget name="statusbar" backgroundColor="XionLightBackground" position="72,80" size="708,30" font="Regular2;24" itemHeight="34" halign="left" valign="center" transparent="1" />
+		<widget name="status" backgroundColor="XionLightBackground" position="76,69" size="708,48" enableWrapAround="1" font="Regular;20" itemHeight="30" halign="left" valign="center" transparent="1" />
+		<ePixmap pixmap="XionLight/buttons/key_menu.png" position="706,76" zPosition="1" size="32,37" alphatest="blend" />
+		<ePixmap pixmap="XionLight/buttons/key_info.png" position="742,76" zPosition="1" size="32,37" alphatest="blend" />
 		<panel name="template_menu_full_button" />
 		<panel name="template_colorkey_text_source" />
 	</screen>
@@ -2512,10 +2512,10 @@
 	</screen>
 		<!-- XMLTVImport Log -->
 	<screen backgroundColor="XionLightBackground" name="XMLTVImportLog" position="0,0" size="1280,720" title="XMLTV Import Log">
-		<widget name="list" backgroundColor="XionLightBackground" scrollbarMode="showOnDemand" position="70,80" size="708,540" itemHeight="34" font="Regular;24" halign="center" valign="center" transparent="1" />
+		<widget name="list" backgroundColor="XionLightBackground" scrollbarMode="showOnDemand" position="70,80" size="708,540" font="Regular;24" halign="center" valign="center" transparent="1" />
 		<panel name="template_menu_full_button" />
 		<panel name="template_colorkey_text_source" />
-	</screen>
+	</screen>	
 		<!-- plugins -->
 		<!-- skin-end -->
 </skin>
