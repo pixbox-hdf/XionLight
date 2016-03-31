@@ -3033,7 +3033,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<eLabel text="https://github.com/oe-alliance" position="460,203" size="354,28" font="Regular2; 19" transparent="1" zPosition="1" foregroundColor="XionLightFont2" />
 		<eLabel text="Designed by" position="880,520" size="355,35" font="Regular2; 24" transparent="1" zPosition="1" halign="center" />
 		<eLabel text="Team Kraven" position="880,565" size="355,35" font="Regular2; 24" transparent="1" zPosition="1" halign="center" />
-		<widget name="AboutScrollLabel" position="70,253" size="650,360" scrollbarMode="showOnDemand" font="Regular;20" transparent="1" zPosition="1" />
+		<widget name="AboutScrollLabel" position="70,243" size="650,390" scrollbarMode="showOnDemand" font="Regular;20" transparent="1" zPosition="1" />
 		<panel name="template_menu_full" />
 	</screen>
 		<!-- UpdatePluginMenu -->
@@ -3107,7 +3107,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 					"itemHeight": 50
 				}
 			</convert>
-		</widget>		
+		</widget>
 		<panel name="template_menu_full_button" />
 		<panel name="template_colorkey_text_source" />
 	</screen>
@@ -3144,7 +3144,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 			</convert>
 		</widget>
 		<panel name="template_menu_full" />
-	</screen>	
+	</screen>
 		<!-- HddMounts -->
 	<screen backgroundColor="XionLightBackground" flags="wfNoBorder" name="HddMount" position="0,0" size="1280,720" title="Hard Drive Mount">
 		<widget name="menu" render="Listbox" position="70,80" size="708,540" scrollbarMode="showOnDemand" itemHeight="50" transparent="1">
@@ -3222,6 +3222,12 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 	</screen>
 		<!-- LED_GigaSetup -->
 	<screen name="LED_GigaSetup" position="0,0" size="1280,720" title="LED Setup" backgroundColor="XionLightBackground">
+		<widget name="config" position="70,80" size="708,540" scrollbarMode="showOnDemand" transparent="1" />
+		<panel name="template_menu_full_button" />
+		<panel name="template_colorkey_text_source" />
+	</screen>
+		<!-- LED_VFD_INISetup -->
+	<screen name="VFD_INISetup" position="0,0" size="1280,720" title="LED Setup" backgroundColor="XionLightBackground">
 		<widget name="config" position="70,80" size="708,540" scrollbarMode="showOnDemand" transparent="1" />
 		<panel name="template_menu_full_button" />
 		<panel name="template_colorkey_text_source" />
@@ -3338,7 +3344,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<widget name="filelist" backgroundColor="XionLightBackground" enableWrapAround="1" position="70,80" itemHeight="30" font="Regular;22" size="708,540" scrollbarMode="showNever" transparent="1" />
 		<panel name="template_colorkey_text_source" />
 		<panel name="template_menu_full_button" />
-	</screen>	
+	</screen>
 		<!-- StreamingClientsInfo -->
 	<screen backgroundColor="XionLightBackground" flags="wfNoBorder" name="StreamingClientsInfo" position="0,0" size="1280,720" >
 		<widget name="ScrollLabel" scrollbarMode="showOnDemand" position="70,180" size="708,450" font="Regular;20" backgroundColor="XionLightBackground" transparent="1" zPosition="1" foregroundColor="XionLightFont1" />
@@ -3568,8 +3574,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<!-- ********** CutListEditor ********** -->
 		<!-- CutListEditor -->
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="CutListEditor" position="0,0" size="1280,720" title="Cutlist editor">
-		<eLabel backgroundColor="XionLightFont1" position="70,130" size="700,381" zPosition="1" />
-		<eLabel backgroundColor="white" position="72,132" size="696,377" zPosition="3" />
+		<eLabel backgroundColor="white" position="70,130" size="700,381" zPosition="1" />
+		<eLabel backgroundColor="transparent" position="72,132" size="696,377" zPosition="3" />
 		<widget name="Video" position="72,132" size="696,377" zPosition="-10" />
 		<widget backgroundColor="XionLightBackground" font="Regular2;24" halign="center" position="70,520" render="Label" size="700,30" source="session.CurrentService" transparent="1" valign="center" foregroundColor="XionLightFont2">
 			<convert type="ServiceName">Name</convert>
@@ -3578,7 +3584,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 			<convert type="ServicePosition">Position,Detailed</convert>
 		</widget>
 		<widget backgroundColor="XionLightBackground" foregroundColor="XionLightBackground" name="Timeline" pointer="skin_default/position_arrow.png:3,5" position="70,597" size="700,20" />
-		<eLabel backgroundColor="XionLightFont1" position="800,130" size="420,440" zPosition="1" />
+		<eLabel backgroundColor="white" position="800,130" size="420,440" zPosition="1" />
 		<eLabel backgroundColor="XionLightBackground" position="802,132" size="416,436" zPosition="2" />
 		<widget position="810,140" render="Listbox" size="400,420" source="cutlist" zPosition="3">
 			<convert type="TemplatedMultiContent">
@@ -4130,7 +4136,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<widget backgroundColor="XionLightBackground"  name="config" itemHeight="30" font="Regular;22" position="30,100" scrollbarMode="showNever" size="1220,405" scrollbarWidth="5" scrollbarSliderForegroundColor="XionLightFont1" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" transparent="1" zPosition="-1" />
 		<panel name="template_menu_full_button_nologo" />
 		<panel name="template_colorkey_text" />
-	</screen>	
+	</screen>
 		<!-- ********** MediaPlayer ********** -->
 		<!-- MediaPlayer -->
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="MediaPlayer" position="center,center" size="1280,720" title="MediaPlayer" transparent="0">
@@ -4818,7 +4824,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<widget alphatest="blend" name="subdirs" position="185,470" size="50,30" />
 		<widget alphatest="blend" name="auto" position="265,470" size="50,30" />
 		<ePixmap position="0,415" size="408,170" zPosition="-9" pixmap="XionLight/infobar/infobar_wr.png" transparent="1" alphatest="blend" />
-		<ePixmap position="0,0" size="408,234" zPosition="-9" pixmap="XionLight/infobar/infobar_oben_wr.png" transparent="1" alphatest="blend" />		
+		<ePixmap position="0,0" size="408,234" zPosition="-9" pixmap="XionLight/infobar/infobar_oben_wr.png" transparent="1" alphatest="blend" />
 	</screen>
 		<!-- WebradioFSSetup_13 -->
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="WebradioFSSetup_13" position="0,0" size="1280,720" title="webradioFS">
@@ -5828,6 +5834,59 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<widget name="channel" position="390,600" size="460,25" font="Regular;22" backgroundColor="XionLightBackground" transparent="1" />
 		<panel name="template_menu_full_button" />
 		<panel name="template_colorkey_text" />
+	</screen>
+		<!-- Programmlisten Updater -->
+	<screen backgroundColor="XionLightBackground" name="Programmlisten_Updater" position="0,0" size="1280,720" title="Programmlisten_Updater von DXAndy">
+		<widget name="MenuListSetting" backgroundColor="XionLightBackground" position="70,117" size="708,484" font="Regular;24" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" />
+		<widget name="description" backgroundColor="XionLightBackground" position="70,80" size="708,30" font="Regular2;24" itemHeight="30" halign="left" valign="center" transparent="1" />
+		<widget name="update" backgroundColor="XionLightBackground" position="664,662" size="148,48" font="Regular;22" itemHeight="30" halign="left" valign="center" transparent="1" />
+		<eLabel text="History" backgroundColor="XionLightBackground" position="64,622" size="244,30" font="Regular;22" itemHeight="30" halign="left" valign="center" transparent="1" />
+		<eLabel text="Restore" backgroundColor="XionLightBackground" position="264,622" size="244,30" font="Regular;22" itemHeight="30" halign="left" valign="center" transparent="1" />
+		<ePixmap pixmap="XionLight/buttons/key_info.png" position="22,621" zPosition="1" size="32,37" alphatest="blend" />
+		<ePixmap pixmap="XionLight/buttons/key_menu.png" position="222,621" zPosition="1" size="32,37" alphatest="blend" />
+		<panel name="template_menu_full_button" />
+		<panel name="template_colorkey_text_source" />
+	</screen>
+		<!-- PU_History -->
+	<screen backgroundColor="XionLightBackground" name="PU_History" position="0,0" size="1280,720" title="Programmlisten_Updater von DXAndy">
+		<widget name="History" backgroundColor="XionLightBackground" position="70,80" size="708,540" font="Regular;24" itemHeight="30" halign="center" valign="center" transparent="1" />
+		<panel name="template_menu_full_button" />
+		<panel name="template_colorkey_text_source" />
+	</screen>
+		<!-- PU_Restore -->
+	<screen backgroundColor="XionLightBackground" name="PU_Restore" position="0,0" size="1280,720" title="Programmlisten_Updater von DXAndy">
+		<widget name="ListSetting" backgroundColor="XionLightBackground" position="70,80" size="708,540" itemHeight="30" font="Regular;24" halign="center" valign="center" transparent="1" />
+		<panel name="template_menu_full_button" />
+		<panel name="template_colorkey_text_source" />
+	</screen>
+		<!-- XMLTVImport -->
+		<!-- XMLTVImport Config -->
+	<screen backgroundColor="XionLightBackground" name="XMLTVImportConfig" position="0,0" size="1280,720" title="XMLTV Import Configuration">
+		<widget name="config" backgroundColor="XionLightBackground" position="70,117" size="708,484" font="Regular;24" itemHeight="34" scrollbarMode="showOnDemand" transparent="1" />
+		<widget name="statusbar" backgroundColor="XionLightBackground" position="70,80" size="708,30" font="Regular2;24" itemHeight="34" halign="left" valign="center" transparent="1" />
+		<widget name="status" backgroundColor="XionLightBackground" position="76,69" size="708,48" enableWrapAround="1" font="Regular;20" itemHeight="30" halign="left" valign="center" transparent="1" />
+		<ePixmap pixmap="XionLight/buttons/key_menu.png" position="706,76" zPosition="1" size="32,37" alphatest="blend" />
+		<ePixmap pixmap="XionLight/buttons/key_info.png" position="742,76" zPosition="1" size="32,37" alphatest="blend" />
+		<panel name="template_menu_full_button" />
+		<panel name="template_colorkey_text_source" />
+	</screen>
+		<!-- XMLTVImport Sources -->
+	<screen backgroundColor="XionLightBackground" name="XMLTVImportSources" position="0,0" size="1280,720" title="XMLTV Import Sources">
+		<widget name="list" backgroundColor="XionLightBackground" scrollbarMode="showNever" position="70,80" size="708,540" font="Regular;24" itemHeight="34" halign="center" valign="center" transparent="1" />
+		<panel name="template_menu_full_button" />
+		<panel name="template_colorkey_text_source" />
+	</screen>
+		<!-- XMLTVImport Profile -->
+	<screen backgroundColor="XionLightBackground" name="XMLTVImportProfile" position="0,0" size="1280,720" title="XMLTVImportProfile">
+		<widget name="config" backgroundColor="XionLightBackground" scrollbarMode="showOnDemand" position="70,80" size="708,540" itemHeight="34" font="Regular;24" halign="center" valign="center" transparent="1" />
+		<panel name="template_menu_full_button" />
+		<panel name="template_colorkey_text_source" />
+	</screen>
+		<!-- XMLTVImport Log -->
+	<screen backgroundColor="XionLightBackground" name="XMLTVImportLog" position="0,0" size="1280,720" title="XMLTV Import Log">
+		<widget name="list" backgroundColor="XionLightBackground" scrollbarMode="showOnDemand" position="70,80" size="708,540" font="Regular;24" halign="center" valign="center" transparent="1" />
+		<panel name="template_menu_full_button" />
+		<panel name="template_colorkey_text_source" />
 	</screen>
 		<!-- plugins -->
 		<!-- skin-end -->

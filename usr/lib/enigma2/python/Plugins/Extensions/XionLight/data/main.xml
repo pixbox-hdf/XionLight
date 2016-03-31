@@ -2648,7 +2648,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 					"itemHeight": 50
 				}
 			</convert>
-		</widget>		
+		</widget>
 		<panel name="template_menu_full_button" />
 		<panel name="template_colorkey_text_source" />
 	</screen>
@@ -2685,7 +2685,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 			</convert>
 		</widget>
 		<panel name="template_menu_full" />
-	</screen>	
+	</screen>
 		<!-- HddMounts -->
 	<screen backgroundColor="XionLightBackground" flags="wfNoBorder" name="HddMount" position="0,0" size="1280,720" title="Hard Drive Mount">
 		<widget name="menu" render="Listbox" position="70,80" size="708,540" scrollbarMode="showOnDemand" itemHeight="50" transparent="1">
@@ -2772,7 +2772,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<widget name="config" position="70,80" size="708,540" scrollbarMode="showOnDemand" transparent="1" />
 		<panel name="template_menu_full_button" />
 		<panel name="template_colorkey_text_source" />
-	</screen>		
+	</screen>
 		<!-- VFDSkinSelector -->
 	<screen name="VFDSkinSelector" position="0,0" size="1280,720" title="LCD Skin-Selector" backgroundColor="XionLightBackground">
 		<widget name="lab1" position="70,111" size="250,26" zPosition="1" font="Regular2; 22" halign="left" transparent="1" foregroundColor="XionLightFont2" />
@@ -2885,7 +2885,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<widget name="filelist" backgroundColor="XionLightBackground" enableWrapAround="1" position="70,80" itemHeight="30" font="Regular;22" size="708,540" scrollbarMode="showNever" transparent="1" />
 		<panel name="template_colorkey_text_source" />
 		<panel name="template_menu_full_button" />
-	</screen>	
+	</screen>
 		<!-- StreamingClientsInfo -->
 	<screen backgroundColor="XionLightBackground" flags="wfNoBorder" name="StreamingClientsInfo" position="0,0" size="1280,720" >
 		<widget name="ScrollLabel" scrollbarMode="showOnDemand" position="70,180" size="708,450" font="Regular;20" backgroundColor="XionLightBackground" transparent="1" zPosition="1" foregroundColor="XionLightFont1" />

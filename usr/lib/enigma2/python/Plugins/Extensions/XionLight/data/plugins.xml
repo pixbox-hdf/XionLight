@@ -764,7 +764,7 @@
 		<widget backgroundColor="XionLightBackground"  name="config" itemHeight="30" font="Regular;22" position="30,100" scrollbarMode="showNever" size="1220,405" scrollbarWidth="5" scrollbarSliderForegroundColor="XionLightFont1" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" transparent="1" zPosition="-1" />
 		<panel name="template_menu_full_button_nologo" />
 		<panel name="template_colorkey_text" />
-	</screen>	
+	</screen>
 		<!-- ********** MediaPlayer ********** -->
 		<!-- MediaPlayer -->
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="MediaPlayer" position="center,center" size="1280,720" title="MediaPlayer" transparent="0">
@@ -1452,7 +1452,7 @@
 		<widget alphatest="blend" name="subdirs" position="185,470" size="50,30" />
 		<widget alphatest="blend" name="auto" position="265,470" size="50,30" />
 		<ePixmap position="0,415" size="408,170" zPosition="-9" pixmap="XionLight/infobar/infobar_wr.png" transparent="1" alphatest="blend" />
-		<ePixmap position="0,0" size="408,234" zPosition="-9" pixmap="XionLight/infobar/infobar_oben_wr.png" transparent="1" alphatest="blend" />		
+		<ePixmap position="0,0" size="408,234" zPosition="-9" pixmap="XionLight/infobar/infobar_oben_wr.png" transparent="1" alphatest="blend" />
 	</screen>
 		<!-- WebradioFSSetup_13 -->
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="WebradioFSSetup_13" position="0,0" size="1280,720" title="webradioFS">
@@ -2487,11 +2487,11 @@
 		<panel name="template_menu_full_button" />
 		<panel name="template_colorkey_text_source" />
 	</screen>
-		<!-- XMLTVImport -->	
+		<!-- XMLTVImport -->
 		<!-- XMLTVImport Config -->
 	<screen backgroundColor="XionLightBackground" name="XMLTVImportConfig" position="0,0" size="1280,720" title="XMLTV Import Configuration">
 		<widget name="config" backgroundColor="XionLightBackground" position="70,117" size="708,484" font="Regular;24" itemHeight="34" scrollbarMode="showOnDemand" transparent="1" />
-		<widget name="statusbar" backgroundColor="XionLightBackground" position="72,80" size="708,30" font="Regular2;24" itemHeight="34" halign="left" valign="center" transparent="1" />
+		<widget name="statusbar" backgroundColor="XionLightBackground" position="70,80" size="708,30" font="Regular2;24" itemHeight="34" halign="left" valign="center" transparent="1" />
 		<widget name="status" backgroundColor="XionLightBackground" position="76,69" size="708,48" enableWrapAround="1" font="Regular;20" itemHeight="30" halign="left" valign="center" transparent="1" />
 		<ePixmap pixmap="XionLight/buttons/key_menu.png" position="706,76" zPosition="1" size="32,37" alphatest="blend" />
 		<ePixmap pixmap="XionLight/buttons/key_info.png" position="742,76" zPosition="1" size="32,37" alphatest="blend" />
@@ -2515,7 +2515,7 @@
 		<widget name="list" backgroundColor="XionLightBackground" scrollbarMode="showOnDemand" position="70,80" size="708,540" font="Regular;24" halign="center" valign="center" transparent="1" />
 		<panel name="template_menu_full_button" />
 		<panel name="template_colorkey_text_source" />
-	</screen>	
+	</screen>
 		<!-- plugins -->
 		<!-- skin-end -->
 </skin>
