@@ -1438,12 +1438,12 @@
 	</screen>
 		<!-- wbrFS_r_site13 -->
 	<screen backgroundColor="XionLightBackground" flags="wfNoBorder" name="wbrFS_r_site13" position="874,70" size="406,585">
-		<widget alphatest="blend" backgroundColor="XionLightBackground" name="picture" position="70,0" size="280,278" />
+		<widget alphatest="blend" backgroundColor="XionLightBackground" name="picture" position="70,10" size="280,278" transparent="1" />
 		<widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="center" name="zeile1b" position="70,300" size="280,22" transparent="1" noWrap="1" />
 		<widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="center" name="zeile2b" position="70,322" size="280,22" transparent="1" noWrap="1" />
 		<widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="center" name="zeile3b" position="70,344" size="280,22" transparent="1" noWrap="1" />
 		<widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="center" name="zeile4b" position="70,366" size="280,22" transparent="1" noWrap="1" />
-		<widget alphatest="blend" backgroundColor="XionLightBackground" name="streamlogo" position="70,430" size="280,140" />
+		<widget alphatest="blend" backgroundColor="XionLightBackground" name="streamlogo" position="70,430" size="280,140" transparent="1" />
 		<widget backgroundColor="XionLightBackground" font="Regular2;20" foregroundColor="XionLightFont2" halign="center" name="fav_name" position="70,440" size="280,140" transparent="1" />
 		<widget foregroundColor="XionLightFont2" name="playline2" pointer="skin_default/position_pointer.png:540,0" position="70,500" size="280,21" transparent="1">
 			<convert type="ServicePosition">Gauge</convert>
