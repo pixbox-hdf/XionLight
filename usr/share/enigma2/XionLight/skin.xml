@@ -1708,6 +1708,11 @@
 		<panel name="template_colorkey_text_source" />
 		<panel name="template_menu_full_button" />
 	</screen>
+		<!-- NetworkOpenvpnLog -->
+	<screen name="NetworkVpnLog" title="OpenVpn Log" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
+		<widget name="infotext" position="70,80" size="708,500" font="Regular;18" zPosition="3" backgroundColorSelected="XionLightSelection" foregroundColorSelected="XionLightFont1" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1" />
+		<panel name="template_menu_full" />
+	</screen>	
 		<!-- NetworkSABnzbd -->
 	<screen name="NetworkSABnzbd" title="SABnzbd Setup" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
 		<widget name="lab1" position="70,80" size="150,30" font="Regular;22" valign="center" halign="left" backgroundColor="XionLightBackground" foregroundColor="XionLightFont1" transparent="1" />
@@ -3244,8 +3249,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 	</screen>
 		<!-- HFD Toolbox -->
 	<screen name="Fantastic" position="0,0" size="1280,720" title="HDF Toolbox" backgroundColor="XionLightBackground">
-		<widget name="menu" position="70,100" size="510,469" scrollbarMode="showOnDemand" transparent="1" />
-		<ePixmap position="70,445" size="380,57" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/HDF-Toolbox/banner.png" zPosition="2" alphatest="on" />
+		<widget name="menu" position="70,165" size="510,469" scrollbarMode="showOnDemand" transparent="1" />
+		<ePixmap position="70,100" size="380,57" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/HDF-Toolbox/banner.png" zPosition="2" alphatest="on" />
 		<panel name="template_menu_full" />
 	</screen>
 		<!-- LogManager -->
@@ -4810,12 +4815,12 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 	</screen>
 		<!-- wbrFS_r_site13 -->
 	<screen backgroundColor="XionLightBackground" flags="wfNoBorder" name="wbrFS_r_site13" position="874,70" size="406,585">
-		<widget alphatest="blend" backgroundColor="XionLightBackground" name="picture" position="70,0" size="280,278" />
+		<widget alphatest="blend" backgroundColor="XionLightBackground" name="picture" position="70,10" size="280,278" transparent="1" />
 		<widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="center" name="zeile1b" position="70,300" size="280,22" transparent="1" noWrap="1" />
 		<widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="center" name="zeile2b" position="70,322" size="280,22" transparent="1" noWrap="1" />
 		<widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="center" name="zeile3b" position="70,344" size="280,22" transparent="1" noWrap="1" />
 		<widget backgroundColor="XionLightBackground" font="Regular;18" foregroundColor="XionLightFont1" halign="center" name="zeile4b" position="70,366" size="280,22" transparent="1" noWrap="1" />
-		<widget alphatest="blend" backgroundColor="XionLightBackground" name="streamlogo" position="70,430" size="280,140" />
+		<widget alphatest="blend" backgroundColor="XionLightBackground" name="streamlogo" position="70,430" size="280,140" transparent="1" />
 		<widget backgroundColor="XionLightBackground" font="Regular2;20" foregroundColor="XionLightFont2" halign="center" name="fav_name" position="70,440" size="280,140" transparent="1" />
 		<widget foregroundColor="XionLightFont2" name="playline2" pointer="skin_default/position_pointer.png:540,0" position="70,500" size="280,21" transparent="1">
 			<convert type="ServicePosition">Gauge</convert>
@@ -5888,6 +5893,35 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<panel name="template_menu_full_button" />
 		<panel name="template_colorkey_text_source" />
 	</screen>
+		<!-- EPGImport -->
+		<!-- EPGImport Config -->
+	<screen backgroundColor="XionLightBackground" name="EPGImportConfig" position="0,0" size="1280,720" title="EPG Import Configuration">
+		<widget name="config" backgroundColor="XionLightBackground" position="70,117" size="708,484" font="Regular;24" itemHeight="34" scrollbarMode="showOnDemand" transparent="1" />
+		<widget name="statusbar" backgroundColor="XionLightBackground" position="70,80" size="708,30" font="Regular2;24" itemHeight="34" halign="left" valign="center" transparent="1" />
+		<widget name="status" backgroundColor="XionLightBackground" position="76,69" size="708,48" enableWrapAround="1" font="Regular;20" itemHeight="30" halign="left" valign="center" transparent="1" />
+		<ePixmap pixmap="XionLight/buttons/key_menu.png" position="706,76" zPosition="1" size="32,37" alphatest="blend" />
+		<ePixmap pixmap="XionLight/buttons/key_info.png" position="742,76" zPosition="1" size="32,37" alphatest="blend" />
+		<panel name="template_menu_full_button" />
+		<panel name="template_colorkey_text_source" />
+	</screen>
+		<!-- EPGImport Sources -->
+	<screen backgroundColor="XionLightBackground" name="EPGImportSources" position="0,0" size="1280,720" title="EPG Import Sources">
+		<widget name="list" backgroundColor="XionLightBackground" scrollbarMode="showNever" position="70,80" size="708,540" font="Regular;24" itemHeight="34" halign="center" valign="center" transparent="1" />
+		<panel name="template_menu_full_button" />
+		<panel name="template_colorkey_text_source" />
+	</screen>
+		<!-- EPGImport Profile -->
+	<screen backgroundColor="XionLightBackground" name="EPGImportProfile" position="0,0" size="1280,720" title="EPGImportProfile">
+		<widget name="config" backgroundColor="XionLightBackground" scrollbarMode="showOnDemand" position="70,80" size="708,540" itemHeight="34" font="Regular;24" halign="center" valign="center" transparent="1" />
+		<panel name="template_menu_full_button" />
+		<panel name="template_colorkey_text_source" />
+	</screen>
+		<!-- EPGImport Log -->
+	<screen backgroundColor="XionLightBackground" name="EPGImportLog" position="0,0" size="1280,720" title="EPG Import Log">
+		<widget name="list" backgroundColor="XionLightBackground" scrollbarMode="showOnDemand" position="70,80" size="708,540" font="Regular;24" halign="center" valign="center" transparent="1" />
+		<panel name="template_menu_full_button" />
+		<panel name="template_colorkey_text_source" />
+	</screen>	
 		<!-- plugins -->
 		<!-- skin-end -->
 </skin>
